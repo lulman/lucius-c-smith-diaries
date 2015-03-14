@@ -1,0 +1,1 @@
+Electronic textual edition of selected entries from Lucius Clark Smith's diary for 1862. The project files consist of TEI-ODD and TEI-XML files, XSL style sheets, and Relax NG schemas associated with the edition.
