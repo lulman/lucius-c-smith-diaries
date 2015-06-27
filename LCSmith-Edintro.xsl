@@ -94,17 +94,15 @@
          </head>
          <body>
             <div class="masthead">
-               <div id="display1"> <img src="images/LCSmith-Daguerreotype.jpg" height="120" title="Lucius Clark Smith, 1858 (Age 23)"/> </div>
-               <div id="display2"> <img src="images/ArchibaldSmithHouse.jpg" height="120" title="Smith Homestead"/> </div>
-               <div id="display3"> <img src="images/Archibald-MaryAnnSmith.jpg" height="120" title="Lucius Smith's parents, Archibald and MaryAnn"/> </div>
-               <div id="display4"> <img src="images/Horse-Power-CaneMill-1857.jpg" height="120" title="A sorghum mill"/> </div>
-               <div id="display5"><img src="images/WarMeeting-18620815.jpg" height="120" title="Newark Advocate, 15 August 1862"/> </div>
+               <div id="display1"> <img src="image-LCSmith-daguerreotype.jpg" height="120" title="Lucius Clark Smith, 1858 (Age 23)"/> </div>
+               <div id="display2"> <img src="image-archibaldsmithhouse.jpg" height="120" title="Smith Homestead"/> </div>
+               <div id="display3"> <img src="image-archibald-maryannsmith.jpg" height="120" title="Lucius Smith's parents, Archibald and MaryAnn"/> </div>
+               <div id="display4"> <img src="image-horse-power-canemill-1857.jpg" height="120" title="A sorghum mill"/> </div>
+               <div id="display5"><img src="image-warmeeting-18620815.jpg" height="120" title="Newark Advocate, 15 August 1862"/> </div>
             </div>
             <div id="titleBar">
                <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
                   1 August 1862 to 31 December 1862</span></p>
-               <p align="center"><cite><strong>This edition is currently in progress. Please do
-                  not cite this preview until this notice is removed.</strong></cite></p>
                <hr/>
             </div>
             
@@ -114,20 +112,20 @@
                      <ul>
                         <li><a href="./LCSMithEdintro.html#introduction">Introduction</a>
                            <ul>
-                              <li><a href="./LCSmithEdintro.html#family">Family Dynamics</a></li>
-                              <li><a href="./LCSmithEdintro.html#milling">Mill Operations</a></li>
-                              <li><a href="./LCSmithEdintro.html#sorghum">Sorghum Farming</a></li>
-                              <li><a href="./LCSmithEdintro.html#civilWar">Civil War and Civic Life</a></li>
-                              <li><a href="./LCSmithEdintro.html#borders">Borderlands/Hinterlands</a></li>
+                              <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
+                              <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
+                              <li><a href="./lcsmith-diaries.html#sorghum">Sorghum Farming</a></li>
+                              <li><a href="./lcsmith-diaries.html#civilWar">Civil War and Civic Life</a></li>
+                              <li><a href="./lcsmith-diaries.html#borders">Borderlands/Hinterlands</a></li>
                            </ul>
                         </li>
-                        <li><a href="./LCSmithEdintro.html#source">The Source Document</a></li>
-                        <li><a href="./LCSmithEdintro.html#edition">The Electronic Edition</a></li>	
-                        <li><a href="./LCSmithEdintro.html#peopleMentioned">People Mentioned</a></li>
-                        <li><a href="./LCSmithEdintro.html#placesMentioned">Places Mentioned</a></li>
-                        <li><a href="./LCSmithEdintro.html#organizationsMentioned">Organizations Mentioned</a></li>
-                        <li><a href="./LCSmithEdintro.html#worksCited">Works Cited</a></li>
-                        <li><a href="./LCSmithEdintro.html#view">About the Introduction</a></li>
+                        <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
+                        <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>	
+                        <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
+                        <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
+                        <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
+                        <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
+                        <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
                      </ul>
                   </li>
                   
