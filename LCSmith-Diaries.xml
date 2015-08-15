@@ -1221,7 +1221,7 @@
             for a given day, and so on.
          -->
          <!-- HLU section begins here -->
-         <pb facs="/d/d64bea81-daaf-41cc-975b-88bdfe839567"/>
+         <pb facs="LCSmith-620730"/>
          <div xml:id="LCS18620730a" type="Entry">
             <dateline><lb/><date when="1862-07-30"><choice>
                      <sic>Wednsday</sic>
@@ -1265,7 +1265,7 @@
          or even between paragraph <p> elements. As they can in print, page breaks can occurr in the 
          middle of paragraphs or even (typically hyphenated) words.
          -->
-         <pb facs="/2/2de3fd78-ec73-4f0a-bde0-471ace9fab47"/>
+         <pb facs="LCSmith-620802"/>
          <div type="Entry" xml:id="LCS18620802a">
              <dateline><lb/><date when="1862-08-02">Saturday August 2nd 
                 <hi rend="underline">1862</hi></date></dateline>
@@ -1321,7 +1321,7 @@
             </p>
          </div>
          <!-- HLU section ends here -->
-         <pb facs="/9/911d89a2-4e9e-4b58-b0bf-5601c2d7144c"/>
+         <pb facs="LCSmith-620803"/>
             <div xml:id="LCS18620803" type="Entry">
             <dateline><lb/><date when="1862-08-03">Sunday August 3<choice><abbr>d</abbr><expan>rd</expan></choice> <hi rend="underline">1862</hi></date></dateline>
             <p>
@@ -1355,7 +1355,7 @@
                <lb/>Hard on the people
          </p>
          </div>
-         <pb facs="/6/60952512-463b-4c2d-abdb-c19569830ec6"/>
+         <pb facs="LCSmith-620806"/>
          <div xml:id="LCS18620805" type="Entry">
    <lb/>
    <dateline><lb/><date when="1862-08-05">Wednsday 6th Aug <hi rend="underline">1862</hi></date></dateline>
@@ -1390,7 +1390,7 @@
       <lb/><persName>Newton</persName> Hawled stone for me
    </p>
 </div>
-         <pb facs="/b/be203565-f232-4fc3-8086-a38e95fa3c6d"/> 
+         <pb facs="LCSmith-620809"/> 
 <div xml:id="LCS18620809" type="Entry">
    <dateline><lb/><date when="1862-08-09">Saturday 9th Aug <hi rend="underline">1862</hi></date></dateline>
    <p><time>morning</time>
@@ -1417,7 +1417,7 @@
       <lb/> But <choice><sic>awfull</sic><corr>awful</corr></choice> Lonesome
    </p>
 </div>         
-         <pb facs="/5/5119fa8f-c14f-4251-af5b-c5e9b7b2ccee"/>
+         <pb facs="LCSmith-620811"/>
          <div xml:id="LCS18620811" type="Entry">
             <dateline><lb/><date when="1862-08-11">Monday Aug 11th <hi rend="underline">1862</hi></date></dateline>
             <p>
@@ -1451,7 +1451,7 @@
             <p>
                <lb/>To day all went to the Celebration
                <lb/>Sunday school expect <rs type="familial" ref="SmithArch">Dad</rs> and <persName>Augustine</persName>
-               <pb facs="/4/4facb41b-92da-4a51-8ecb-edb2012f4d43"/>
+               <pb facs="LCSmith-620814"/>
                <lb/><time>forenoon</time> <persName>Mr Taft</persName> gave the Sunday school a
                <lb/>Lecture after Dinner <del rend="overstrike">we</del><persName>Mr Cancey Olds</persName>
                <lb/><persName ref="CoxS">Sam Cox</persName> <persName ref="GalawayS">Sam Galaway</persName> made War
@@ -1478,7 +1478,7 @@
                <lb/>deep when It began to cave quite bad
                <lb/>and we Had to either curb it up or
                <lb/>wall up and as there was quite a good 
-               <pb facs="/8/8fe01ac5-8da4-4eb9-b072-575680ee6681"/>
+               <pb facs="LCSmith-620817"/>
                <lb/>stream of water came in about ten 
                <lb/>feet from the top we concluded we
                <lb/>Had as well wall up we dug nearly
@@ -1505,7 +1505,7 @@
                <lb/>seems to manifest itself among the
                <lb/><name type="organization">Democrats</name> of the Country because <persName>Dr
                <lb/>E.B. Olds</persName> Has been arrested and
-               <pb facs="/b/b60bc7ff-2258-4e9b-b511-7a3fb6d604a3"/>
+               <pb facs="LCSmith-620823a"/>
                <lb/>sent to <placeName><choice><sic>Ft Layfaett</sic><corr>Fort Lafayette</corr></choice></placeName> for <seg type="softhypen">Treason
                <lb/></seg>able language. But people Dare
                <lb/>not say <choice><sic>mutch</sic><corr>much</corr></choice> as people are ready to
@@ -1532,7 +1532,7 @@
                <lb/>per foot = 5.60 Irons 60 <persName>John</persName> to Help
                <lb/>bore 3<del rend="overstrike">6</del>1 &#xbc; work <del rend="overstrike">I done and it back</del>Leather
                <lb/>for it 25 Besides my work and
-               <pb facs="/9/932f9621-7802-4266-ad23-8c83ea8cb581"/>
+               <pb facs="LCSmith-620823b"/>
                <lb/><persName>Johns Moles</persName> Bill amouted to five
                <lb/>Dollars. Paid Him in cash two
                <lb/>Dollars last three dollars He is to
@@ -1559,7 +1559,7 @@
                <lb/>is yet sick. <persName>Newton</persName> &amp; <persName>John</persName> finished
                <lb/>Hawling manure
             </p>
-               <pb facs="/e/e9fb150e-ef2a-4613-94ff-8b07027e9d66"/>
+               <pb facs="LCSmith-620824"/>
             <p>
                <lb/><del rend="erased">G</del><persName>McClellan</persName> has retreated to <placeName>Yorktown</placeName>
                <lb/>and Pope since <name type="event">the battle of Culpeper
@@ -1592,7 +1592,7 @@
                <lb/>
             </p>
          </div>
-         <pb facs="/5/506418b7-e328-4cdb-a881-dc2c60f9f790"/> 
+         <pb facs="LCSmith-620825"/> 
          <div xml:id="LCS18620825" type="Entry">
             <lb/>
             <dateline><lb/><date when="1862-08-25">Monday 25 August 1862</date></dateline>
@@ -1625,7 +1625,7 @@
                <lb/>are cast Iron as good as new I got
                <lb/>them the same as old Iron. Painted
                <lb/>my pump and the Box to It and
-         <pb facs="/f/f89248e3-89f4-4d56-b433-00ef0e0135a5"/>
+         <pb facs="LCSmith-620827"/>
                <lb/>Hawled some gravel around the
                <lb/>Well It is now rigged nice.  the young
                <lb/>folks <del rend="overstrike">are agoing to</del> Had another
@@ -1658,7 +1658,7 @@
                <lb/>with the folks went awhile to <persName ref="EvansReece">Roll Eavenes</persName>
                <lb/><persName>Ben Souders</persName> came on and worked at the
                <lb/><choice><sic>Doores</sic><corr>doors</corr></choice> of my Buildings.  quite cool.
-         <pb facs="/f/f4cc9305-1e08-4664-b4dc-dcdcbacc96ad"/>
+         <pb facs="LCSmith-620831"/>
                <lb/>In the country since the <choice><sic>proclimation</sic><corr>proclamation</corr></choice> of the
                <lb/>Draft, all manner of ailments are brought
                <lb/>up.  I Hope the Draft will not be put
@@ -1695,7 +1695,7 @@
                <lb/><hi rend="underline">now</hi>         
             </p>
          </div>
-         <pb facs="/a/ada95589-4644-46e3-a34f-fcefcc1cdddc"/>
+         <pb facs="LCSmith-620901a"/>
          <div xml:id="LCS18620901" type="Entry">
             <lb/>
             <dateline><lb/><date from="1862-09-01" to="1862-09-06">Monday September 1st 1862</date>
@@ -1721,7 +1721,7 @@
                <lb/>to get my castings went North of town <del rend="overstrike">a</del>
                <lb/>some distance and got my counter shaft
                <lb/>turned and <persName>Charley</persName> was <choice><sic>prety</sic><corr>pretty</corr></choice> near ready to
-         <pb facs="/4/473fd313-d08a-4b7a-b4c9-e8cc387f76db"/>
+         <pb facs="LCSmith-620901b"/>
                <lb/>melt I got my paterne in just in time to
                <lb/>get it done that day. got Home sometime
                <lb/>after night. I got a new lock cast to my 
@@ -1745,7 +1745,7 @@
                <lb/>long time if ever the streams are that is
                <lb/><geogName>Blacklick</geogName> is all <choice><sic>Dred</sic><corr>Dried</corr></choice> up only a very few
                <lb/>spots or Holes
-         <pb facs="/f/ffe6d601-9514-4616-b7df-a86cb08f2d74"/>
+         <pb facs="LCSmith-620901c"/>
                <lb/>as for the War Mon &amp; Tues brought
                <lb/>Hard news our forces after <choice><sic>sieries</sic><corr>series</corr></choice> of hard
                <lb/>fights at <name type="event"><choice><sic>Manasses</sic><corr>Manassas</corr></choice></name> and there abouts Have 
@@ -1774,7 +1774,7 @@
                <lb/>on their way from <placeName ref="Columbus">Columbus</placeName>.
             </p>
          </div>
-         <pb facs="/9/987dbf76-ef52-4db3-8882-8612c596d823"/>
+         <pb facs="LCSmith-620907"/>
          <div xml:id="LCS18620907" type="Entry">
             <dateline><lb/><date when="1862-09-07">Sunday Sept 7th <hi rend="underline">1862</hi></date></dateline>
             <p><lb/>staid <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice>
@@ -1804,7 +1804,7 @@
             <lb/><choice><sic>coupel</sic><corr>couple</corr></choice> of old school mates of <placeName>Delaware</placeName>
             <lb/>Had a good time <choice><sic>withe</sic><corr>with</corr></choice> them we staid
             <lb/>all night at <persName>Mr Keelers</persName> near Center
-            <pb facs="/8/8ed83dd3-f790-4c51-bc0c-7574f6ed9084"/>
+            <pb facs="LCSmith-620910"/>
             <lb/>Who is also a <choice><sic>sorghem</sic><corr>sorghum</corr></choice> manufacture
             </p>
          </div>
@@ -1836,7 +1836,7 @@
             <lb/>see cash List went past <persName ref="#GrovenberyG">Grovenberies</persName>
             <lb/>and got a Horse of Him to work my mill
             <lb/>got Home Late at night. I Borrowed $10.00
-            <pb facs="/b/b13427cf-1e77-4217-9c0c-8095533b8b63"/>
+            <pb facs="LCSmith-620918"/>
             <lb/>of <persName>Gilbert Collins</persName>. <choice><sic>thare</sic><corr>there</corr></choice> is a great
             <lb/>stir of people going to <placeName ref="Cincinnati">Cincinnati</placeName> to
             <lb/>Defend the place people take <choice><sic>thir</sic><corr>their</corr></choice> own
@@ -1865,7 +1865,7 @@
             <lb/>Dead. Dried up. no seeding done yet.
             </p>
          </div>
-         <pb facs="/8/8ef9f9af-578b-4f21-9298-24b756c8a093"/>
+         <pb facs="LCSmith-620919"/>
          <div xml:id="LCS18620914" type="Entry">
             <dateline><lb/><date when="1862-09-14">Sunday Sept 14th 1862</date></dateline>
             <p><lb/>staid <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> Home
@@ -1893,7 +1893,7 @@
             <lb/>up to <persName>aunt Elizas</persName> Friday. <choice><sic>verry</sic><corr>very</corr></choice> warm
             <lb/>and no rain. we now have plenty of Peaches
             <lb/>and <unclear cert="low">diging</unclear> them </p> 
-            <pb facs="/1/14bed02a-d84b-46f6-83d9-92cfe1a90d2c"/>
+            <pb facs="LCSmith-620921"/>
             <lb/><p><persName><unclear cert="low"><choice><sic>Mclean</sic><corr>McClellan</corr></choice></unclear></persName> Has succeed in driving
             <lb/>out the Rebels out of <placeName><choice><sic>meriland</sic><corr>Maryland</corr></choice></placeName><ptr type="noteAnchor" target="Maryland"/>
             <note resp="ed" xml:id="Maryland">Smith is here referring to the Maryland Campaign, wherein contemporary sources describe Confederates crossing the 
@@ -1928,7 +1928,7 @@
             <lb/>Cane House and got It nearly ready to
             <lb/>Run finished the pans painted them
             <lb/>put them on finished the furnaces
-            <pb facs="/4/46ea8601-c31a-4cfb-8905-ab5a12807f50"/>
+            <pb facs="LCSmith-620927cont"/>
             <lb/>made cooler and tank and painted
             <lb/>them also the <choice><sic>whealbarows</sic><corr>wheelbarrows</corr></choice> I got two
             <lb/>new ones made made lids to the coolers
@@ -1951,7 +1951,7 @@
             <lb/>we Had quite a feast Wedns and Thursday
             <lb/><choice><sic>witch</sic><corr>which</corr></choice> made Them bring in cane <persName><unclear cert="medium">Mr Lainy</unclear></persName> will
             <lb/>not be ready <choice><orig><distinct type="archaic_orthography" time="17-17">untill</distinct></orig><reg source="OED">until</reg></choice> near a week yet
-            <pb facs="/3/3c59563d-24c2-4168-b76c-ce45d6ad4e69"/>
+            <pb facs="LCSmith-621001"/>
             <lb/>I expected from the fact that we have
             <lb/>to Hitch the Horse so close to the power
             <lb/>in order to go inside of the Building</p>
@@ -1978,7 +1978,7 @@
             <lb/><p>Today about three oclock <choice><sic>Broake</sic><corr>Broke</corr></choice>
             <lb/>my counter shaft that runs on top of the
             <lb/>timbling shaf<supplied reason="omitted" resp="ed">t</supplied> <choice><sic>witch</sic><corr>which</corr></choice> is geared to the mill
-            <pb facs="/1/1aa72cec-aecb-448b-96a2-3d4bb88d1fa8"/>
+            <pb facs="LCSmith-621003"/>
             <lb/>It did not Break But twisted all
             <lb/>up like <unclear cert="low">Jan</unclear> would twist a switch
             <lb/>It was but 1&#xbd; inches thick as large as
@@ -2004,7 +2004,7 @@
             <lb/>than I would Had to pay before the tax law went
             <lb/>into Effect It is not fare to make the
             <lb/>customer pay all the Tax by no means
-         <pb facs="/1/16e04526-102e-4121-9e04-9eb918809202"/>
+         <pb facs="LCSmith-621004"/>
             <lb/><choice><sic>Eavning</sic><corr>Evening</corr></choice> tore up the Horse power
             <lb/>and cleaned out the House. unloaded
             <lb/>the mill It weighs 1100 lbs</p>
@@ -2029,7 +2029,7 @@
             <lb/>Before seen <choice><sic>scarsley</sic><corr>scarcely</corr></choice> any seeding done yet
             <lb/>I feel nearly used up Tired out,</p></div>
          
-         <pb facs="/8/8ac206a0-4b57-4c8d-ba24-62e14d0572ef"/> 
+         <pb facs="LCSmith-621005"/> 
             <div xml:id="LCS18621005a" type="Entry">
                <dateline><lb/> <date when="1862-10-05">Sunday <choice><abbr>Oct</abbr><expan>October</expan></choice> 5th 1862</date></dateline>
                <p> <lb/>Staid around Home all
@@ -2054,7 +2054,7 @@
                      <lb/> <persName> Newton</persName> tends them. <persName>Corris</persName> Cane and Wheals 
                   <lb/> off premises. Next week I shall put
                      
-                     <pb facs="/f/fc956be0-a581-4b3a-99ba-ff9f6f077270"/> 
+                     <pb facs="LCSmith-621012"/> 
                      <lb/><persName> Newton</persName> in my place as It is <choice><sic>two</sic><corr>too</corr></choice> Hard
                      <lb/> for me to finish and oversee all the <choice><sic>Buisness</sic><corr>Business</corr></choice>
                   <lb/>and put another Hand in His place the Cane
@@ -2073,7 +2073,7 @@
                 </dateline>
                <p>  <figure rend="embed">
                   <head>Dateline Breaks</head>
-                  <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/f/fc956be0-a581-4b3a-99ba-ff9f6f077270.jpg?scale=0.3&amp;rgn=300,360,540,120&amp;fmt=png"/>
+                  <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsLCSmith-621012-small.jpg?scale=0.3&amp;rgn=300,360,540,120&amp;fmt=png"/>
                   <figDesc>
                      Manuscript detail
                   </figDesc>
@@ -2092,7 +2092,7 @@
                   <lb/> Boiling and three grinding my well Has given
                   <lb/> out and we Have to get all our water out of
                   <lb/> the Spring down the Hill. I now wish 
-                  <pb facs="/3/3544093d-9c39-440c-9a74-bd1d45ea19f1"/> 
+                  <pb facs="LCSmith-621019"/> 
                   <lb/>that I Had went Deeper with my well.
                   </p>  
                <p> <lb/> still Dry and some frost 
@@ -2120,7 +2120,7 @@
             </p>
             </div>
             
-            <pb facs="/6/65c3a7d6-5fa0-4ec5-9511-66d5efe59d02"/>
+            <pb facs="LCSmith-621025a"/>
             <div xml:id="LCS18621025a" type="Entry">
                <dateline><lb/><date from="1862-10-20" to="1862-10-25">For the week Ending <choice><abbr>Oct</abbr><expan>October</expan></choice> 25 1862</date></dateline>
                <p> <lb/>This week Drove
@@ -2155,7 +2155,7 @@
                   <lb/> after all mishaps we made out to get out our 
                   <lb/> average dayes work but Had to work Hard for it
                   
-                  <pb facs="/0/014858cd-db83-4f2c-a4df-c0052ed92161"/>
+                  <pb facs="LCSmith-621025b"/>
                   <lb/> got my cane cut up on Monday sunday 
                   <lb/> night It froze quite Hard and I <del rend="overstrike">am</del>
                   <lb/> fear my cane may spoil before I get to work it
@@ -2183,7 +2183,7 @@
                </p>
             </div>
             
-            <pb facs="/6/6eb377d6-8792-4ae9-9f67-b8250d6fe5ec"/>
+            <pb facs="LCSmith-621026"/>
             <div xml:id="LCS18621026" type="Entry">
                <dateline><lb/> <date when="1862-10-26"> Sunday <choice><abbr>Oct</abbr><expan>October</expan></choice> 26th 1862</date></dateline>
                <p><lb/> morning real winter snow
@@ -2213,7 +2213,7 @@
                                 <lb/> little boyes done the grinding 
                </p>
             </div>
-            <pb facs="/b/b7cb4e7e-03e1-4fcd-8ae8-4e6aa0a2c8b9"/>
+            <pb facs="LCSmith-621102"/>
             <div xml:id="LCS18621102" type="Entry">
             <dateline><lb/> <date when="1862-11-02"> Sunday 2nd November 1862 </date></dateline>
                <p> <lb/>Staid <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> cane House <choice><sic>an</sic><corr>and</corr></choice> cleaned 
@@ -2253,7 +2253,7 @@
                <lb/>
             </p>
          </div>
-         <pb facs="/b/bfda7b11-6c4a-4299-80d4-cee4d3676057"/>
+         <pb facs="LCSmith-621115"/>
          <div xml:id="LCS18621115a" type="Entry">
             <dateline><lb/><date from="1862-11-09" to="1862-11-15">For the Week Ending <choice>
                      <abbr>Nov</abbr>
@@ -2294,7 +2294,7 @@
                <lb/>
             </p>
          </div>
-         <pb facs="/f/f8c02e2c-7581-4dbf-94d7-a8a13c0790a4"/>
+         <pb facs="LCSmith-621122"/>
          <div xml:id="LCS18621122" type="Entry">
             <dateline><lb/><date from="1862-11-17" to="1862-11-22">For the Week Ending <choice>
                      <abbr>Novem</abbr>
@@ -2326,7 +2326,7 @@
                <lb/>last day we worked run loose in the yard
                <lb/>and Went in my <unclear cert="low">stowing</unclear> House and
             </p>
-            <pb facs="/6/653e197a-b646-4d42-b981-c2f435919dc0"/>
+            <pb facs="LCSmith-621123"/>
             <p>
                <lb/>Went to pass from one stall to the other
                <lb/>the dividing stick or scantling Being about 
@@ -2364,7 +2364,7 @@
                <lb/>shot Her. <persName>Hiram Smith</persName> came
                <lb/>Home last night pleasant Day
             </p>
-            <pb facs="/b/bcd05101-939c-497d-822b-dd7bb5a12b96"/>
+            <pb facs="LCSmith-621124"/>
          </div>
          <div xml:id="LCS18621124" type="Entry">
             <lb/><dateline><date when="1862-11-24">Monday 24 November 1862</date></dateline>
@@ -2410,7 +2410,7 @@
                <lb/>shot gun and fixed for the Hunt
                <lb/>nice <choice><sic>prety</sic><corr>pretty</corr></choice> day only cool
             </p>
-            <pb facs="/6/69be51f2-7c17-42f5-91f2-c6a064475731"/>
+            <pb facs="LCSmith-621126a"/>
          </div>
          <div xml:id="LCS18621126" type="Entry">
             <lb/><dateline><date when="1862-11-26">Wednsday 26<hi rend="super">th</hi> November 1862</date></dateline>
@@ -2439,7 +2439,7 @@
                <lb/>four thousand four Hundred and two
                <lb/>and &#190; gallons molasses
             </p>
-            <pb facs="/a/a5a6e622-2ff4-4b7c-b963-c7b3e8d826dc"/>
+            <pb facs="LCSmith-621126b"/>
             <p>
                <lb/>Total valuation $987.00
                <lb/>counting that made at 20 <choice><abbr>cts</abbr><expan>cents</expan></choice> value 20 <choice><abbr>cts</abbr><expan>cents</expan></choice>
@@ -2466,7 +2466,7 @@
                <lb/>and Be better prepaired to meet It.
                <lb/>
             </p>
-            <pb facs="/6/609682d8-a61d-41e8-b645-985780a41a50"/>
+            <pb facs="LCSmith-621130"/>
          </div>
          <div xml:id="LCS18621130" type="Entry">
             <lb/><dateline><date when="1862-11-30">Sunday 30 November 1862</date></dateline>
@@ -2513,7 +2513,7 @@
                <lb/>got me some new things monday also.
                <lb/>got my Horse shod got me a pair
                <lb/>of coarse Boots of <unclear cert="medium">manure</unclear> cleaned up
-               <pb facs="/d/dab08f76-d3b6-41ef-a3fe-eddbf5175cce"/>
+               <pb facs="LCSmith-621207a"/>
                <lb/>A Lot of Cane seed I Have a nice
                <lb/>Lot of It and <hi rend="underline">good</hi>. <choice><sic>Boyes</sic><corr>Boys</corr></choice> Husked
                <lb/>some corn most <choice><sic>to</sic><corr>too</corr></choice> cold and dry.
@@ -2570,7 +2570,7 @@
             following entries. I begin in the middle of a page, so I have not encoded a <pb>
             element.
          -->
-         <pb facs="/c/c08bc8a3-3bf3-44e3-ad3c-9e57e3d36bff"/>
+         <pb facs="LCSmith-621207b"/>
             <p>
                <lb/><date when="1862-12-10"><choice><abbr>Wedns</abbr><expan>Wednesday</expan></choice></date> forenoon went to see a large
                <lb/>cane mill at the foundry Made some two
@@ -2597,7 +2597,7 @@
                <lb/>White man one white White and the other
                <lb/>Black. Got Home just after night
             </p>
-         <pb facs="/1/19a209c9-6c9f-4365-9e05-69403a95e3a6"/>
+         <pb facs="LCSmith-621207c"/>
             <p>
                <lb/><date when="1862-12-12">Friday</date> staid <unclear cert="high">arround</unclear> the House all Day
                <lb/>nearly sick. Father &amp; Mother went up to Robertses
@@ -2623,7 +2623,7 @@
             </p>
             <p>
                <lb/>It Has Been Excellent Mill <choice><sic>wether</sic><corr>weather</corr></choice> all
-         <pb facs="/5/5ec83d5d-a20f-4d77-a4c9-60e2cf2fce93"/>
+         <pb facs="LCSmith-621220"/>
                <lb/>The Week unill to Day It rained most
                <lb/>all Day. loads big and Dusty <gap/> as
                <lb/>Summer first of the week real cold
@@ -2666,7 +2666,7 @@
                <lb/>pleasent Day warmer
             </p>
          </div>
-         <pb facs="/9/9b702e6f-e027-4287-8d9c-2f8fbb67766d"/>
+         <pb facs="LCSmith-621227a"/>
          <div xml:id="LCS18621227a" type="Entry">
             <dateline><lb/><date from="1862-12-21" to="1862-12-27">For the Week Ending
                <choice><abbr>Sat</abbr><expan>Saturday</expan></choice>
@@ -2703,7 +2703,7 @@
                <lb/>and <hi rend="underline"><unclear reason="illegible"
                   cert="low"><choice><sic>Ect</sic><corr>Etc</corr></choice></unclear></hi>
             </p>
-            <pb facs="/e/e5861b26-82ee-4ea9-ace9-f296c19a48d8"/>
+            <pb facs="LCSmith-621227b"/>
             <p>
                <lb/>Thursday Christmas morning as
                <lb/>soon as ligth all Hands out Hun<seg type="softhyphen">
@@ -2728,7 +2728,7 @@
                <lb/>they were on my Side I am glad the Hunt is over
                <lb/>as I Have spent considerable time so as not to
                <lb/>get Beat seeing my men and making arrangements
-               <pb facs="/d/d60466c4-9841-4f74-b4a4-500398b7c4da"/>
+               <pb facs="LCSmith-621228"/>
                <lb/>for It what we Hunted <del rend="erased">f</del>before Hand we did not
                <lb/>save only a <choice><sic><unclear>fiew</unclear></sic><corr>few</corr></choice> the Day before. a worse <unclear>bared</unclear>
                <lb/>fellow than <persName>Reese Eavens</persName> I never <hi rend="underlined">seen.</hi>

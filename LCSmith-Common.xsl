@@ -82,11 +82,11 @@
          <body>
             <!-- Build the masthead and navigation links at the top of the page -->
             <div class="masthead">
-               <div id="display1"> <img src="images/LCSmith-Daguerreotype.jpg" height="120" title="Lucius Clark Smith, 1858 (Age 23)"/> </div>
-               <div id="display2"> <img src="images/ArchibaldSmithHouse.jpg" height="120" title="Smith Homestead"/> </div>
-               <div id="display3"> <img src="images/Archibald-MaryAnnSmith.jpg" height="120" title="Lucius Smith's parents, Archibald and MaryAnn"/> </div>
-               <div id="display4"> <img src="images/Horse-Power-CaneMill-1857.jpg" height="120" title="A sorghum mill"/> </div>
-               <div id="display5"><img src="images/WarMeeting-18620815.jpg" height="120" title="Newark Advocate, 15 August 1862"/> </div>
+               <div id="display1"> <img src="image-LCSmith-Daguerreotype.jpg" height="120" title="Lucius Clark Smith, 1858 (Age 23)"/> </div>
+               <div id="display2"> <img src="image-ArchibaldSmithHouse.jpg" height="120" title="Smith Homestead"/> </div>
+               <div id="display3"> <img src="image-Archibald-MaryAnnSmith.jpg" height="120" title="Lucius Smith's parents, Archibald and MaryAnn"/> </div>
+               <div id="display4"> <img src="image-Horse-Power-CaneMill-1857.jpg" height="120" title="A sorghum mill"/> </div>
+               <div id="display5"><img src="image-WarMeeting-18620815.jpg" height="120" title="Newark Advocate, 15 August 1862"/> </div>
             </div>
             <div id="titleBar">
                <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
