@@ -73,11 +73,18 @@
                <xsl:value-of
                   select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
             </title>
+            <!-- REMOTE JS CALLS
             <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"/>
             <link href="LCSmithDiariesCSS.css" rel="stylesheet" type="text/css" />
             <script src="http://code.jquery.com/jquery-1.8.3.js"/>
             <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"/>
-               
+            -->
+            <link rel="stylesheet" href="jquery-ui.css"/>
+            <link href="LCSmithDiariesCSS.css" rel="stylesheet" type="text/css" />
+            <script src="jquery-1.8.3.min.js"/>
+            <script src="jquery-ui-1.9.2.custom.js"/>
+            
+              
             <style type="text/css">
                <xsl:value-of select="$maintextRule"/>
                <xsl:value-of select="$navBarRule"/>
@@ -108,9 +115,9 @@
             
             <div id="navBar">
                <ul id="menu">
-                  <li><a href="./LCSMith-Edintro.html#introduction">Editorial Introduction</a>
+                  <li><a href="./lcsmith-diaries.html#introduction">Editorial Introduction</a>
                      <ul>
-                        <li><a href="./LCSMith-Edintro.html#introduction">Introduction</a>
+                        <li><a href="./lcsmith-diaries.html#introduction">Introduction</a>
                            <ul>
                               <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
                               <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
