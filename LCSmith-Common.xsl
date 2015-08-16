@@ -103,28 +103,28 @@
                      <ul>
                         <li><a href="./LCSmithEdintro.html#introduction">Introduction</a>
                            <ul>
-                              <li><a href="./LCSmithEdintro.html#family">Family Dynamics</a></li>
-                              <li><a href="./LCSmithEdintro.html#milling">Mill Operations</a></li>
-                              <li><a href="./LCSmithEdintro.html#sorghum">Sorghum Farming</a></li>
-                              <li><a href="./LCSmithEdintro.html#civilWar">Civil War and Civic Life</a></li>
-                              <li><a href="./LCSmithEdintro.html#borders">Borderlands/Hinterlands</a></li>
+                              <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
+                              <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
+                              <li><a href="./lcsmith-diaries.html#sorghum">Sorghum Farming</a></li>
+                              <li><a href="./lcsmith-diaries.html#civilWar">Civil War and Civic Life</a></li>
+                              <li><a href="./lcsmith-diaries.html#borders">Borderlands/Hinterlands</a></li>
                            </ul>
                         </li>
-                        <li><a href="./LCSmithEdintro.html#source">The Source Document</a></li>
-                        <li><a href="./LCSmithEdintro.html#edition">The Electronic Edition</a></li>	
-                        <li><a href="./LCSmithEdintro.html#peopleMentioned">People Mentioned</a></li>
-                        <li><a href="./LCSmithEdintro.html#placesMentioned">Places Mentioned</a></li>
-                        <li><a href="./LCSmithEdintro.html#organizationsMentioned">Organizations Mentioned</a></li>
-                        <li><a href="./LCSmithEdintro.html#worksCited">Works Cited</a></li>
-                        <li><a href="./LCSmithEdintro.html#view">About the Introduction</a></li>
+                        <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
+                        <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>	
+                        <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
+                        <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
+                        <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
+                        <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
+                        <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
                      </ul>
                   </li>
                   
                   <li><a>Views of the Diary</a>
                      <ul>
-                        <li><a href="./LCSmith-ByEntry.html">By Diary Entry</a></li>
-                        <li><a href="./LCSmith-ByMSPage.html">By MS Page</a></li>
-                        <li><a href="./LCSmith-Combined.html">Facsimile/Text</a></li>
+                        <li><a href="./lcsmith-by-entry.html">By Diary Entry</a></li>
+                        <li><a href="./lcsmith-by-ms-page.html">By MS Page</a></li>
+                        <li><a href="./lcsmith-combined.html">Facsimile/Text</a></li>
                      </ul>
                   </li>
                   

@@ -108,9 +108,9 @@
             
             <div id="navBar">
                <ul id="menu">
-                  <li><a href="./LCSMithEdintro.html#introduction">Editorial Introduction</a>
+                  <li><a href="./LCSMith-Edintro.html#introduction">Editorial Introduction</a>
                      <ul>
-                        <li><a href="./LCSMithEdintro.html#introduction">Introduction</a>
+                        <li><a href="./LCSMith-Edintro.html#introduction">Introduction</a>
                            <ul>
                               <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
                               <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
@@ -131,9 +131,9 @@
                   
                   <li><a>Views of the Diary</a>
                      <ul>
-                        <li><a href="./LCSmith-ByEntry.html">By Diary Entry</a></li>
-                        <li><a href="./LCSmith-ByMSPage.html">By MS Page</a></li>
-                        <li><a href="./LCSmith-Combined.html">Facsimile/Text</a></li>
+                        <li><a href="./lcsmith-by-entry.html">By Diary Entry</a></li>
+                        <li><a href="./lcsmith-by-ms-page.html">By MS Page</a></li>
+                        <li><a href="./lcsmith-combined.html">Facsimile/Text</a></li>
                      </ul>
                   </li>
                   

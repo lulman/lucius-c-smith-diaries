@@ -74,8 +74,7 @@
         <br/>
         <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any"/>
             &#xA0;(<a><xsl:attribute
-                name="href">http://people.cohums.ohio-state.edu/ulman1/LCSmithDiaries/LCSmithZoom.cfm?file=<xsl:value-of
-                select="@facs"/>.jpg</xsl:attribute>
+                name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>click to open page image in a new window</a>)]</span>
         <br/>
     </xsl:template>    
