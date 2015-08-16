@@ -490,6 +490,11 @@
             <xsl:attribute name="alt">
                <xsl:value-of select="tei:figDesc"/>
             </xsl:attribute>
+            <xsl:if test="@n">
+               <xsl:attribute name="width">
+                  <xsl:value-of select="@n"/>
+               </xsl:attribute>
+            </xsl:if>
          </img>
          <br/>
          <xsl:value-of select="tei:head"/>

@@ -1,4 +1,4 @@
-<?xml-model href="out/LCSmith-Current.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="LCSmith-Current.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xmlns:hlu="http://www.osu.edu/ulman/reliablewitnesses/ns/1.0">
    <!-- TO-DO LIST 
    - Update glosses to P5
@@ -163,16 +163,16 @@
                      We will use this note to describe the physical diary.
                      -->
                         <p>
-                         <figure rend="embed">
+                         <figure rend="embed" n="250">
                            <head>Front Cover</head>
-                           <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/9/98d2e7b0-c2b0-47f4-8460-0434b87babca.jpg?scale=0.1&amp;rgn=20,0,190,130&amp;fmt=png"/>
+                            <graphic url="./image-lcs-diary_fcover.jpg"/>
                            <figDesc>
                               Front Cover
                            </figDesc>
                         </figure>
-                        <figure rend="embed">
+                        <figure rend="embed" n="250">
                            <head>Page Edges</head>
-                           <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/d/d55c83fb-07a1-4535-a856-938dcd9a0b55.jpg?scale=0.1&amp;rgn=0,20,210,50&amp;fmt=png"/>
+                           <graphic url="./image-lcs-diary_fedges.jpg"/>
                            <figDesc>
                               Page Edges
                            </figDesc>
