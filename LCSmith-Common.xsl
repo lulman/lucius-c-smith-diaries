@@ -98,8 +98,7 @@
             <div id="titleBar">
                <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
                   1 August 1862 to 31 December 1862</span></p>
-               <p align="center"><cite><strong>This edition is currently in progress. Please do
-                  not cite this preview until this notice is removed.</strong></cite><br/><br/>
+               <p align="center">
                      <button>Click to toggle between Smith's spelling and standardized spelling.</button></p>
                <hr/>
             </div>
@@ -123,6 +122,7 @@
                         <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
                         <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
                         <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
+                        <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
                         <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
                      </ul>
                   </li>
@@ -135,16 +135,17 @@
                      </ul>
                   </li>
                   
-                  <li><a href="default.cfm">About the Edition</a><ul>
-                     <li><a href="./default.cfm">About the Edition</a></li>
-                     <li><a href="./LCSmithMarkup.cfm">Markup Guidelines</a></li>
-                     <li><a href="./LCSmithHands.cfm">Guide to Smith's Hand</a></li>
-                     <li><a href="./LCSmithAcknowledgements.cfm">Acknowledgements</a></li>
-                     <li><a href="./LCSmithAboutEditors.cfm">About the Editors</a></li>
-                     <li><a href="./LCSmith-ODD-RNC-XML-XSL.zip">Download Source Files</a></li>
-                     <li><a href="./LCSmith_ZoomIndex.cfm">Images of the MS Pages</a></li>
-                     <li><a href="./LCSmithMaps.cfm">Map</a></li>
-                  </ul>
+                  <li><a href="./lcsmith-diaries.html#appendices">Appendices</a>
+                     <ul>
+                        <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
+                        <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
+                        <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
+                        <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
+                        <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
+                        <li><a href="./LCSmith-ODD-RNC-XML-XSL.zip">Download Source Files</a></li>
+                        <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
+                        <li><a href="./LCSmithMaps.html">Map</a></li>
+                     </ul>
                   </li>
                </ul>
             </div>
@@ -215,13 +216,12 @@
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
-               <a href="http://people.cohums.ohio-state.edu/ulman1/LCSmithDiaries/default.cfm"
-                  target="_self">Home</a>
+               <a href="./lcsmith-diaries.html#introduction"
+                  target="_self">Home Page</a>
                <br/>
                <br/>
                <emph>Created: <xsl:apply-templates
-                     select="//tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:creation/tei:date"
-                  /></emph>
+                     select="//tei:TEI/tei:teiHeader/tei:profileDesc/tei:creation/tei:date"/></emph>
             </p>
             <p align="center">
                <xsl:value-of

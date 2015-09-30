@@ -1203,6 +1203,7 @@
             changes made during the development of the electronic text" (TEI P4X, ch. 5).
             Add additional changes at the top of the list.
          -->
+         <change when="2015-09-01" who="HLU">Redesign site to meet requirements of the Ohio State University Libraries' Knowledge Bank; proof entire site.</change>
          <change when="2012-12-20" who="HLU">Continuing revision of layout/interface, no changes to text of transcription.</change>
          <change when="2012-12-06" who="HLU">Numerous changes to layout/interface, no changes to text of transcription.</change>
          <change when="2012-12-03" who="Editors">Released a public working draft of the edition.</change>

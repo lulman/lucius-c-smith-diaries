@@ -132,6 +132,7 @@
                         <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
                         <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
                         <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
+                        <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
                         <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
                      </ul>
                   </li>
@@ -144,16 +145,17 @@
                      </ul>
                   </li>
                   
-                  <li><a href="default.cfm">About the Edition</a><ul>
-                     <li><a href="./default.cfm">About the Edition</a></li>
-                     <li><a href="./LCSmithMarkup.cfm">Markup Guidelines</a></li>
-                     <li><a href="./LCSmithHands.cfm">Guide to Smith's Hand</a></li>
-                     <li><a href="./LCSmithAcknowledgements.cfm">Acknowledgements</a></li>
-                     <li><a href="./LCSmithAboutEditors.cfm">About the Editors</a></li>
+                  <li><a href="./lcsmith-diaries.html#appendices">Appendices</a>
+                    <ul>
+                     <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
+                     <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
+                     <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
+                     <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
+                     <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
                      <li><a href="./LCSmith-ODD-RNC-XML-XSL.zip">Download Source Files</a></li>
-                     <li><a href="./LCSmith_ZoomIndex.cfm">Images of the MS Pages</a></li>
-                     <li><a href="./LCSmithMaps.cfm">Map</a></li>
-                  </ul>
+                     <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
+                     <li><a href="./LCSmithMaps.html">Map</a></li>
+                   </ul>
                   </li>
                </ul>
             </div>
@@ -190,7 +192,7 @@
             <p><a name="view"/>Text on this page is derived from the
                edition's XML source document, LCSmith-Diaries.xml.</p>
             <hr/>
-            <p>&#x2192; <a href="LCSmith-ByEntry.html">Link to the text of the journal</a>.
+      <p>&#x2192; <a href="./lcsmith-by-entry.html">Link to the text of the journal</a>.
             </p>
 </xsl:element>
          </body>
@@ -240,7 +242,7 @@
 
    <!-- Format information about your electronic document. -->
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
-      <h3>Project Description</h3>
+      <a name="projectDescription"></a><h3>Project Description</h3>
       <p>
          <xsl:apply-templates/>
       </p>
@@ -349,6 +351,7 @@
    <!-- Format information about the revision history of your document. -->
    <xsl:template match="tei:TEI/tei:teiHeader/tei:revisionDesc">
          <hr/>
+         <a name="revHistory"/>
          <h2 id="revision">Revision History</h2>
       <table width="90%" cellpadding="5px">
          <tr>
