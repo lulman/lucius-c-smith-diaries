@@ -711,7 +711,7 @@
                   <bibl><ref target="#VeteransSchedule1890">"1890 Veterans Schedules"</ref></bibl>
                </person>
                <person xml:id="WellsT">
-                  <persName ref="#WellsT">Wells, Thornton E B</persName>
+                  <persName ref="#WellsT">Wells, Thornton E. B.</persName>
                   <birth notAfter="1843"></birth>
                   <note type="biographical">Lucius Smith's cousin. Son of Eliza Wells (nee Beach), Lucius Smith's mother's sister. He stops by 
                      Smith's house in Albany while traveling to and from Columbus. He often helps Smith with cutting and hawling of wood.</note>
@@ -931,7 +931,7 @@
                <bibl xml:id="HLP" n="SavesonHistoric"> Saveson, John E. <title level="m">Historic
                      Plain Township</title>. New Albany, Ohio: New Albany Plain Township Historical
                   Society, 1994. Print.</bibl>
-               <bibl xml:id="TGN" n="Getty">Getty Research Institute.<title level="m">Getty
+               <bibl xml:id="TGN" n="Getty">Getty Research Institute. <title level="m">Getty
                      Thesaurus of Geographic Names Online</title> N.d. Web. 3 August 2012.</bibl>
                <bibl xml:id="LOC" n="Library">The Library of Congress. <title level="m">Library of Congress Authorities</title>. 
                   6 Jan. 2012. Web. 3 August 2012.</bibl>
@@ -941,7 +941,7 @@
                   &lt;http://freepages.genealogy.rootsweb.ancestry.com/~rothlisberger/rothlisberger/1635.htm&gt;.</bibl>
                <bibl xml:id="FindaGrave73411433" n="GeorgeA">"George Asbury Goodrich". <title level="m">Findagrave.com</title>. 2011. Web. 24 October 2012.
                   </bibl>
-               <bibl xml:id="FindaGrave74277136" n="Thornton">"Thornton E B Wells". <title level="m">Findagrave.com</title>. 2011. Web. 25 October 2012.</bibl>
+               <bibl xml:id="FindaGrave74277136" n="Thornton">"Thornton E. B. Wells." <title level="m">Findagrave.com</title>. 2011. Web. 25 October 2012.</bibl>
                <bibl xml:id="Ancestry1880" n="1880">"1880 United States Federal Census". <title level="m">Ancestry.com</title>. 1999.  Web.  20 October 2012.</bibl>
                <bibl xml:id="Ancestry1860" n="1860">"1860 United States Federal Census". <title level="m">Ancestry.com</title>. 2009. Web. 20 October 2012.</bibl>
                <bibl xml:id="Ancestry1870" n="1870">"1870 United States Federal Census." <title level="m">Ancestry.com</title>. 2009. Web. 22 October 2012.</bibl>
@@ -952,28 +952,28 @@
                <bibl xml:id="Ancestry1850" n="1850">"1850 United States Federal Census." <title level="m">Ancestry.com</title>. 2009.  Web.  28 October 2012.</bibl>
                <bibl xml:id="Ancestry1840" n="1840">"1840 United States Federal Census." <title level="m">Ancestry.com</title>. 2009. Web. 29 October 2012.</bibl>
                <bibl xml:id="FindaGrave25957529" n="Pvt">"Pvt Gilbert George Collins." <title level="m">Findagrave.com</title>. 2008. Web. 29 October 2012.</bibl>
-               <bibl xml:id="DraftRecord1863" n="USCivil">"US Civil War Draft Registrations Record, 1863-1865". <title level="m">Ancestry.com</title>. 2010. Web. 4 November 2012.</bibl>
-               <bibl xml:id="evangelist" n="boy"><title level="a">The Boy who Had 'Fits'.</title> <title>New York Evangelist</title> 21 June 1855: 100.</bibl>
-               <bibl xml:id="medical" n="DrWilks">Dr. Wilks <title level="a">Cases of Epilepsy with Clinical Remarks on the Use of Bromide and Iodide of Potassium in that Disease.</title> <title>Medical News</title> February 1862: 25. Web.</bibl>
-               <bibl xml:id="OhioMedical" n="Westminster"> <title level="a">Westminster Hospital.--Epilepsy for thirty-two years...</title><title level="j">The Ohio Medical and Surgical Journal</title> 1 May 1859: 392. Web.</bibl>
-               <bibl xml:id="BoysStick" n="Boys"><title level="a">Boys, Stick to the Farm</title><title level="j">The New England Farmer; a Monthly Journal</title>October 1863. Web.</bibl>
-               <bibl xml:id="FitchAndRuggles" n="Fitch">Fitch, Catherine A. and Steven Ruggles <title level="a">Historical Trends in Marriage Formation: The United States 1850-1990</title> in <title level="m">The Ties that Bind: Perspectives on Marriage and Cohabitation.</title> New York, NY: Walter de Gruyter Inc., 2000. Print.</bibl>
-               <bibl xml:id="Frank" n="Frank">Frank, Stephen M. <title level="m">Life with Father: Parenthood and Masculinity in the Nineteenth Century</title>Baltimore: The Johns Hopkins University Press, 1998. Print.</bibl>
-               <bibl xml:id="Easterlin" n="Easterlin">Easterlin, Richard A., George Alter, and Gretchen A. Condran <title level="a">Farms and Farm Families in Old and New Areas: The Northern States in 1860.</title> <title level="m">Family and Population in Nineteenth-Century America.</title> Princeton:Priceton University Press, 1978. Print.</bibl>
-               <bibl xml:id="OHRRGuide" n="Mansfield">Mansfield, Edward Deering. <title>The Ohio Railroad Guide, Illustrated: Cincinnati to Erie via Columbus and Cleveland.</title>Columbus: Ohio State Journal Company, 1854. Print</bibl>
-               <bibl xml:id="ReportCulture" n="Gould">Gould, John Stanton. <title>Report of Hon. John Stanton Gould on Sorghum and Sugar Beet Culture</title>Albany: Van Benthuysen's Steam Printing House, 1865. Print.</bibl>
-               <bibl xml:id="Convention" n="GillJ">Gill, John L., Jr.<title level="a">The State Sorghum Convetion.</title><title level="j">The Ohio Cultivator.</title>18.5 (1862): 158. Print.</bibl>
-               <bibl xml:id="Comissioner" n="Report"><title>Report of the Comissioner of Agriculture for the Year 1862.</title>Washington: Government Printing Office, 1863. Print.</bibl>
+               <bibl xml:id="DraftRecord1863" n="USCivil"><title level="a">US Civil War Draft Registrations Record, 1863-1865.</title> <title level="m">Ancestry.com</title>. 2010. Web. 4 November 2012.</bibl>
+               <bibl xml:id="evangelist" n="boy"><title level="a">The Boy Who Had 'Fits.'</title> <title level="m">New York Evangelist</title> 21 June 1855: 100. Print.</bibl>
+               <bibl xml:id="medical" n="Wilks">Wilks, Dr. <title level="a">Cases of Epilepsy with Clinical Remarks on the Use of Bromide and Iodide of Potassium in that Disease.</title> <title level="j">Medical News</title> February 1862: 25. Web.</bibl>
+               <bibl xml:id="OhioMedical" n="Westminster"> <title level="a">Westminster Hospital.—Epilepsy for thirty-two years...</title><title level="j">The Ohio Medical and Surgical Journal</title> 1 May 1859: 392. Web.</bibl>
+               <bibl xml:id="BoysStick" n="Boys"><title level="a">Boys, Stick to the Farm.</title> <title level="j">The New England Farmer; a Monthly Journal</title> (October 1863). Web.</bibl>
+               <bibl xml:id="FitchAndRuggles" n="Fitch">Fitch, Catherine A. and Steven Ruggles. <title level="a">Historical Trends in Marriage Formation: The United States 1850-1990</title> in <title level="m">The Ties that Bind: Perspectives on Marriage and Cohabitation.</title> New York, NY: Walter de Gruyter Inc., 2000. Print.</bibl>
+               <bibl xml:id="Frank" n="Frank">Frank, Stephen M. <title level="m">Life with Father: Parenthood and Masculinity in the Nineteenth Century</title> Baltimore: The Johns Hopkins University Press, 1998. Print.</bibl>
+               <bibl xml:id="Easterlin" n="Easterlin">Easterlin, Richard A., George Alter, and Gretchen A. Condran. <title level="a">Farms and Farm Families in Old and New Areas: The Northern States in 1860.</title> <title level="m">Family and Population in Nineteenth-Century America.</title> Princeton:Priceton University Press, 1978. Print.</bibl>
+               <bibl xml:id="OHRRGuide" n="Mansfield">Mansfield, Edward Deering. <title level="m">The Ohio Railroad Guide, Illustrated: Cincinnati to Erie via Columbus and Cleveland.</title>Columbus: Ohio State Journal Company, 1854. Print</bibl>
+               <bibl xml:id="ReportCulture" n="Gould">Gould, John Stanton. <title level="m">Report of Hon. John Stanton Gould on Sorghum and Sugar Beet Culture</title>. Albany: Van Benthuysen's Steam Printing House, 1865. Print.</bibl>
+               <bibl xml:id="Convention" n="GillJ">Gill, John L., Jr. <title level="a">The State Sorghum Convetion.</title> <title level="j">The Ohio Cultivator.</title> 18.5 (1862): 158. Print.</bibl>
+               <bibl xml:id="Comissioner" n="Report"><title level="m">Report of the Comissioner of Agriculture for the Year 1862.</title>Washington: Government Printing Office, 1863. Print.</bibl>
                <bibl xml:id="Proceedings" n="Proceedings"><title level="a">Proceedings of the Ohio Sorgo Convention.</title><title level="j">The Sorgo Journal and Farm Machinist.</title>3.1 (1865): 3. Print.</bibl>
-               <bibl xml:id="Centennial" n="Taylor1">Taylor, William Alexander. <title>Centennial History of Columbus and Franklin County, Ohio, Volume 1</title>Chicago: S. J. Clarke Publishing Company, 1909. Print.</bibl>
-               <bibl xml:id="Centennial2" n="Taylor2">Taylor, William Alexander. <title>Centennial History of Columbus and Franklin County, Ohio, Volume 2</title>Chicago: S. J. Clarke Publishing Company, 1909. Print.</bibl>
-               <bibl xml:id="RaleighRegister" n="Field"><title level="a">“The Field of Operations in Kentucky.”</title> <title level="j">The Weekly Raleigh Register</title> (Raleigh, NC). 17 September 1862: Issue 37; col C. Web. 15 November 2012.</bibl>
+               <bibl xml:id="Centennial" n="Taylor1">Taylor, William Alexander. <title level="m">Centennial History of Columbus and Franklin County, Ohio, Vol. 1</title>Chicago: S. J. Clarke Publishing Company, 1909. Print.</bibl>
+               <bibl xml:id="Centennial2" n="Taylor2">Taylor, William Alexander. <title level="m">Centennial History of Columbus and Franklin County, Ohio, Vol. 2</title>Chicago: S. J. Clarke Publishing Company, 1909. Print.</bibl>
+               <bibl xml:id="RaleighRegister" n="Field"><title level="a">The Field of Operations in Kentucky.</title> <title level="j">The Weekly Raleigh Register</title> (Raleigh, NC). 17 September 1862: Issue 37; col C. Web. 15 November 2012.</bibl>
                <bibl xml:id="Phillips" n="Phillips">Phillips, Christopher. <title level="a">The Ohio River Valley: The Breadbasket of the Union.</title> <title level="j">New York Times.</title> 8 August 2012. Web. 15 November 2012.</bibl>
-               <bibl xml:id="Klement" n="Klement">Klement, Frank L. <title level="a">Sound and Fury: Civil War Dissent in the Cincinnati Area.</title> <title level="j">Cincinnati Historical Society Bulletin</title> 35.2 (Summer 1977): 98-114.</bibl>
+               <bibl xml:id="Klement" n="Klement">Klement, Frank L. <title level="a">Sound and Fury: Civil War Dissent in the Cincinnati Area.</title> <title level="j">Cincinnati Historical Society Bulletin</title> 35.2 (Summer 1977): 98-114. Print.</bibl>
                <bibl xml:id="CoxSpeech" n="Speech"><title level="a">Speech of Mr. Cox—Concluded.</title> <title level="j">Daily National Intelligencer</title> (Washington D.C.). 9 September 1862: Issue 15; col A. Web. 15 November 2012.</bibl>
                <bibl xml:id="DailySentinel" n="Warin"><title level="a">The War in Kentucky.</title> <title level="j">Milwaukee Daily Sentinel</title> (Milwaukee, WI). 4 September 1862: Issue 212; col B. Web. 17 November 2012.</bibl>
                <bibl xml:id="ClevelandHerald" n="Noble"><title level="a">Noble Response from the Country to Aid to Defend Cincinnati.</title> <title level="j">Daily Cleveland Herald</title> (Cleveland, OH). 25 September 1862: Issue 227; col A. Web. 16 November 2012.</bibl>
-               <bibl xml:id="CookeCatalog" n="CookeCatalog">Cooke &amp; Co.. <title>Illustrated Catalogue of General Machinery and Supplies for Machinists, Manufacturers, Mills, Mines, Railroads, Steamships, etc., etc.</title> New York: Standard Printing and Publishing Company, 1883. Web. 25 November 2012.</bibl>
+               <bibl xml:id="CookeCatalog" n="CookeCatalog">Cooke &amp; Co. <title level="m">Illustrated Catalogue of General Machinery and Supplies for Machinists, Manufacturers, Mills, Mines, Railroads, Steamships, etc., etc.</title> New York: Standard Printing and Publishing Company, 1883. Web. 25 November 2012.</bibl>
                <bibl xml:id="Defences" n="Defences"><title level="a">The Defences of Cincinnati.</title> <title level="j">Frank Leslie's Illustrated Newspaper</title> (New York, NY). 16 November 1861: Issue 312; col A. Web. 19 November 2012.</bibl>
                <bibl xml:id="Harper" n="Harper">Harper, Robert S. <title level="m">Ohio Handbook of the Civil War.</title> Columbus, OH: The Ohio Historical Society, 1961.</bibl>
                <bibl xml:id="InRelation" n="InRelation"><title level="a">In Relation to the Draft.</title> <title level="j">The Crisis</title> (Columbus,OH). 10 September 1862. Web. 24 November 2012.</bibl>
@@ -981,23 +981,23 @@
                <bibl xml:id="TheDraft" n="TheDraft"><title level="a">The Draft in Ohio.</title> <title level="j">The Daily Cleveland Herald</title> (Cleveland, OH). 3 November 1862. Web 25 November 2012.</bibl>
                <bibl xml:id="Invasion" n="Rebel"><title level="a">Rebel Invasion of Maryland.</title> <title level="j">Daily National Intelligencer</title> (Washington D.C.). 8 September 1862: Issue 15; col B. Web. 22 November 2012.</bibl>
                <bibl xml:id="Retreat" n="Retreat"><title level="a">The Retreat of the Rebel Army.</title> <title level="j">Boston Daily Advertiser</title> (Boston, MA). 22 September 1862: Issue 72; col C. Web. 22 November 2012.</bibl>
-         <bibl xml:id="HuntMorrow" n="Hunt">Hunt, Thomas F and George E. Morrow. <title level="m">Soils and Crops of the Farm.</title> Chicago: Howard and Wilson Publishing Company, 1892. Print.</bibl>
-            <bibl xml:id="Prince" n="Prince">Prince, Benjamin F. ed. <title level="s">A Standard History of Springfield and Clark County, Ohio. Vol. 1.</title> Chicago: The American Historical Society, 1922. Print.  </bibl>
-            <bibl xml:id="DocsMsgs" n="DocumentsMessages"> <title level="s">Documents, Messages and other Communication made to the General Assembly and Governor of the State of Ohio. Part II.</title> Columbus: Richard Nevines State Printer, 1858. Print. </bibl>
-            <bibl xml:id="Bateham" n="Bateham">Bateham, M.B. and Sullivan D. Harris. ed. <title level="s">The Ohio Cultivator.vol. 18.</title> Columbus: Harris and Hurd Proprieters, 1862. Print.</bibl>
-            <bibl xml:id="Talcott" n="Talcott">Talcott, H. <title level="s">Annual Report of the Ohio State Board of Agriculture. Vol. 38.</title> Columbus: Myers Brothers State Printers, 1884. Print.</bibl>
-            <bibl xml:id="Burkett" n="Burkett">Burkett, Charles William. <title level="m"> History of Ohio Agriculture: A Treatise on the Development of the Various Lines and Phases of Farm Life in Ohio.</title> Concord: The Rumford Press, 1900.</bibl>
-            <bibl xml:id="Brande" n="BrandeWill">Brande, William Thomas and George William Cox. <title level="s">A Dictionary of Science, Literature and Art. Vol. 3</title> London: Longmans, Greene and co, 1867. Print.</bibl>
+         <bibl xml:id="HuntMorrow" n="Hunt">Hunt, Thomas F.,  and George E. Morrow. <title level="m">Soils and Crops of the Farm.</title> Chicago: Howard and Wilson Publishing Company, 1892. Print.</bibl>
+            <bibl xml:id="Prince" n="Prince">Prince, Benjamin F., ed. <title level="m">A Standard History of Springfield and Clark County, Ohio. Vol. 1.</title> Chicago: The American Historical Society, 1922. Print.  </bibl>
+            <bibl xml:id="DocsMsgs" n="DocumentsMessages"> <title level="m">Documents, Messages and other Communication made to the General Assembly and Governor of the State of Ohio. Part II.</title> Columbus: Richard Nevines State Printer, 1858. Print. </bibl>
+            <bibl xml:id="Bateham" n="Bateham">Bateham, M.B., and Sullivan D. Harris. eds. <title level="j">The Ohio Cultivator</title>. Vol. 18. Columbus: Harris and Hurd, 1862. Print.</bibl>
+            <bibl xml:id="Talcott" n="Talcott">Talcott, H. <title level="m">Annual Report of the Ohio State Board of Agriculture. Vol. 38.</title> Columbus: Myers Brothers State Printers, 1884. Print.</bibl>
+            <bibl xml:id="Burkett" n="Burkett">Burkett, Charles William. <title level="m"> History of Ohio Agriculture: A Treatise on the Development of the Various Lines and Phases of Farm Life in Ohio.</title> Concord: The Rumford Press, 1900. Print.</bibl>
+            <bibl xml:id="Brande" n="BrandeWill">Brande, William Thomas, and George William Cox. <title level="m">A Dictionary of Science, Literature and Art.</title> Vol. 3. London: Longmans, Greene and co., 1867. Print.</bibl>
             <bibl xml:id="Bourne" n="BourneJohn">Bourne, John. <title level="m">A Catechism of the Steam Engine.</title> London: Green and Longmans, 1856. Print.</bibl>
             <bibl xml:id="RepublicansCreeping" n="Republican"><title level="a">Republicans Creeping Out of the Draft.</title><title level="j"> The Crisis</title> (Columbus, OH). 13 August 1862. Web. 26 November 2012.</bibl>
-            <bibl xml:id="HowtoAvoidaDraft" n="HowtoAvoid"><title level="a">How to Avoid a Draft. </title><title level="j"> Cleveland Morning Leader</title> (Cleveland, OH). 18 August 1862. 26 November 2012. </bibl>
+            <bibl xml:id="HowtoAvoidaDraft" n="HowtoAvoid"><title level="a">How to Avoid a Draft. </title><title level="j"> Cleveland Morning Leader</title> (Cleveland, OH). 18 August 1862. Web. 26 November 2012. </bibl>
             <bibl xml:id="TheDraftFailure" n="TheDraftFailure"><title level="a">The Draft a Failure. </title><title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 16 December 1862. 26 November 2012.</bibl>
-            <bibl xml:id="EditorsHerald" n="Editors Herlad"><title level="a">Editors Herald. </title><title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 6 October 1862. 26 November 2012.</bibl>
-            <bibl xml:id="ArrestofEdson" n="ArrestofEdson">Arrest of Edson B. Olds by United States Officers. <title level="j"> The Crisis</title> (Columbus, OH). 30 August 1862. Web. 26 November 2012.</bibl>
-            <bibl xml:id="DrEBOlds" n="DrEBOlds"><title level="a">Dr. E. B. Olds. </title><title level="j"> The Tiffin Weekly Tribune</title> (Tiffin, Ohio). 22 August 1862. 26 November 2012. </bibl> 
-            <bibl xml:id="ArrestandImprisonmentofOlds" n="ArrestandImprison"><title level="a">The Arrest and Imprisonment of the Notorious E.B. Olds.</title><title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 17 December 1862. 26 November 2012.</bibl>
-            <bibl xml:id="DrOldsVision" n="DrOldsVision">Olds, Edson B.<title level="a"> Dr. Olds' Vision.</title><title level="j"> The Crisis</title> (Columbus, OH). 6 August 1862. Web. 24 November 2012.</bibl>   
-            <bibl xml:id="TheDraftOver" n="TheDraftOver"><title level="a">The Draft Over-The 11th Ward Frees Itself from Draft.</title><title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 8 October 1862. 24 November 2012.</bibl>
+            <bibl xml:id="EditorsHerald" n="Editors Herlad"><title level="a">Editors Herald.</title> <title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 6 October 1862. Web. 26 November 2012.</bibl>
+            <bibl xml:id="ArrestofEdson" n="ArrestofEdson"><title level="a">Arrest of Edson B. Olds by United States Officers.</title> <title level="j"> The Crisis</title> (Columbus, OH). 30 August 1862. Web. 26 November 2012.</bibl>
+            <bibl xml:id="DrEBOlds" n="DrEBOlds"><title level="a">Dr. E. B. Olds.</title> <title level="j"> The Tiffin Weekly Tribune</title> (Tiffin, Ohio). 22 August 1862. Web. 26 November 2012. </bibl> 
+            <bibl xml:id="ArrestandImprisonmentofOlds" n="ArrestandImprison"><title level="a">The Arrest and Imprisonment of the Notorious E.B. Olds.</title> <title level="j">The Daily Cleveland Herald</title> (Cleveland, OH) 17 December 1862. Print 26 November 2012.</bibl>
+            <bibl xml:id="DrOldsVision" n="OldsEdson">Olds, Edson B. <title level="a">Dr. Olds' Vision.</title><title level="j"> The Crisis</title> (Columbus, OH). 6 August 1862. Web. 24 November 2012.</bibl>   
+            <bibl xml:id="TheDraftOver" n="TheDraftOver"><title level="a">The Draft Over—The 11th Ward Frees Itself from Draft.</title><title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 8 October 1862. 24 November 2012.</bibl>
             </listBibl>
          </sourceDesc>
 
