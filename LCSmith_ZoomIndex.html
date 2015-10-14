@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <title>Selected Entries from the Lucius Clark Smith Diaries,1 August 1862 to 31 December
+         1862
+      </title>
+      <link rel="stylesheet" href="jquery-ui.css">
+      <link href="LCSmithDiariesCSS.css" rel="stylesheet" type="text/css"><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><style type="text/css">
+      #maintext {
+      position:relative;
+      top:280px;
+      width:610px;
+      margin-left:350px;
+      padding:5px;
+      background-color: rgba(209,209,209, 0.5);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10 px;
+      border-radius: 10px;	
+      }
+   
+      #navBar {
+      position:fixed;
+      top:300px;
+      float : left;
+      width : 280px;
+      text-align : left;
+      left : 50px;
+      margin-top:0px;
+      height:600px;
+      background-color: rgba(255, 255, 255, 1);
+      z-index:1;
+      }
+   
+      body {
+      font-family: 'Fanwood Text',georgia, serif;
+      font-size: 1em;
+      width: 1000px;
+      margin-left: 50px;
+      margin-right: 50px;
+      }
+   
+               .ui-menu {
+               width: 200px;
+               }
+            </style><link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+      <link href="http://fonts.googleapis.com/css?family=Fanwood+Text" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div class="masthead">
+         <div id="display1"><img src="image-LCSmith-daguerreotype.jpg" height="120" title="Lucius Clark Smith, 1858 (Age 23)"></div>
+         <div id="display2"><img src="image-archibaldsmithhouse.jpg" height="120" title="Smith Homestead"></div>
+         <div id="display3"><img src="image-archibald-maryannsmith.jpg" height="120" title="Lucius Smith's parents, Archibald and MaryAnn"></div>
+         <div id="display4"><img src="image-horse-power-canemill-1857.jpg" height="120" title="A sorghum mill"></div>
+         <div id="display5"><img src="image-warmeeting-18620815.jpg" height="120" title="Newark Advocate, 15 August 1862"></div>
+      </div>
+      <div id="titleBar">
+         <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br>
+               1 August 1862 to 31 December 1862</span></p>
+         <hr>
+      </div>
+      <div id="navBar">
+         <ul id="menu">
+            <li><a href="./lcsmith-diaries.html#introduction">Editorial Introduction</a><ul>
+                  <li><a href="./lcsmith-diaries.html#introduction">Introduction</a><ul>
+                        <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
+                        <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
+                        <li><a href="./lcsmith-diaries.html#sorghum">Sorghum Farming</a></li>
+                        <li><a href="./lcsmith-diaries.html#civilWar">Civil War and Civic Life</a></li>
+                        <li><a href="./lcsmith-diaries.html#borders">Borderlands/Hinterlands</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
+                  <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>
+                  <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
+                  <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
+                  <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
+                  <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
+                  <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
+               </ul>
+            </li>
+            <li><a>Views of the Diary</a><ul>
+                  <li><a href="./lcsmith-by-entry.html">By Diary Entry</a></li>
+                  <li><a href="./lcsmith-by-ms-page.html">By MS Page</a></li>
+                  <li><a href="./lcsmith-combined.html">Facsimile/Text</a></li>
+               </ul>
+            </li>
+                  <li><a href="./lcsmith-diaries.html#appendices">Appendices</a>
+                     <ul>
+                        <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
+                        <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
+                        <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
+                        <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
+                        <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
+                        <li><a>Download Source Files</a>
+                           <ul>
+                              <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
+                              <li><a href="./LCSmith-Common.xsl">XSL: Base Stylsheet</a></li>
+                              <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
+                              <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
+                              <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
+                              <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
+                              <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
+                              <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
+                        <li><a href="./LCSmithMaps.html">Map</a></li>
+                     </ul>
+                  </li>
+         </ul>
+      </div><script>
+               $( "#menu" ).menu({ position: { my: "left top", at: "right-70 top+32" } });
+            </script>
+<div id="maintext">
+<h1>Index to Zoomable Views of Manuscript Pages </h1>
+<p>Links in the following table take you
+  directly to zoomable, high-resolution images of  manuscript
+  pages from Lucius Smith's diary. The zoomable views also contain links to views with superimposed inch- and centimeter-square
+  grids that allow viewers to approximate the size of features on the manuscript page.</p>
+<p>The manuscripts were scanned as 24-bit TIFF images at 400 dots per inch (dpi),
+  then coverted to 8-bit JPEG images at 400 dpi and full quality before being
+  loaded into the Media Manager application. All edges were overscanned by at
+  least 1/4 inch. No color correction was used at any stage of image preparation,
+  but a scan of a photographer's 18% grey card on the same scanner produced RGB
+  values at the center of 91/95/107 after applying a 150% Gaussian Blur in Adobe
+  Photoshop to average color values. Thus, a properly configured  monitor should
+  provide a reasonable approximation of colors on the manuscript pages.</p>
+<p>In the following list, filenames follow this pattern: LCSmith-YYMMDD[a-c | cont], where the date refers to the first diary entry that <em>begins</em> on that page; if included, [a-c] indicate the sequence of an entry that spans multiple pages; and [cont] indicates the continuation of an entry begun in the middle of a previous page that occupies the entirely of a following page.</p>
+<table align="center">
+  <tr bgcolor="#66CC00">
+    <th width="200"><strong>File Name</strong></th>
+    <th width="150"><strong>Milestone</strong></th>
+    <th width="250"><p><strong>Link to Page Image<br>
+    </strong><strong>(in new window)</strong></p></th>
+  </tr>
+  <tr>
+    <td>LCSmith-620730</td>
+    <td/>
+    <td><a href="LCSmith-620730.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620802</td>
+    <td/>
+    <td><a href="LCSmith-620802.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620803</td>
+    <td/>
+    <td><a href="LCSmith-620803.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620806</td>
+    <td/>
+    <td><a href="LCSmith-620806.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620809</td>
+    <td/>
+    <td><a href="http://people.cohums.ohio-state.edu/ulman1/LCSmithDiaries/LCSmithZoom.cfm?file=/b/be203565-f232-4fc3-8086-a38e95fa3c6d.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620811</td>
+    <td/>
+    <td><a href="LCSmith-620811.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620814</td>
+    <td/>
+    <td><a href="LCSmith-620814.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620817</td>
+    <td/>
+    <td><a href="LCSmith-620817.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620823a</td>
+    <td/>
+    <td><a href="LCSmith-620823a.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620823b</td>
+    <td/>
+    <td><a href="LCSmith-620823b.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620824</td>
+    <td/>
+    <td><a href="LCSmith-620824.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620825</td>
+    <td/>
+    <td><a href="LCSmith-620825.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620827</td>
+    <td/>
+    <td><a href="LCSmith-620827.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620831</td>
+    <td/>
+    <td><a href="LCSmith-620831.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620901a</td>
+    <td/>
+    <td><a href="LCSmith-620901a.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620901b</td>
+    <td/>
+    <td><a href="LCSmith-620901b.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620901c</td>
+    <td/>
+    <td><a href="LCSmith-620901c.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620907</td>
+    <td/>
+    <td><a href="LCSmith-620907.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620910</td>
+    <td/>
+    <td><a href="LCSmith-620910.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620918</td>
+    <td/>
+    <td><a href="LCSmith-620918.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620919</td>
+    <td/>
+    <td><a href="LCSmith-620919.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620921</td>
+    <td/>
+    <td><a href="LCSmith-620921.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-620927cont</td>
+    <td/>
+    <td><a href="LCSmith-620927cont.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621001</td>
+    <td/>
+    <td><a href="LCSmith-621001.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621003</td>
+    <td/>
+    <td><a href="LCSmith-621003.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621004</td>
+    <td/>
+    <td><a href="LCSmith-621004.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621005</td>
+    <td/>
+    <td><a href="LCSmith-621005.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621012</td>
+    <td/>
+    <td><a href="LCSmith-621012.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621019</td>
+    <td/>
+    <td><a href="LCSmith-621019.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621025a</td>
+    <td/>
+    <td><a href="LCSmith-621025a.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621025b</td>
+    <td/>
+    <td><a href="LCSmith-621025b.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621026</td>
+    <td/>
+    <td><a href="LCSmith-621026.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621102</td>
+    <td/>
+    <td><a href="LCSmith-621102.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621115</td>
+    <td/>    
+    <td><a href="LCSmith-621115.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621122</td>
+    <td/>    
+    <td><a href="LCSmith-621122.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621123</td>
+    <td/>
+    <td><a href="LCSmith-621123.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621124</td>
+    <td/>
+    <td><a href="LCSmith-621124.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621126a</td>
+    <td/>
+    <td><a href="LCSmith-621126a.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621126b</td>
+    <td/>
+    <td><a href="LCSmith-621126b.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621130</td>
+    <td/>
+    <td><a href="LCSmith-621130.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621207a</td>
+    <td/>
+    <td><a href="LCSmith-621207a.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621207b</td>
+    <td/>
+    <td><a href="LCSmith-621207b.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621207c</td>
+    <td/>
+    <td><a href="LCSmith-621207c.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621220</td>
+    <td/>
+    <td><a href="LCSmith-621220.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621227a</td>
+    <td/>
+    <td><a href="LCSmith-621227a.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621227b</td>
+    <td/>
+    <td><a href="LCSmith-621227b.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+  <tr>
+    <td>LCSmith-621228</td>
+    <td/>
+    <td><a href="LCSmith-621228.jpg" target="_blank"> View Page Image </a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>

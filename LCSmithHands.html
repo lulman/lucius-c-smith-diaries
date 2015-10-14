@@ -1,0 +1,596 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <title>Selected Entries from the Lucius Clark Smith Diaries,1 August 1862 to 31 December
+         1862
+      </title>
+      <link rel="stylesheet" href="jquery-ui.css">
+      <link href="LCSmithDiariesCSS.css" rel="stylesheet" type="text/css"><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><style type="text/css">
+      #maintext {
+      position:relative;
+      top:280px;
+      width:610px;
+      margin-left:350px;
+      padding:5px;
+      background-color: rgba(209,209,209, 0.5);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10 px;
+      border-radius: 10px;	
+      }
+   
+      #navBar {
+      position:fixed;
+      top:300px;
+      float : left;
+      width : 280px;
+      text-align : left;
+      left : 50px;
+      margin-top:0px;
+      height:600px;
+      background-color: rgba(255, 255, 255, 1);
+      z-index:1;
+      }
+   
+      body {
+      font-family: 'Fanwood Text',georgia, serif;
+      font-size: 1em;
+      width: 1000px;
+      margin-left: 50px;
+      margin-right: 50px;
+      }
+   
+               .ui-menu {
+               width: 200px;
+               }
+            </style><link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+      <link href="http://fonts.googleapis.com/css?family=Fanwood+Text" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div class="masthead">
+         <div id="display1"><img src="image-LCSmith-daguerreotype.jpg" height="120" title="Lucius Clark Smith, 1858 (Age 23)"></div>
+         <div id="display2"><img src="image-archibaldsmithhouse.jpg" height="120" title="Smith Homestead"></div>
+         <div id="display3"><img src="image-archibald-maryannsmith.jpg" height="120" title="Lucius Smith's parents, Archibald and MaryAnn"></div>
+         <div id="display4"><img src="image-horse-power-canemill-1857.jpg" height="120" title="A sorghum mill"></div>
+         <div id="display5"><img src="image-warmeeting-18620815.jpg" height="120" title="Newark Advocate, 15 August 1862"></div>
+      </div>
+      <div id="titleBar">
+         <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br>
+               1 August 1862 to 31 December 1862</span></p>
+         <hr>
+      </div>
+      <div id="navBar">
+         <ul id="menu">
+            <li><a href="./lcsmith-diaries.html#introduction">Editorial Introduction</a><ul>
+                  <li><a href="./lcsmith-diaries.html#introduction">Introduction</a><ul>
+                        <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
+                        <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
+                        <li><a href="./lcsmith-diaries.html#sorghum">Sorghum Farming</a></li>
+                        <li><a href="./lcsmith-diaries.html#civilWar">Civil War and Civic Life</a></li>
+                        <li><a href="./lcsmith-diaries.html#borders">Borderlands/Hinterlands</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
+                  <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>
+                  <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
+                  <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
+                  <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
+                  <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
+                  <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
+                  <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
+               </ul>
+            </li>
+            <li><a>Views of the Diary</a><ul>
+                  <li><a href="./lcsmith-by-entry.html">By Diary Entry</a></li>
+                  <li><a href="./lcsmith-by-ms-page.html">By MS Page</a></li>
+                  <li><a href="./lcsmith-combined.html">Facsimile/Text</a></li>
+               </ul>
+            </li>
+                  <li><a href="./lcsmith-diaries.html#appendices">Appendices</a>
+                     <ul>
+                        <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
+                        <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
+                        <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
+                        <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
+                        <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
+                        <li><a>Download Source Files</a>
+                           <ul>
+                              <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
+                              <li><a href="./LCSmith-Common.xsl">XSL: Base Stylsheet</a></li>
+                              <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
+                              <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
+                              <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
+                              <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
+                              <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
+                              <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
+                        <li><a href="./LCSmithMaps.html">Map</a></li>
+                     </ul>
+                  </li>
+         </ul>
+      </div><script>
+               $( "#menu" ).menu({ position: { my: "left top", at: "right-70 top+32" } });
+            </script>
+<div id="maintext">
+      <h1>Guide to Reading Manuscript Hands</h1>
+	  <p>The legibility of handwritten documents varies widely. An individual's
+	    handwriting may be relatively easy or difficult to read, but the legibility of one person's handwriting will vary greatly depending on circumstances:
+	    infirmity caused by age or ill health, the state of one's writing tools
+	    (a dull pen, runny ink, rough paper), surroundings (trying to write in
+	    dim light or on a tossing ship), mood (writing in a hurry or under duress),
+	    accident (spilled coffee), deliberate alterations (crossing something
+	    out), the degradation of the written artifact (fading ink, crumbling
+	    paper), and so on. Additionally, individuals may inscribe the same letter in multiple ways, depending on position within words, proximity to other letters, or just idiosyncracy. The following methods may help to decipher words that
+	    are difficult to read:
+	  <ul type="disc">
+	  <li><strong>Reading in context</strong>. Ask yourself what word is most likely
+	    to occupy the spot in the sentence where you are stuck. Look to the topic
+	    of the surrounding paragraph or clues elsewhere in the document. Assume that the writer was trying to make sense, but don't let that assumption cause you to correct a slip of the pen.</li>
+	  <li><strong>Comparing letterforms</strong>. Often it is helpful to look at
+	    known words elsewhere in a document where
+	    the letters you think you might be looking at occur. In the table below,
+	    we list examples of the numerals 0-9, uppercase and lowercase letters
+	    A-Z, several digraphs, and some common marks of punctuation. Because the table provides
+	    the examples in word or phrase contexts, one can actually find multiple
+	    examples of most letterforms. In a few cases of critical, hard-to-read,
+	    or variably written characters, we provide multiple rows with different
+	    examples of a given letterform. If a letter doesn't appear in the table
+	    (e.g., capital X), no clear example of that letterform occurs in the
+	    diary.</li>
+	  <li><strong>Tracing letters</strong>. Sometimes, tracing the
+	    word you are trying to decipher, either by looking at the screen and
+	    writing on paper or by printing out the page and tracing over the word,
+	    can help to solve a transcription problem.</li>
+	  <li><strong>Consulting a reference dictionary</strong>. The <em>Oxford English
+	      Dictionary </em>(OED) provides historical examples of usage and definintions
+	      for multiple senses of words, including senses no longer in common use,
+	      all of which can help with deciphering historical documents. In addition,
+	      online dictionaries such as the OED often provide search features that
+	      allow you to use them as &quot;crossword-puzzle&quot; dictionaries&mdash;you
+	      can replace letters you can't read with a &quot;wild card&quot; character
+	      and search for all words that match a pattern (e.g., a search for &quot;f??d&quot;
+	    will return &quot;food,&quot; &quot;feed,&quot; &quot;fend,&quot; &quot;fard,&quot; and
+	    36 other words. Ohio State University users can log in to use the <a href="http://library.ohio-state.edu/search/y?SEARCH=oxford+english+dictionary">OED
+	    online</a>. </li>
+	  <li><strong>Having someone else read the letter aloud</strong>. Finally,
+	    it is often helpful to enlist another pair of eyes. While a partner
+	    reads a passage aloud slowly, identifying all capital letters and marks
+	    of punctuation, follow along in the manuscript.</li>
+	  </ul>
+</p>
+      <table border="1" cellpadding="4" width="600">
+         <tr bgcolor="#9acd32">
+            <th width="30">Character</th>
+            <th width="140">Phrase</th>
+            <th width="370">Example</th>
+         </tr>
+         <tr>
+            <td>0</td>
+            <td>1850 brick </td>
+            <td><img src="smith-hand-1850.png"></td>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>3</td>
+            <td>$37 Dollars</td>
+            <td><img src="smith-hand-$37.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>August 14, 15 and 16<sup>th</sup></td>
+            <td><img src="smith-hand-august14.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+            <td>5</td>
+            <td>August 14, 15 and 16<sup>th</sup></td>
+            <td><img src="smith-hand-august14.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>6</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+         </tr>
+         <tr>
+            <td>7</td>
+            <td>$37 Dollars</td>
+            <td><img src="smith-hand-$37.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>8</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+         </tr>
+         <tr>
+            <td>9</td>
+            <td>Sunday Sept 19<sup>th</sup></td>
+            <td><img src="smith-hand-sunday.png"></td>
+         </tr>
+         <tr>
+           <td>dollar sign</td>
+           <td>$37 Dollars</td>
+           <td><img src="smith-hand-$37.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+           <td>equals sign</td>
+           <td>per foot = 5.60</td>
+           <td><img src="smith-hand-perfoot.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+           <td>fraction</td>
+           <td>&frac12; day in</td>
+           <td><img src="smith-hand-half-day.png"></td>
+         </tr>
+         <tr>
+            <td>A</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>a</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>B</td>
+            <td>Bad</td>
+            <td><p><img src="smith-hand-bad.png" alt="manuscript detail"></p></td>
+        </tr>
+         <tr>
+            <td>b</td>
+            <td>Hawled up my Lumber</td>
+            <td><img src="smith-hand-hawled.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+            <td>C</td>
+            <td>Cane works</td>
+            <td><img src="smith-hand-cane.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>c</td>
+            <td>quick</td>
+            <td><img src="smith-hand-quick.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>D</td>
+            <td>Destroyed It</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>d</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>E</td>
+            <td>Ending Sept 20</td>
+            <td><img src="smith-hand-ending.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>ee</td>
+            <td>sheet Iron</td>
+            <td><img src="smith-hand-sheet-iron.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>e</td>
+            <td>Hawled up my Lumber</td>
+            <td><img src="smith-hand-hawled.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>F</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+         </tr>
+         <tr>
+            <td>f</td>
+            <td>It froze quite</td>
+            <td><img src="smith-hand-it-froze.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>G</td>
+            <td>Gill Collins</td>
+            <td><img src="smith-hand-gill-collins.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>g</td>
+            <td>Got Home in the eavning</td>
+            <td><img src="smith-hand-got-home.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>H</td>
+            <td>Hay and oats</td>
+            <td><img src="smith-hand-hay.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+            <td>h</td>
+            <td>who has a horse power</td>
+            <td><img src="smith-hand-who-has.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>I</td>
+            <td>Destroyed It</td>
+            <td>--</td>
+        </tr>
+         <tr>
+            <td>i</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>J</td>
+            <td>Robertses withe John as</td>
+           <td><img src="smith-hand-robertses.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>j</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+         <tr>
+            <td>K</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>k</td>
+            <td>Cane works</td>
+            <td><img src="smith-hand-cane.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>L</td>
+            <td>Hawled up my Lumber</td>
+            <td><img src="smith-hand-hawled.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>l</td>
+            <td>Hawled up my Lumber</td>
+            <td><img src="smith-hand-hawled.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+           <td>ll</td>
+           <td>Hay &amp; oats untill now</td>
+           <td><img src="smith-hand-hay.png" alt="Manuscript Detail"></td>
+         </tr>
+         <tr>
+            <td>M</td>
+            <td>Monday next</td>
+           <td><img src="smith-hand-monday.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>m</td>
+            <td>Hawled up my Lumber</td>
+            <td><img src="smith-hand-hawled.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>N</td>
+            <td>the North</td>
+            <td><img src="smith-hand-the-north.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>n</td>
+            <td>Hay and oats</td>
+            <td><img src="smith-hand-hay.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+           <td>nn</td>
+           <td>beginning</td>
+           <td><img src="smith-hand-beginning.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+            <td>O</td>
+            <td>Oct 4<sup>th</sup> 1862</td>
+            <td><img src="smith-hand-oct4.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+            <td>o</td>
+            <td>Hay and oats</td>
+           <td><img src="smith-hand-hay.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>P</td>
+            <td>plenty of Peaches</td>
+            <td><img src="smith-hand-plenty.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>p</td>
+            <td>Hawled up my Lumber</td>
+            <td><img src="smith-hand-hawled.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+            <td>Q</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>q</td>
+            <td>quick</td>
+            <td><img src="smith-hand-quick.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>R</td>
+            <td>Robertses withe John as</td>
+            <td><img src="smith-hand-robertses.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>r</td>
+            <td>Hawled up my Lumber</td>
+            <td><img src="smith-hand-hawled.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>rr</td>
+            <td>arrested</td>
+            <td><img src="smith-hand-arrested.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+            <td>S</td>
+            <td>Ending Sept 20</td>
+            <td><img src="smith-hand-ending.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>s</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>&#383; [long s]</td>
+            <td>to press</td>
+            <td><img src="smith-hand-to-press.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+           <td>ss</td>
+           <td>--</td>
+           <td>--</td>
+         </tr>
+         <tr>
+            <td>T</td>
+            <td>This week</td>
+            <td><img src="smith-hand-this-week.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>t</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>U</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>u</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>V</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>v</td>
+            <td>Got Home in the eavning</td>
+            <td><img src="smith-hand-got-home.png" alt="manuscript detail" width="420"></td>
+         </tr>
+         <tr>
+            <td>W</td>
+            <td>When It Drizzled</td>
+            <td><img src="smith-hand-when.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>w</td>
+            <td>Hawled up my Lumber</td>
+            <td><img src="smith-hand-hawled.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>X</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>x</td>
+            <td>Monday next</td>
+            <td><img src="smith-hand-monday.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>Y</td>
+            <td>Yet.</td>
+            <td><img src="smith-hand-yet.png" alt="manuscript detail"></td>
+        </tr>
+         <tr>
+            <td>y</td>
+            <td>Friday August 1<sup>st</sup> 1862</td>
+            <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+        </tr>
+         <tr>
+            <td>Z</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>z</td>
+            <td>When It Drizzled</td>
+            <td><img src="smith-hand-when.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+           <td>superscript <sup>th</sup></td>
+           <td>Oct 4<sup>th</sup> 1862</td>
+           <td><img src="smith-hand-oct4.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+           <td>superscript <sup>st</sup></td>
+           <td>Friday August 1<sup>st</sup> 1862</td>
+           <td><img src="smith-hand-friday.png" alt="manuscript detail" width="420"></td>
+         </tr>
+         <tr>
+           <td>superscript <sup>d</sup></td>
+           <td>Sunday Aug 3<sup>d</sup></td>
+           <td><img src="smith-hand-sunday-august-3.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+           <td>underline</td>
+           <td><u>Soon</u></td>
+           <td><img src="smith-hand-soon.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+            <td>period</td>
+            <td>Yet.</td>
+            <td><img src="smith-hand-yet.png" alt="manuscript detail"></td>
+         </tr>
+         <tr>
+            <td>ampersand</td>
+            <td>Hay &amp; oats untill now</td>
+            <td><img src="smith-hand-hay.png"></td>
+         </tr>
+         <tr>
+            <td>question mark</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>quotes</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>em dash</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>hyphen</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>parentheses</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>virgule (slash)</td>
+            <td>--</td>
+            <td>--</td>
+         </tr>
+         <tr>
+            <td>apostrophe</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+         <tr>
+            <td>comma</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+  </table>
+      </div>
+</body>
+</html>

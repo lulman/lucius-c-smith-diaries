@@ -1,0 +1,1376 @@
+<html xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="keywords" content="Diaries, Social history--19th century, Farm Mechanization, Columbus (Ohio), Sorghum Molasses, Ohio--History--Civil War, 1861-1865">
+      <title>Selected Entries from the Lucius Clark Smith Diaries,1 August 1862 to 31 December
+         1862
+      </title>
+      <link rel="stylesheet" href="jquery-ui.css">
+      <link href="LCSmithDiariesCSS.css" rel="stylesheet" type="text/css"><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><style type="text/css">
+      #maintext {
+      position:relative;
+      top:280px;
+      width:610px;
+      margin-left:350px;
+      padding:5px;
+      background-color: rgba(209,209,209, 0.5);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10 px;
+      border-radius: 10px;	
+      }
+   
+      #navBar {
+      position:fixed;
+      top:300px;
+      float : left;
+      width : 280px;
+      text-align : left;
+      left : 50px;
+      margin-top:0px;
+      height:600px;
+      background-color: rgba(255, 255, 255, 1);
+      z-index:1;
+      }
+   
+      body {
+      font-family: 'Fanwood Text',georgia, serif;
+      font-size: 1em;
+      width: 1000px;
+      margin-left: 50px;
+      margin-right: 50px;
+      }
+   
+               .ui-menu {
+               width: 200px;
+               }
+            </style><link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+      <link href="http://fonts.googleapis.com/css?family=Fanwood+Text" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div class="masthead">
+         <div id="display1"><img src="image-LCSmith-daguerreotype.jpg" height="120" title="Lucius Clark Smith, 1858 (Age 23)"></div>
+         <div id="display2"><img src="image-archibaldsmithhouse.jpg" height="120" title="Smith Homestead"></div>
+         <div id="display3"><img src="image-archibald-maryannsmith.jpg" height="120" title="Lucius Smith's parents, Archibald and MaryAnn"></div>
+         <div id="display4"><img src="image-horse-power-canemill-1857.jpg" height="120" title="A sorghum mill"></div>
+         <div id="display5"><img src="image-warmeeting-18620815.jpg" height="120" title="Newark Advocate, 15 August 1862"></div>
+      </div>
+      <div id="titleBar">
+         <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br>
+               1 August 1862 to 31 December 1862</span></p>
+         <hr>
+      </div>
+      <div id="navBar">
+         <ul id="menu">
+            <li><a href="./lcsmith-diaries.html#introduction">Editorial Introduction</a><ul>
+                  <li><a href="./lcsmith-diaries.html#introduction">Introduction</a><ul>
+                        <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
+                        <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
+                        <li><a href="./lcsmith-diaries.html#sorghum">Sorghum Farming</a></li>
+                        <li><a href="./lcsmith-diaries.html#civilWar">Civil War and Civic Life</a></li>
+                        <li><a href="./lcsmith-diaries.html#borders">Borderlands/Hinterlands</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
+                  <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>
+                  <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
+                  <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
+                  <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
+                  <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
+                  <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
+                  <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
+               </ul>
+            </li>
+            <li><a>Views of the Diary</a><ul>
+                  <li><a href="./lcsmith-by-entry.html">By Diary Entry</a></li>
+                  <li><a href="./lcsmith-by-ms-page.html">By MS Page</a></li>
+                  <li><a href="./lcsmith-combined.html">Facsimile/Text</a></li>
+               </ul>
+            </li>
+            <li><a href="./lcsmith-diaries.html#appendices">Appendices</a><ul>
+                  <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
+                  <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
+                  <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
+                  <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
+                  <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
+                  <li><a>Download Source Files</a><ul>
+                        <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
+                        <li><a href="./LCSmith-Common.xsl">XSL: Base Stylsheet</a></li>
+                        <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
+                        <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
+                        <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
+                        <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
+                        <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
+                        <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
+                  <li><a href="./LCSmithMaps.html">Map</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div><script>
+               $( "#menu" ).menu({ position: { my: "left top", at: "right-70 top+32" } });
+            </script><div id="maintext">
+         <h2 id="introduction">Introduction</h2>
+         
+         
+         <p>In a short diary entry dated 2 August 1862,
+            Lucius Smith, a 27-year-old farmer and sometime schoolteacher living near
+            New Albany, OH with his parents and seven younger siblings, notes that he
+            "Helped at Hay &amp; oats" half the day on his family’s farm, worries about his
+            own sorghum operation, reports on a war meeting in New Albany, and refers to a
+            discussion with a neighbor about a piece of farming equipment. What Smith's
+            diary lacks in depth or analysis on any particular topic, it makes up for by
+            revealing how diverse elements of rural culture in central Ohio during the
+            Civil War weave into an individual life. No internal or external evidence
+            suggests that Smith intended his diary to serve as anything other than a
+            personal record. An account book, inventory, or personal almanac would
+            likely exhibit more structure, but Smith blends those genres by recording
+            business transactions, accounts of equipment, and comments on the weather
+            with observations on a number of other recurring topics. Regarding the Civil
+            War, Smith writes about the draft and appeals for enlistments at war
+            meetings, arrests for treasonable language, news of battles and debates over
+            slavery, and the fate of friends and acquaintances serving in the Union
+            Army. Writing about work on his cane mill and his family's farm, Smith
+            speaks of digging wells and hauling stone, brick, and wood. He describes
+            equipment for farming, milling sorghum, making molasses, and he records
+            details about the weather and the progress of his crops. Writing about the
+            social life of his community, he speaks of helping one another with chores,
+            attending parties, participating in hunting competitions, and listening to
+            speeches and sermons. In sum, as we discuss in more detail below, Smith
+            provides an eye-level view of diverse aspects of rural life and work in Ohio
+            during the Civil War.
+         </p>
+         
+         <h3 id="family">
+            Mid-nineteenth-century Family Dynamics   
+            
+         </h3>
+         
+         <p>In 1862, when Lucius Clark Smith penned this diary, he would have been a young man
+            roughly 27 years of age.  Modern observers are 
+            apt to question the normalcy of a man this age residing at home with his father, mother,
+            and seven younger siblings.  
+            Yet, in the context of mid-nineteenth century agricultural life, there is little abnormal
+            about this living situation.
+            
+         </p>
+         
+         <p>Demographic historians provide ample data suggesting that the household configuration
+            of the Smiths in the early 1860s was not unheard of.  
+            The Smith household, numbering nine individuals as of the 1860 Federal Census, was
+            somewhat larger than the national average of six (1860 Census).  Rural 
+            families, however, were more likely to experience higher rates of fertility than those
+            in more urban areas.  Moreover, five of these children
+            would have been under the age of 18 at the time of the census, so their residence
+            at home is unsurprising (Easterlin, Alter, and Condran).
+            
+         </p>
+         
+         <p>To explain the continued residence of the three eldest sons well into their twenties
+            requires an examination of contemporary understandings
+            of adulthood and familial relationships in agricultural settings.  Our modern understandings
+            of the teenage years and young adulthood are 
+            largely by-products of the twentieth century and would have been unknown to those
+            living in the 1860s.  Adulthood was vested not in a specific 
+            age-bracket, but in an understanding of status based on dependence or independence.
+            The nature of parent-child relationships on farms led to 
+            what we would think of as a protracted period of dependence, resting on the mutual
+            obligations that existed between fathers and sons.  Fathers 
+            were obligated to provide a practical education for sons to ensure that they had prospects
+            as they moved into adulthood; children were in turn 
+            bound to provide labor and obedience as long as necessary.  Quite often, sons labored
+            on the family farm till at least the age of 21 or beyond, 
+            at which point, they would ideally establish themselves on nearby farms.  By the last
+            quarter of the nineteenth century, however, increasing 
+            land scarcity had some sons staying on the family farm for longer periods of time.
+            
+         </p>
+         
+         <p>The alternative to establishing an independent farm near to home was often to escape
+            agriculture altogether and take up an urban occupation.  
+            As industrialization and urbanization increased in the second half of the 1800s, farmers
+            feared that their sons would leave the farm never to 
+            return.  Articles in magazines and newspapers gave voice to that fear.  One specifically
+            provided advice to young men thinking of abandoning 
+            the family farm: 
+            “Again, it is your duty to ‘Stick to the Farm;’ your father has already reached the
+            meridian of life, and has commenced to 
+            descend the ‘western declivity.’  He has long looked forward to the day when he could
+            relinquish the active labors of the farm to his son.  
+            To this end he has taken special pains to instruct you in all things connected with
+            good husbandry, and now, when he needs you most, when 
+            he feels the infirmities of age creeping on, when he needs your aid, will you leave
+            him to struggle on?” ("Boys, Stick to the 
+            Farm")
+            Thus, by the end of the nineteenth century, more farmers focused on keeping at least
+            one of their adult sons on the farm rather than seeing 
+            them flee the area when unable to become settled on a nearby farm of their own (Frank, 147).
+            
+         </p>
+         
+         <p>The period of dependency for young farming males most frequently ended upon one of
+            the hallmark ritual passages into adulthood: marriage.  
+            As historian Stephen Frank notes, “Until a son came of age, married, and established
+            an independent household, he labored primarily for his 
+            father rather than for himself” (Frank, 142). Again, demographic historians illustrate that the bachelorhood (and its 
+            corresponding state of home-residence) of Lucius Clark Smith was not anomalous for
+            the time.  During the period of 1850 through the Civil 
+            War, the median age for native-born white men to marry was 26.6 for men (22.9 for
+            women) (Fitch and Ruggles, 63).  At 27 in 1862, 
+            Lucius Clark Smith, as well as the rest of his twenty-something brothers, were well
+            within the normal range to be unmarried and thus dwelling at home.  
+            
+         </p>
+         
+         <p>Perhaps the only thing abnormal about the Smith household was the degree to which
+            Lucius was able to engage in his own economic operations.  
+            The establishment of his own mill on his father’s land indicates a degree of autonomy
+            that places Lucius well on the way to independent adulthood.  
+            Without examining the will of Archibald Smith, it is difficult to precisely determine
+            what the status of this land grant was, but likely it 
+            represented Archibald’s patrimony to Lucius: the father’s obligation to see the child
+            set-up with some means of economic self-sufficiency during 
+            a time of declining land availability.  Whatever the case, it is clear that work done
+            both on the farm and on Lucius’ mill operations were both 
+            family affairs.  
+            
+         </p>
+         
+         <h3 id="milling">
+            Milling and Mill Operations   
+            
+         </h3>
+         
+         
+         <p><strong>Farm Mechanization and Power in the Nineteenth Century</strong></p>
+         
+         <p>The explosion of farm mechanization that marked the 19th century, including the Sorghum
+            mills that 
+            Lucius Smith invested in, called for an equal increase in the rise of farm power to
+            operate those new 
+            mechanisms. Before this time, water-powered mills – almost exclusively flour mills
+            and sawmills – had 
+            been sufficient for most farmer’s needs, but not all of these new farm mechanisms
+            could be conveniently 
+            located close enough to a running water source to take advantage of water power. Instead,
+            new farm 
+            mechanisms embraced the idea of modular power, having a simple belt pulley by which
+            power could be 
+            delivered from any source.
+         </p>
+         
+         <p>Chief among these new powers were animal power and steam power. However, as portable
+            steam engines were 
+            still a relatively new, and expensive, innovation – the first portable steam engine
+            was patented in 1849 
+            – farmers were much more likely to use animal power, horse power specifically. In
+            a horse-power, a long 
+            wooden beam, or “sweep,” was attached on one end to a horse’s harness and on the other
+            end to the outside 
+            of a main gear wheel. The horse would then be lead around the power, turning the main
+            gear wheel and this 
+            rotation was transferred through smaller gears and shafts to another belt pulley,
+            which would drive the 
+            belt, which would power the mechanism. This arrangement was not only cheaper and more
+            proven than steam 
+            power but gave the advantages of portability and flexibility of configuration that
+            traditional water power 
+            lacked. Further, the horse-power could be geared up or down to provide high-torque/low-speed
+            or 
+            low-torque/high-speed power to a variety of mechanisms.
+         </p> 
+         
+         <p>Sorghum mills, even though they were relatively new innovations in the mid-19th century,
+            were fairly simple 
+            mechanisms, familiar to anyone who has ever seen an old-fashioned laundry mangle:
+            two (or more) large steel 
+            cylinders were situated very close together and rotated counter to each other. Cane
+            was fed into the mill 
+            and between these cylinders which squeezed the juice from the cane. Lucius C. Smith’s
+            initial mill, with 
+            which he is so preoccupied in the first half of this journal, is undoubtedly a horizontal
+            mill, in which 
+            the cylinders are placed horizontally and powered by a belt-pulley attached to a seperate
+            horse-power. 
+            However, the weaknesses of this system becomes apparent in Smith’s own account of
+            his operations. Though 
+            he had just gotten a new one turned on September 6th, the counter-shaft of his horse
+            power broke on October 
+            2nd, less than four weeks later, due to the sheer stress of the torque applied in
+            night-and-day operations.
+         </p>
+         
+         <p>Smith’s second mill, however, avoided this problem. The John L. Gill and Son No. 6
+            Vertical Cane mill, which 
+            Smith purchsed for $88 on October 3rd, had one central 12” roller and two secondary
+            9” rollers arranged 
+            vertically with an integrated horse power. This integrated horse power, two sweeps
+            attached to the drive 
+            shaft above the mill, obviated the need for the counter-shafts and tumble-shafts that
+            would deliver power 
+            from a separate horse-power and thus eliminated two potential points of failure in
+            Smith’s previous arrangement.
+            It is worth noting, however, that even with this new, more advanced mill, Smith had
+            enough Cane supply in the 
+            Autumn of 1862 that he continued using both mills simultaneously to keep up with the
+            demand for his services.
+         </p>
+         
+         
+         <h3 id="sorghum">
+            Sorghum and the Production of Molasses in Nineteenth Century Ohio
+            <br>
+            
+         </h3>
+         
+         <p>
+            Production of molasses from sorghum was a fairly new agricultural activity during
+            the mid-nineteenth century. 
+            It had cultural and  economic implications. Several books published about farming
+            during the period 
+            describe the process in some detail. In <cite>History of Ohio Agriculture</cite> (1900), Charles William Burkett 
+            mentions that sorghum was introduced to Ohio by the early settlers in the nineteenth
+            century. These early 
+            settlers were interested in developing family farms. In <cite>Soils and Crops of the Farm</cite>, 
+            George Espy Morrow and Thomas Forsyth Hunt observe, “Sorghum is the only agriculturally important plant 
+            which has been introduced into the United States since the American Revolution...and
+            was widely distributed 
+            during the decade prior to the war between the states” (260).  
+            
+         </p>
+         
+         <p><strong>History and Technology</strong>
+            <br>The Sorghum cane, which is supposed to be native to China, came to United States via
+            France in the 1850s. Before the 
+            introduction of sorghum, maple sap, juice from beet and sugarcane were used to produce
+            sugar. However, those posed 
+            specific difficulties to the country in which local industries were trying to find
+            a national market: the sugar produced 
+            from the other kinds of canes dried up fast. In Ohio, sorghum was initially raised
+            in small scales and molasses made from 
+            it were sold in local markets. In the Springfield market, for instance, molasses from
+            sorghum were sold at 75 cents a 
+            gallon at the outset. The Leffel sorghum mill at Springfield thrived during the 1860s.
+            Its owner Joseph Leffel had two 
+            acres of cane which he crushed using horse power. Some of Leffel's contemporary sorghum
+            mill owners like Rev. Abraham 
+            Myers harnessed the water of the Mad River for power (Prince 84-5). The standard 
+            stages in making sorghum molasses included growing of sorghum cane, followed by grinding
+            the cane at the Cane house 
+            using horse power and then, boiling the juice in large vessels. 
+         </p>
+         
+         <p>Mid-nineteenth century Ohio may have used more 
+            large scale agricultural machines than any one state at the time (Documents, Messages... 504) . 
+            The Steam Thresher and Sugar Mills were used for grinding sorghum. The latter was
+            invented 
+            around 1856-57 for specifically this purpose unlike the Steam Thresher which was used
+            for grinding several other 
+            kinds of grains. Both the Steam Thresher and the Sugar Mill helped cut down labor
+            costs.
+            Some late nineteenth century documents also state that the produced molasses were
+            first taken home in large barrels 
+            by the farmers and then, the rest was sold. Evidently, in the nineteenth century the
+            sorghum industry was more geared 
+            toward domestic rather than a large scale commercial enterprise for many mill owners.
+            At the same time, the potential of 
+            the industry to grow rapidly was recognized by farmers and mill owners. 
+            
+            
+         </p>
+         
+         <p><strong>Commercialization</strong>
+            
+            <br>On 7th January 1862 a State Sorghum Convention was held at Columbus, Ohio. The convention
+            not only discussed the culture 
+            of growing sorghum and manufacturing molasses from it, but also promoted certain kinds
+            of pans and mills as facilitators 
+            of more profitable and durable products than others. <cite>The Ohio Cultivator</cite> documents a debate between a sales agent of 
+            "Implements and Machinery," and the secretary of the convention on the subject of
+            advertising at the 
+            convention (Bateham and Sullivan 156-57). Interestingly, the same volume features a recipe called "Mr. Thorn's Sorghum Cake"
+            
+            which includes Sorghum molasses among its ingredients. Thus, the mid-nineteenth century
+            agricultural culture in Ohio was closely related to the growing 
+            acceptance and significance of sorghum molasses. However, the growth of the industry
+            was slow over the decades in the state. 
+            H. Talcott, a member of the Jefferson Sugar Manufacturing Company , presented a paper
+            in the Agricultural convention recorded 
+            in the Annual Report of the Ohio State Board of Agriculture (1883), to endorse the promotion of the sorghum-molasses 
+            industry in Ohio: he proposed growing sorghum as a rotation crop with corn and charted
+            
+            its many uses which included preparation of sugar, cooking molasses, rum vinegar and
+            prepared coffee.  Talcott's presentation is 
+            prompted by the rather scattered nature of the sorghum industry till the 1880s 
+            and "no very good results or much practical use made of the crop" (90). 
+            
+            
+         </p>                    
+         
+         <p> Thus, Lucius Smith's investment in the Cane House, which surfaces in most of his
+            journal entries from August to December 
+            1862, represents a  relatively novel agricultural and industrial development in the
+            state. Smith follows state-of-the-art 
+            technologies for producing molasses. Furthermore, Smith's visit to different cities
+            in search of the 
+            right apparatuses for his mill is put into perspective by the history of the manufacturing
+            businesses, 
+            publicity and sales campaigns around the sorghum molasses industry in 1860s Ohio.
+            
+         </p>
+         
+         
+         
+         <h3 id="civilWar">
+            The Civil War and Civic Life   
+            
+         </h3>
+         
+         <p><strong>The State of the Draft in Ohio</strong></p>
+         Throughout the months of August and September Lucius Clark Smith expressed anxiety
+         about the draft and referred to men volunteering out of fear of being drafted.
+         On August 4, 1862, the Secretary of War, Edwin M. Stanton, issued an order to draft
+         300,000 men into the military to serve for nine months. Although each state 
+         was called to supply their required quota of men by the fifteenth of August, Ohio
+         was granted repeated extensions due to the mounting pressure to provide regiments
+         in the defense of its southern border. The draft was first postponed to September
+         16 ("In Relation to the Draft") and then for a second time until October 1 
+         ("Drafting Postponed").
+         
+         <p>
+            During each postponement Ohio's Unionist governor David Tod encouraged citizens at
+            large to voluntarily enlist. He also urged the commissioners responsible for 
+            organizing the draft in their respective district to do likewise. It was during the
+            first postponement that Tod encouraged the county commissioners directly to use 
+            this time to recruit more regiments in order to fulfill Ohio's quota of 23,000 militia
+            men through volunteers, "thereby sav[ing] the trouble, expense and vexation 
+            of resorting to drafting in Ohio" ("In Relation to the Draft").
+            
+         </p>   
+         
+         <p>
+            Just two days before the first postponement was set to end, Tod announced the second
+            extension and concluded with an impassioned plea to Ohio's men to answer the call
+            
+            to service: "The necessity for the force called for by the President is now apparent to all. Our
+            very firesides are threatened in the desperate efforts of the rebels 
+            to destroy our glorious Government. Rally then, noble men of Ohio, and with the grand
+            effort to fill up the ranks"("Drafting 
+            Postponed"). Between September 15 and October 1, however, about 8,000 men voluntarily enlisted,
+            which left some 12,000 still to be drafted. Thus, in spite of the
+            Governor's efforts to solicit voluntary enlistment since the initial announcement
+            of the draft in August, three-fourths of the counties in Ohio commenced the draft
+            on the first 
+            of October in order to meet their respective quotas ("The Draft in Ohio"). 
+            
+         </p>
+         
+         <p>
+            While many counties and townships held meetings to encourage enlistment and "devis[e] ways and means to raise each town's quota and avoid the draft", the men of
+            Ohio were clearly reluctant to voluntarily enlist ("How to Avoid a Draft"). Part of the difficulty in attracting volunteers was 
+            attributed to the requirement in Ohio that volunteers provide three years of service
+            rather than the nine months required of draftees. <cite>The Daily Cleveland Herald</cite>
+            in late December of 1862 characterized the draft as a failure that "engendered much bad feeling in portions of the State, and has proved a slow process
+            in filling up the Union 
+            army rank and file" . The article concludes by suggesting, "The same effort and expenditure in enlisting
+            nine months volunteers would have filled the muster rolls sooner and fuller" 
+            ("The Draft a Failure"). For those counties who secured their full quota through voluntary enlistment, however,
+            the increased service requirement 
+            of the volunteers was held up as testimony to their collective patriotism - that they
+            sent "three year soldiers" rather than "nine months [sic] men" ("The Draft 
+            Over").
+            
+         </p>
+         
+         <p><strong>Partisan Politics During War: the Arrest of Edson B. Olds and Opposition to the Draft</strong></p>
+         Opposition to the 1862 draft seemed to have taken on a different character in contrast
+         to the well-known opposition of 1863. Around the time of the Conscription Act of March
+         1863, there was
+         bitter opposition against the exemption which allowed for a wealthy draftee to hire
+         an able-bodied substitute in his place. Such resistance appeared not to take such
+         precedence a year earlier.
+         A letter to the editor in 1862, written under the pseudonym "Justice," expressed specific
+         outrage that state and county officers, deputies, and clerks were exempted from the
+         draft altogether.
+         The author asserts that "they are the only men in the State, (excepting contractors) who are making money,
+         and consequently, if drafted, are better able to employ substitutes than any other
+         class of individual in the State"  ("Editors Herald"). "Justice" did not, like his compatriots would a year later, single out wealthy Ohioans
+         for criticism. 
+         
+         <p>
+            In August of 1862, <cite>The Crisis</cite> accused a "Black Republican postmaster" of using his position to shield his three
+            sons from the draft, instead of shouldering his nationalistic 
+            duty to God and country ("Republicans Creeping Out of the Draft"). While such a criticism might have been legitimately leveled at Columbus' wealthy
+            elite, several citizens instead chose to 
+            aim their ire at Ohio's civil servants. This fit well with other examples of Democratic
+            attacks toward Republicans. The <cite>Ohio Statesmen</cite> decried the practice of Pennsylvania and 
+            New York, both of which postponed their drafts. The newspaper accused the two states
+            of providing "fewer men to the war than the Democrats or Conservatives" (<cite>Newark Advocates</cite>). In both cases the 
+            Democratic papers used the draft to critique Republicans' administration and avoidance
+            of the draft without opposing the draft itself.  
+            
+         </p>
+         
+         <p>
+            During 1862, those who openly criticized the draft were liable to be arrested for
+            charges of disloyalty, treasonable language, and discouraging enlistment. One such
+            notable arrest that is directly 
+            referenced in Smith's diary is that of Edson B. Olds. Olds had served as a congressional
+            representative from 1849 until his failed bid for re-election in 1854.Before the draft
+            was officially announced 
+            in August, Olds delivered a speech about the draft that eventually led to popular
+            uproar and later to his arrest. In July, 1862, the <cite>Lancaster Eagle</cite> published a response from 
+            Olds defending his speech. He claimed his views were misrepresented and that he was
+            not discouraging men from enlisting. Rather, Olds argued he was only presenting a
+            vision of what might happen should the Republicans
+            institute a draft. He wrote, as long as the war focused on the "putting down of rebellion, and the 'maintenance of the Constitution as it is, and
+            the Union as it was,' the Democracy would freely shed 
+            their blood, and liberally give their money, but so soon as it ceased to be a war
+            for the suppression of rebellion, and became an abolition war, no Democrat would be
+            found willing to volunteer. I further 
+            remarked: that the Government in all probability would make a draft for soldiers,
+            and that drafting would be in the hands of Republicans; that the party would want
+            to keep Republicans at home to vote, and 
+            that no fair draft would be made; and that if any Democrat believed that he had been
+            fraudulently drafted, he would refuse to go, and that a file of soldiers would be
+            sent after him, and that under such 
+            circumstances he would resist, even at the point of the boyonet [sic], and that in
+            this way civil war would be brought upon us in Ohio. Not one word was said as advising
+            resistance, but all was told as a
+            vision of what would be future events"  ("Dr. Old's Vision").
+            
+         </p>
+         
+         <p>
+            His defense, however, was ultimately ineffective. Olds was arrested for treasonable
+            language later that month. On the one hand, local Democratic papers like <cite>The Crisis</cite> characterized 
+            the arrest as "arbitrary" and as a "kidnapping" ("Arrest of Edson B. Olds"). On the other hand, Republican papers characterized Olds as a "notorious traitor"
+            
+            ("Dr E.B. Olds"). While imprisoned in Fort Lafayette, he was elected as a member of the State House
+            
+            of Representatives. <cite>The Daily Cleveland Herald</cite> attributed Olds' election to his arrest and imprisonment, stating that "the arrest and imprisonment of the notorious E.B. Olds has 
+            resurrected him from what, otherwise would have been a final political sleep. . .
+            . he fills a much larger space in the world behind the bars of a prison than he would
+            in the open air"  (
+            "Arrest and Imprisonment of the Notorious E. B. Olds"). 
+            
+         </p>
+         
+         <p>
+            Smith wrote in his private diary that the arrest and imprisonment of  Dr. E.B. Olds
+            manifested "considerable feeling" among the Democrats. Olds' arrest and the subsequent
+            partisan squabble illustrate the contentious
+            nature of politics during wartime. Discontent over the draft in 1862 served, like
+            any other issue, as a divisive battleground for Ohio's politicians. Democrats used
+            the draft and the imprisonment of predominantly 
+            Democratic citizens to mount a trenchant critique of Republican administration of
+            the government.
+            
+         </p>
+         
+         
+         <h3 id="borders">
+            Borderlands and Hinterlands: Cincinnati and the Ohio River During the Civil War  
+            
+         </h3>
+         
+         <p>
+            Located just over 100 miles southwest of Lucius Clark Smith’s home, Cincinnati functioned
+            as an important source of supplies and soldiers for 
+            Union forces during the Civil War, a role largely consequent of its position on the
+            Ohio River and its status as—in the words of one contemporary 
+            newspaper—“the commercial emporium of the West” ("Field Operations"). These two facts are, of course, related: Cincinnati developed as a bustling city
+            
+            for trade largely because of the emergence during the 19th century of the steamboat,
+            which made river trade a substantially less burdensome 
+            undertaking in the region. Propelled by the development of railways—“By the eve of the Civil War, Ohio boasted some 3,000 miles of track, . . . 
+            the most of any state in the entire nation” (Phillips)—Cincinnati became host to an influx of immigrants, particularly from Ireland and
+            Germany. 
+            By 1850 “47.2 percent of Cincinnatians were immigrants, and more than 70 percent came from
+            either Ireland or Germany”(Phillips). 
+            
+         </p>
+         
+         <p>
+            These immigrants tended to be Catholics, and, coupled with large swaths of transplanted
+            southerners, they constituted a largely Democratic voting 
+            bloc—one frequently opposed to the War and to emancipation. Contemporary sources reveal
+            that at the root of this opposition lay unease about their 
+            own security in a post-emancipation world: as a foreign observer touring Cincinnati
+            in 1863 remarked, “The jealousy of the low Germans and Irish against the free negro 
+            was sufficient to set them against the war which would have brought four million of
+            their black rivals in competition for that hard and dirty work which 
+            American freedom bestowed on them” (qtd. in Klement 100). Propagating this alarmist sentiment, Ohio Democratic Congressman Samuel Sullivan
+            Cox, in a 
+            speech published in the September 9, 1862, edition of the <cite>Daily National Intelligencer</cite>, stated, “The right and power to exclude Africans from the States 
+            North, being compatible with our system of State sovereignty and Federal supremacy,
+            I assert that it is impolitic, dangerous, degrading, and unjust to the 
+            white men of Ohio and of the North to allow such immigration” ("Speech"). These feelings of dissent largely undergirded the more visible role Cincinnati played
+            in 
+            providing supplies and combatants.  
+            
+         </p>
+         
+         <p><strong>The Defense of Cincinnati</strong></p>
+         
+         <p>
+            Throughout his entries for September, 1862, Lucius Clark Smith repeatedly makes reference
+            to the goings-on in Cincinnati—later to be referred to as the 
+            Defense of Cincinnati—whereby the city was threatened by Confederate forces. Contemporary
+            sources paint a vivid portrait of the struggle. 
+            
+         </p>
+         
+         <p>
+            The September 4, 1862, edition of the <cite>Milwaukee Daily Sentinel</cite> reports that, on September 1st, “[Confederate Major General] Kirby Smith’s army appeared 
+            in the suburbs [of Lexington], and demanded the surrender of the city, which was complied
+            with by the citizens” ("War in Kentucky"). With the Confederates having taken 
+            Lexington, they prepared to mount an attack on Cincinnati; consequently, Union Major
+            General Lew Wallace declared martial law and seized sixteen 
+            steamboats to be armed. Wallace would organize residents of Cincinnati, Covington,
+            and Newport for defense. The Sentinel reports that on September 2nd, 
+            “Citizens are enrolling themselves rapidly in the different wards” and that “[t]he
+            Forty-fifth and Ninety ninth Ohio are falling back slowly to Covington. . . . 
+            All steamboats are ordered to remain on the Ohio side of the river. . . . Some apprehension
+            is felt for our safety” ("War in Kentucky"). Indicative of this apprehension, 
+            Cincinnati mayor George Hatch ordered all businesses closed.
+            
+         </p>
+         
+         <p>
+            On September 3rd, Ohio governor David Tod announced—in a declaration printed in the
+            city papers and telegraphed throughout the state—the need for men to 
+            defend Cincinnati, stating that “all such bodies of men who are armed, will be received. They will repair at once
+            to Cincinnati and report to Gen. Lew 
+            Wallace who will complete their further organization” ("Noble Response"). The response was so overwhelming, however, that on 
+            September 5th, Tod announced to the public that “no additional volunteers would be needed for the defense of Cincinnati” ("Noble Response").
+            
+         </p>
+         
+         <p>
+            An account of the events that followed, published in the <cite>Cincinnati Gazette</cite>, reports that “On the 10th, it was ascertained that the rebels were within five miles of 
+            the city, in force, under Gen. Heath [sic], and the Governor again called on the Minute
+            Men to rally in defense of Cincinnati. On the 11th, they began to 
+            pour in again . . . .” However, the sheer number of men defending Cincinnati made it invulnerable to attack,
+            and “On the 13th, Gen. Wright telegraphed Gen. 
+            Tod that the enemy was retreating, and not to send any more troops” (reprinted in "Noble Response").
+            
+         </p>
+         
+         <p><strong>The Ohio River as (Cultural, Political, Military) Border</strong></p>
+         
+         <p>
+            It is difficult to overestimate the  Ohio River's importance during the Civil War.
+            As the southern border of Illinois, Indiana, and Ohio, the river served as a border
+            
+            between slave states and free states and functioned as an obstacle for Confederates
+            attempting to cross over into the north. Contemporary sources reference gunboats 
+            patrolling the river on a daily basis and also mention steamboats being used to transport
+            Union troops throughout the region. Describing the fortifications being 
+            erected in and around Cincinnati, one newspaper cites the river’s importance to the
+            area’s defense: “The Ohio river, from Columbus to Sedamsville, forms the 
+            segment of a circle, the length of the arc being nearly 12 miles, with a range of
+            hills on the south of Covington and Newport for its base . . . completely commanding
+            
+            all the river and road approaches from the South” ("Defences"). 
+            
+         </p> 
+         
+         <hr>
+         <h2 id="source">About the Source Documents</h2>
+         <p><strong>Title</strong>: "Diary Continued from Sunday Novem 17th 1861 Old Book" 
+            <br><strong>Extent</strong>: 188 pp.
+         </p>
+         
+         
+         <p>
+            
+            <div class="fl_img_right"><img src="./image-lcs-diary_fcover.jpg" alt="&#xA;                              Front Cover&#xA;                           " width="250"><br>Front Cover
+            </div>
+            
+            <div class="fl_img_right"><img src="./image-lcs-diary_fedges.jpg" alt="&#xA;                              Page Edges&#xA;                           " width="250"><br>Page Edges
+            </div>
+            SPEC.RARE.MS.AMER.69  v.2. Diaries, 1859–1862
+         </p>
+         
+         <p><strong>Collation</strong>: 182 mm x 150 mm. 94 leaves. Unlined paste-down endpaper; [1-2] blank unlined
+            leaf; [3-4] blank lined leaf; [5-25] entries from 18 Nov. 1861 through 31 Dec.
+            1861; [26] blank; [27-188] entries for 1862; unlined paste-down
+            endpaper with final entry for 31 Dec. 1862.
+         </p>
+         
+         <p>
+            <strong>Paper</strong>: Off-white paper with blue lines spaced 8 mm apart and a 2 cm unlined top margin.
+            
+         </p>
+         
+         <p>
+            <strong>Binding</strong>: 15 cm x 19 cm leather cover with decorative marbling. Page edges contain decorative
+            marbling.
+         </p>
+         
+         <p>
+            Unpublished manuscript.
+         </p>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         <p><em>
+               
+               <p>The Lucius Clark Smith diary is the property of the Rare Books and Manuscripts
+                  Library of The Ohio State University Libraries. Any use of the material should
+                  acknowledge such ownership.
+               </p>
+               
+               </em></p>
+         <p><em>Columbus, OH, 2012-12-03.
+               </em></p>
+         
+         
+         
+         
+         <hr>
+         <h2 id="edition">About the Electronic Edition</h2>
+         <p><strong>Title</strong>: Selected Entries from the Lucius Clark Smith Diaries,1 August 1862 to 31 December
+            1862
+         </p>
+         <p><strong>Editors</strong>: Emily J. Arendt, W. Michael Broughton, Amber Camus, Torsa Ghosal, Matthew Poland, H. Lewis Ulman.
+         </p>
+         <p><strong>Creation of digital scans of manuscript pages: </strong>Lisa Iacobellis, Ohio State University Libraries.
+            
+         </p>
+         <p><strong>Creation of initial machine-readable transcript: </strong>Emily J. Arendt, W. Michael Broughton, Amber Camus, Torsa Ghosal, Matthew Poland, H. Lewis Ulman.
+            
+         </p>
+         <p><strong>Conversion to TEI.2-conformant markup: </strong>Emily J. Arendt, W. Michael Broughton, Amber Camus, Torsa Ghosal, Matthew Poland, H. Lewis Ulman.
+            
+         </p><a name="projectDescription"></a><h3>Project Description</h3>
+         <p>
+            
+            <p>This edition is the latest in a series of collaboratively produced electronic
+               editions of previously unpublished nineteenth-century American manuscripts held in
+               the Rare Books and Manuscripts Library at The Ohio State University. Previous
+               editions include "My Dear Elizabeth," five letters written by Sophia Peabody
+               Hawthorne to her sister Elizabeth Palmer Peabody between ca. 1837 and 1868 (currently
+               being revised); "Dear Wife," twenty-one letters written by riverboat captain William
+               B. Anderson to his wife Louisa while he plied the Ohio river during the height of
+               the
+               American Civil War, 1862–1864; "Journal of a Tour to Europe," by Samuel Sullivan Cox;
+               and "Louisa A. Doane's Journal of Two Ocean Voyages (1852-1853). These documentary
+               editions are intended to provide wide exposure and access to manuscripts that might
+               otherwise be difficult for scholars to discover and consult, and to provide users
+               with a variety of tools for studying those texts. 
+            </p>
+            
+            <p>Each text was edited in connection with an undergraduate or graduate course offered
+               by H. Lewis Ulman, Associate Professor of English at The Ohio State University. The
+               courses provide students with an opportunity to explore issues of textuality
+               and mediation that arise when our cultural archives spread from page to screen and
+               from library shelves to networked databases. Electronic textual editing serves as
+               our
+               vehicle for examining what happens—and envisioning what might happen—when artifacts
+               in one medium are represented in another medium, especially with regard to the
+               interpretive work of reading. Electronic textual editions also provide a contact zone
+               that can help us reflect on what manuscript, print, and "born digital" artifacts can
+               tell us about their unique properties and their relationships to one another.
+            </p>
+            
+            <p>While providing a reliable textual edition is a <i>sine qua
+                  non</i>, the Smith edition also explores ways of telling four stories
+               inextricably woven into our work: the lives and historical milieu evoked by the
+               texts, the history of the physical journal (including its recent restoration), the
+               editorial process that gave rise to this particular interpretation of the text, and
+               the mediation of our electronic delivery system. 
+            </p>
+            
+         </p>
+         <h3>Editorial Method</h3>
+         
+         
+         
+         
+         <p>
+            <strong>Scanning</strong>. The manuscript pages were scanned as 24-bit TIFF
+            images at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and
+            full quality before being loaded into the Media Manager application. All edges were
+            overscanned by at least 1/4 inch. No color correction was used at any stage of image
+            preparation, but a scan of a photographer's 18% grey card on the same scanner
+            produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur
+            in
+            Adobe Photoshop to average color values. Thus, a properly configured monitor should
+            provide a reasonable approximation of colors on the manuscript pages.
+            
+         </p>
+         
+         <p>
+            <strong>Production Location of Digital Assets</strong>. The TEI P5-encoded
+            transcription of the Smith journal, along with XSL style sheets used to provide
+            variant "views" of the edition, TEI ODD documents used to produce custom schemas
+            based on the TEI markup language, and the resulting schemas are stored on a server
+            hosted by College of Arts and Sciences at The Ohio State University and on a Google
+            SVN repository. Readers may download copies of those source files via a link at the
+            top of this page. High resolution scans of the manuscript pages, scans of plates from
+            contemporary sources, and photographs of the journal are stored in the Media Manager
+            application hosted by the College of Arts and Science at The Ohio State University.
+            The files constituting the project's Web site are stored on a Web server hosted by
+            the College (http://people.cohums.ohio-state.edu/ulman1/LCSmithDiaries/).
+         </p>
+         
+         <p>
+            <strong>Archiving of Digital Assets</strong>. Once the edition is complete,
+            its digital assets will be archived in The Ohio State University
+            Knowledge Bank (https://kb.osu.edu/dspace/). 
+            
+         </p>
+         
+         
+         <h3>Encoding Conventions</h3>
+         
+         <p>
+            <strong>Markup of Physical Structure and Page Layout</strong>. The manuscript
+            <strong>pages</strong>, encoded by the empty page break or &lt;pb/&gt;
+            element, are the primary physical structures represented in the markup. Each
+            &lt;pb&gt; element includes a "facs" attribute identifying the unique ID of
+            a high-resolution scan of that image in the Media Manager application. <strong>Line breaks</strong> (i.e., lineation determined or influenced by the
+            physical constraints of the page rather than compositional choices by the author)
+            are
+            encoded with the empty &lt;lb/&gt; element. No attributes are included in the
+            &lt;lb&gt; element. Because Smith wrote on lined paper, when he skips a line printed
+            on the paper for any reason, we encode a &lt;lb/&gt; that, in the view arranged by
+            manuscript pages and lines, will appear as an empty numbered line. 
+         </p>
+         
+         <p>
+            <strong>Markup of Textual Structure</strong>. The <strong>diary
+               entry</strong>, encoded by a &lt;div&gt; element with the attribute-value pair
+            "type='Entry'", constitutes the primary textual structure represented in
+            the markup. Each entry contains a
+            &lt;dateline&gt; element and one or more paragraphs. Each dateline may include a
+            &lt;name&gt; element with (optionally) a @type attribute containing one of
+            the following values: city, region; and a &lt;date&gt; element with a
+            @when attribute whose value is in the form YYYY-MM-DD. The value of the
+            @when attribute represents the editors' judgment about the actual date when the entry
+            was composed; the contents of the &lt;date&gt; element represent what Smith actually
+            wrote, even if he entered the date incorrectly.
+            
+         </p>
+         
+         <p>
+            Entries consist of a series of <strong>paragraphs</strong>. Where indicated
+            by context, indentation of a line from the left margin of a page, line breaks part-way
+            across
+            a page, or additional white space between lines, paragraphs are encoded with the
+            &lt;p&gt; element and no attributes.
+            
+         </p>
+         
+         <p>
+            If present, any prefatory text preceding the dateline may be encoded as a
+            &lt;head&gt; element at the beginning of an entry (i.e., within the
+            &lt;div&gt;element and before the &lt;dateline&gt;).
+            
+         </p>
+         
+         <p>
+            <strong>Level of Transcription/Encoding</strong>. This markup scheme supports
+            a modest range of presentations, from semi-modernized/corrected to semi-diplomatic.
+            The basic transcription follows the manuscript verbatim. Various manuscript features
+            (e.g., cancellations, interlinear or marginal additions, tears in pages) are encoded,
+            as are regularized versions of proper names and dates and standard versions of
+            nonstandard spellings and expansions of abbreviations. 
+         </p>
+         
+         <p>
+            
+            <strong>Customization of the TEI P5 Schema</strong>. Customization consisted primarily of restricting
+            encoding to certain modules and elements as well as enforcing some attribute values.
+            See the ODD file for 
+            complete details.
+            
+         </p>
+         
+         
+         <p align="center">
+                  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png"/></a><br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0  License</a>.<br/>
+                  This license does not transfer any rights regarding material used in the edition by permission of a third party.
+               </p>
+         <hr>
+         <h2 id="worksCited">List of Works Cited</h2>
+         <p class="hang25"><a name="Ancestry1840"></a>"1840 United States Federal Census." <cite>Ancestry.com</cite>. 2009. Web. 29 October 2012.
+         </p>
+         <p class="hang25"><a name="Ancestry1850"></a>"1850 United States Federal Census." <cite>Ancestry.com</cite>. 2009.  Web.  28 October 2012.
+         </p>
+         <p class="hang25"><a name="Ancestry1860"></a>"1860 United States Federal Census". <cite>Ancestry.com</cite>. 2009. Web. 20 October 2012.
+         </p>
+         <p class="hang25"><a name="Ancestry1870"></a>"1870 United States Federal Census." <cite>Ancestry.com</cite>. 2009. Web. 22 October 2012.
+         </p>
+         <p class="hang25"><a name="Ancestry1880"></a>"1880 United States Federal Census". <cite>Ancestry.com</cite>. 1999.  Web.  20 October 2012.
+         </p>
+         <p class="hang25"><a name="VeteransSchedule1890"></a>"1890 Veterans Schedules". <cite>Ancestry.com</cite>. 2005. Web. 25 October 2012.
+         </p>
+         <p class="hang25"><a name="Ancestry1900"></a>"1900 United States Federal Census". <cite>Ancestry.com</cite>. 2004. Web. 24 October 2012
+         </p>
+         <p class="hang25"><a name="ArrestandImprisonmentofOlds"></a>"The Arrest and Imprisonment of the Notorious E.B. Olds."<cite> The Daily Cleveland Herald</cite> (Cleveland, OH). 17 December 1862. 26 November 2012.
+         </p>
+         <p class="hang25"><a name="ArrestofEdson"></a>Arrest of Edson B. Olds by United States Officers. <cite> The Crisis</cite> (Columbus, OH). 30 August 1862. Web. 26 November 2012.
+         </p>
+         <p class="hang25"><a name="Bateham"></a>Bateham, M.B. and Sullivan D. Harris. ed. The Ohio Cultivator.vol. 18. Columbus: Harris and Hurd Proprieters, 1862. Print.
+         </p>
+         <p class="hang25"><a name="Bourne"></a>Bourne, John. <cite>A Catechism of the Steam Engine.</cite> London: Green and Longmans, 1856. Print.
+         </p>
+         <p class="hang25"><a name="BoysStick"></a>"Boys, Stick to the Farm"<cite>The New England Farmer; a Monthly Journal</cite>October 1863. Web.
+         </p>
+         <p class="hang25"><a name="Brande"></a>Brande, William Thomas and George William Cox. A Dictionary of Science, Literature and Art. Vol. 3 London: Longmans, Greene and co, 1867. Print.
+         </p>
+         <p class="hang25"><a name="Burkett"></a>Burkett, Charles William. <cite> History of Ohio Agriculture: A Treatise on the Development of the Various Lines and
+               Phases of Farm Life in Ohio.</cite> Concord: The Rumford Press, 1900.
+         </p>
+         <p class="hang25"><a name="BEO19thcentury"></a>"Collins, Gilbert G." <cite>The Biographical Encyclopedia of Ohio of the Nineteenth Century.</cite>
+            Cincinnati and Philadelphia: Galaxy Publishing Company, 1876. Making of America. Web. 27 October 2012. 
+         </p>
+         <p class="hang25"><a name="CookeCatalog"></a>Cooke &amp; Co.. Illustrated Catalogue of General Machinery and Supplies for Machinists, Manufacturers,
+            Mills, Mines, Railroads, Steamships, etc., etc. New York: Standard Printing and Publishing Company, 1883. Web. 25 November 2012.
+         </p>
+         <p class="hang25"><a name="RootsWeb1635"></a>"Daniel Bennet" [Jr.]. <cite>RootsWeb.com</cite>. 2012. Web. 16 October 2012.
+            &lt;http://freepages.genealogy.rootsweb.ancestry.com/~rothlisberger/rothlisberger/1635.htm&gt;.
+         </p>
+         <p class="hang25"><a name="RootsWeb1596"></a>"Daniel Bennet" [Sr.]. <cite>RootsWeb.com</cite>. 2012. Web. 16 October 2012.
+            &lt;http://freepages.genealogy.rootsweb.ancestry.com/~rothlisberger/rothlisberger/1596.htm&gt;.
+         </p>
+         <p class="hang25"><a name="Defences"></a>"The Defences of Cincinnati." <cite>Frank Leslie's Illustrated Newspaper</cite> (New York, NY). 16 November 1861: Issue 312; col A. Web. 19 November 2012.
+         </p>
+         <p class="hang25"><a name="DocsMsgs"></a> Documents, Messages and other Communication made to the General Assembly and Governor
+            of the State of Ohio. Part II. Columbus: Richard Nevines State Printer, 1858. Print. 
+         </p>
+         <p class="hang25"><a name="DrEBOlds"></a>"Dr. E. B. Olds. "<cite> The Tiffin Weekly Tribune</cite> (Tiffin, Ohio). 22 August 1862. 26 November 2012. 
+         </p>
+         <p class="hang25"><a name="DrOldsVision"></a>Olds, Edson B." Dr. Olds' Vision."<cite> The Crisis</cite> (Columbus, OH). 6 August 1862. Web. 24 November 2012.
+         </p>
+         <p class="hang25"><a name="medical"></a>Dr. Wilks "Cases of Epilepsy with Clinical Remarks on the Use of Bromide and Iodide of Potassium
+            in that Disease." Medical News February 1862: 25. Web.
+         </p>
+         <p class="hang25"><a name="DraftPostponed"></a>"Drafting Postponed until the First of October." <cite>The Crisis</cite> (Columbus,OH). 17 September 1862. Web. 25 November 2012.
+         </p>
+         <p class="hang25"><a name="Easterlin"></a>Easterlin, Richard A., George Alter, and Gretchen A. Condran "Farms and Farm Families in Old and New Areas: The Northern States in 1860." <cite>Family and Population in Nineteenth-Century America.</cite> Princeton:Priceton University Press, 1978. Print.
+         </p>
+         <p class="hang25"><a name="EditorsHerald"></a>"Editors Herald. "<cite> The Daily Cleveland Herald</cite> (Cleveland, OH). 6 October 1862. 26 November 2012.
+         </p>
+         <p class="hang25"><a name="RaleighRegister"></a>"“The Field of Operations in Kentucky.”" <cite>The Weekly Raleigh Register</cite> (Raleigh, NC). 17 September 1862: Issue 37; col C. Web. 15 November 2012.
+         </p>
+         <p class="hang25"><a name="FitchAndRuggles"></a>Fitch, Catherine A. and Steven Ruggles "Historical Trends in Marriage Formation: The United States 1850-1990" in <cite>The Ties that Bind: Perspectives on Marriage and Cohabitation.</cite> New York, NY: Walter de Gruyter Inc., 2000. Print.
+         </p>
+         <p class="hang25"><a name="Frank"></a>Frank, Stephen M. <cite>Life with Father: Parenthood and Masculinity in the Nineteenth Century</cite>Baltimore: The Johns Hopkins University Press, 1998. Print.
+         </p>
+         <p class="hang25"><a name="FindaGrave73411433"></a>"George Asbury Goodrich". <cite>Findagrave.com</cite>. 2011. Web. 24 October 2012.
+            
+         </p>
+         <p class="hang25"><a name="TGN"></a>Getty Research Institute.<cite>Getty
+               Thesaurus of Geographic Names Online</cite> N.d. Web. 3 August 2012.
+         </p>
+         <p class="hang25"><a name="Convention"></a>Gill, John L., Jr."The State Sorghum Convetion."<cite>The Ohio Cultivator.</cite>18.5 (1862): 158. Print.
+         </p>
+         <p class="hang25"><a name="ReportCulture"></a>Gould, John Stanton. Report of Hon. John Stanton Gould on Sorghum and Sugar Beet CultureAlbany: Van Benthuysen's Steam Printing House, 1865. Print.
+         </p>
+         <p class="hang25"><a name="Harper"></a>Harper, Robert S. <cite>Ohio Handbook of the Civil War.</cite> Columbus, OH: The Ohio Historical Society, 1961.
+         </p>
+         <p class="hang25"><a name="HowtoAvoidaDraft"></a>"How to Avoid a Draft. "<cite> Cleveland Morning Leader</cite> (Cleveland, OH). 18 August 1862. 26 November 2012. 
+         </p>
+         <p class="hang25"><a name="HuntMorrow"></a>Hunt, Thomas F and George E. Morrow. <cite>Soils and Crops of the Farm.</cite> Chicago: Howard and Wilson Publishing Company, 1892. Print.
+         </p>
+         <p class="hang25"><a name="InRelation"></a>"In Relation to the Draft." <cite>The Crisis</cite> (Columbus,OH). 10 September 1862. Web. 24 November 2012.
+         </p>
+         <p class="hang25"><a name="Klement"></a>Klement, Frank L. "Sound and Fury: Civil War Dissent in the Cincinnati Area." <cite>Cincinnati Historical Society Bulletin</cite> 35.2 (Summer 1977): 98-114.
+         </p>
+         <p class="hang25"><a name="LOC"></a>The Library of Congress. <cite>Library of Congress Authorities</cite>. 
+            6 Jan. 2012. Web. 3 August 2012.
+         </p>
+         <p class="hang25"><a name="OHRRGuide"></a>Mansfield, Edward Deering. The Ohio Railroad Guide, Illustrated: Cincinnati to Erie via Columbus and Cleveland.Columbus: Ohio State Journal Company, 1854. Print
+         </p>
+         <p class="hang25"><a name="ClevelandHerald"></a>"Noble Response from the Country to Aid to Defend Cincinnati." <cite>Daily Cleveland Herald</cite> (Cleveland, OH). 25 September 1862: Issue 227; col A. Web. 16 November 2012.
+         </p>
+         <p class="hang25"><a name="Phillips"></a>Phillips, Christopher. "The Ohio River Valley: The Breadbasket of the Union." <cite>New York Times.</cite> 8 August 2012. Web. 15 November 2012.
+         </p>
+         <p class="hang25"><a name="Prince"></a>Prince, Benjamin F. ed. A Standard History of Springfield and Clark County, Ohio. Vol. 1. Chicago: The American Historical Society, 1922. Print.  
+         </p>
+         <p class="hang25"><a name="Proceedings"></a>"Proceedings of the Ohio Sorgo Convention."<cite>The Sorgo Journal and Farm Machinist.</cite>3.1 (1865): 3. Print.
+         </p>
+         <p class="hang25"><a name="FindaGrave25957529"></a>"Pvt Gilbert George Collins." <cite>Findagrave.com</cite>. 2008. Web. 29 October 2012.
+         </p>
+         <p class="hang25"><a name="Invasion"></a>"Rebel Invasion of Maryland." <cite>Daily National Intelligencer</cite> (Washington D.C.). 8 September 1862: Issue 15; col B. Web. 22 November 2012.
+         </p>
+         <p class="hang25"><a name="Comissioner"></a>Report of the Comissioner of Agriculture for the Year 1862.Washington: Government Printing Office, 1863. Print.
+         </p>
+         <p class="hang25"><a name="RepublicansCreeping"></a>"Republicans Creeping Out of the Draft."<cite> The Crisis</cite> (Columbus, OH). 13 August 1862. Web. 26 November 2012.
+         </p>
+         <p class="hang25"><a name="Retreat"></a>"The Retreat of the Rebel Army." <cite>Boston Daily Advertiser</cite> (Boston, MA). 22 September 1862: Issue 72; col C. Web. 22 November 2012.
+         </p>
+         <p class="hang25"><a name="HLP"></a> Saveson, John E. <cite>Historic
+               Plain Township</cite>. New Albany, Ohio: New Albany Plain Township Historical
+            Society, 1994. Print.
+         </p>
+         <p class="hang25"><a name="SmithA"></a>Smith, Archibald. <cite>The Autobiography
+               of Archibald Smith, Plain Township Pioneer</cite>. Ed. John E. Saveson. New
+            Albany, Ohio: New Albany Plain Township Historical Society, 1999. Print.
+            
+            
+         </p>
+         <p class="hang25"><a name="CoxSpeech"></a>"Speech of Mr. Cox—Concluded." <cite>Daily National Intelligencer</cite> (Washington D.C.). 9 September 1862: Issue 15; col A. Web. 15 November 2012.
+         </p>
+         <p class="hang25"><a name="Talcott"></a>Talcott, H. Annual Report of the Ohio State Board of Agriculture. Vol. 38. Columbus: Myers Brothers State Printers, 1884. Print.
+         </p>
+         <p class="hang25"><a name="Centennial"></a>Taylor, William Alexander. Centennial History of Columbus and Franklin County, Ohio, Volume 1Chicago: S. J. Clarke Publishing Company, 1909. Print.
+         </p>
+         <p class="hang25"><a name="Centennial2"></a>Taylor, William Alexander. Centennial History of Columbus and Franklin County, Ohio, Volume 2Chicago: S. J. Clarke Publishing Company, 1909. Print.
+         </p>
+         <p class="hang25"><a name="TheDraft"></a>"The Draft in Ohio." <cite>The Daily Cleveland Herald</cite> (Cleveland, OH). 3 November 1862. Web 25 November 2012.
+         </p>
+         <p class="hang25"><a name="TheDraftFailure"></a>"The Draft a Failure. "<cite> The Daily Cleveland Herald</cite> (Cleveland, OH). 16 December 1862. 26 November 2012.
+         </p>
+         <p class="hang25"><a name="TheDraftOver"></a>"The Draft Over-The 11th Ward Frees Itself from Draft."<cite> The Daily Cleveland Herald</cite> (Cleveland, OH). 8 October 1862. 24 November 2012.
+         </p>
+         <p class="hang25"><a name="FindaGrave74277136"></a>"Thornton E B Wells". <cite>Findagrave.com</cite>. 2011. Web. 25 October 2012.
+         </p>
+         <p class="hang25"><a name="DraftRecord1863"></a>"US Civil War Draft Registrations Record, 1863-1865". <cite>Ancestry.com</cite>. 2010. Web. 4 November 2012.
+         </p>
+         <p class="hang25"><a name="DailySentinel"></a>"The War in Kentucky." <cite>Milwaukee Daily Sentinel</cite> (Milwaukee, WI). 4 September 1862: Issue 212; col B. Web. 17 November 2012.
+         </p>
+         <p class="hang25"><a name="OhioMedical"></a> "Westminster Hospital.--Epilepsy for thirty-two years..."<cite>The Ohio Medical and Surgical Journal</cite> 1 May 1859: 392. Web.
+         </p>
+         <p class="hang25"><a name="evangelist"></a>"The Boy who Had 'Fits'." New York Evangelist 21 June 1855: 100.
+         </p>
+         <hr>
+         <h2>Appendices</h2>
+         <h3 id="peopleMentioned">List of People Mentioned in Lucius Smith's Diary</h3>
+         <p><strong>Beach, Lewis</strong> (b. 1818).
+            Smith mentions "Uncle" Lewis Beach sporadically throughout his diary, usually in reference
+            to a visitation
+            of some sort. For instance, Smith makes reference to spending the night at Lewis's,
+            along with Homer, in early September. References
+            like these indicate that Beach and Smith were close.
+         </p>
+         <p><strong>Bennet, Daniel Jr.</strong> (b. 1828).
+            On 2 August 1862, Smith writes that he "went to see Mr.
+            Bennit who has a horse power witch [sic] He sayes [sic] I can Halve[?]." Six days
+            later, he reports that
+            he looked at some other horse-powered winches, then engaged one of "Daniel Bennits."
+            He may be referring to
+            Daniel Bennet, Jr., whose father, Daniel Sr., settled "near the center of" neighboring
+            Harlem Township, 
+            Delaware County, Ohio, in 1809 and died there in 1861 "Daniel Bennet" [Sr.];
+            "Daniel Bennet" [Jr.].
+            
+         </p>
+         <p><strong>Brownlow, William Gannaway, 1805-1877</strong> (b. 1805 - d. 1877).
+            Smith mentions hearing "Parson" Brownlow speak in Columbus on 10 December 1862.
+         </p>
+         <p><strong>Collins, Gilbert</strong> (b. 1831 - d. 1885-05-07).
+            Lucius Smith mentions that Gill Collins went to speak at a war
+            meeting in Albany on 2 August 1862. During his trips to Columbus Lucius sees Gilbert
+            
+            Collins on at least two occassions seeking legal aid. On 9 August 1862 Lucius visits
+            Collins
+            to put his property in his father's name "so that if I am drafed he can take and them
+            Patent Right
+            men can stand off." In December Lucius notes that he found out he found out he was
+            being sued by 
+            "those Patent right men" when Gilbert Collins wrote to the Clerk of the U.S. Court
+            at Cleveland.  
+            It is the likely that Lucius is referred to the lawyer Gilbert G. Collins who was
+            later elected
+            mayor of Columbus from 1879-1880. Collins lived in Plains Township with his parents,
+            Andrew and
+            Mary Collins until their death. He relocated to Columbus to study law 1858 and was
+            admitted to 
+            practice in March 1861."Collins, Gilbert G";
+            "1850 United States Federal Census";
+            "1860 United States Federal Census";
+            "Pvt Gilbert George Collins"
+                 
+                                
+            
+         </p>
+         <p><strong>Coons, John W.</strong> (b. 1834 - d. ).
+            
+         </p>
+         <p><strong>Cox, Samuel Sullivan</strong> (b. 1824-09-30 - d. 1889-09-10).
+            
+            Smith mentions Samuel Cox giving a war speech, along with Cancey Olds and Sam Galaway at
+            a large gathering on August 13th. It is likely that Smith is here referring to Ohio
+            Democratic Congressman Samuel Sullivan Cox, who gave a number
+            of speeches in central Ohio during this period.
+         </p>
+         <p><strong>Dague, John</strong>.
+            
+            On the 10th of August, 1862, Lucius went to visit John Dague to call in a promise
+            Dague
+            made to help Smith dig his well. However, it seems that Dague's promise came to little.
+            While
+            several later entries mention "John" helping Lucius with the well, the familiar usage
+            of the
+            name makes it much more likely that this "John" was Smith's brother, Johnathan Wesley 
+            Smith.
+            "1850 United States Federal Census";
+            "US Civil War Draft Registrations Record, 1863-1865";
+            
+         </p>
+         <p><strong>Evans, Rowland "Reece" Rowland "Roll" Evans</strong>.
+            Census records indicate that there were two Rowland Evans residing in Albany in the
+            1860s, possibly a nephew and uncle duo.  Presumably one of them was referred to as
+            “Reece” and the other as “Roll,” but it remains unclear which was which.
+         </p>
+         <p><strong>Galaway, Samuel</strong> (b. 1836).
+            Smith mentions Samuel Galaway as giving a war speech, along with Cancey Olds and
+            Cox, Samuel at a large gathering on August 13th.
+         </p>
+         <p><strong>Goodrich, George Asbury</strong> (b. 1833 - d. 1903).
+            George Goodrich is frequently mentioned in Smith's entries from August through December
+            for helping
+            Archibald Smith and Lucius Smith at the Cane House. Goodrich seems to be involved
+            in chores like boiling, making and 
+            cleaning pans at the Cane House. Lucius Smith and Goodrich, probably, also wanted
+            to collaborate on a fur mill business 
+            with Mr. Watterman from Delaware. Goodrich reportedly moves to Delware between 14th
+            and 20th December of 1862. In the last
+            week of December, Lucius Smith mentions writing to Goodrich in Delaware.  
+         </p>
+         <p><strong>Grovenbery, Garret</strong> (b. 1808 - d. ).
+            Garret Grovenbery is mentioned several times throughout Smith's diary. Smith mentions
+            spending the night
+            at Grovenbery's on the night of August 9th and obtaining "a load of corn" from him
+            in late September. Most notably, Smith borrows a horse
+            from Grovenbery on September 12th to work his mill. On November 24th, he discovers
+            that the horse has broken a bone in its back and  
+            has to be put down. Near the end of December, Smith trades a two-year-old colt to
+            Grovenbery in exchange for the dead horse and an
+            additional $3.00.
+         </p>
+         <p><strong>Montgomery, Misses</strong>.
+            
+            "Misses Montgomery," identified as the sister-in-law of Lucius's uncle, Charles Beach,
+            visited the Smith household twice in the course of the journal. On the 24th of November,
+            she is reported as visiting with Aunt Eliza and other relatives "on their way to the
+            
+            Robertses" and on the 31st of November, she is reported as visiting over Sunday on
+            her 
+            return trip.
+            
+         </p>
+         <p><strong>Smith, Archibald</strong> (b. 1803-09-15 - d. 1883-08).
+            Lucius Clark Smith's father. L.C. Smith mentions him with great frequency throughout
+            his diary, almost
+            always in reference to the work the two are doing.
+         </p>
+         <p><strong>Smith, Archibald Homer</strong> (b. 1851 - d. ).
+            Referred to as "Homer," Archibald Homer Smith is Lucius Clark Smith's brother.  Homer
+            helped Lucius in setting up the mill and doing work around the property.  Lucius also
+            mentions engaging in social activities, such as hunting, with Homer.
+         </p>
+         <p><strong>Smith, Charles Augustine</strong> (b. 1836).
+            Charles "Augustine" Smith is Lucuis Smith's brother. On Sunday, August 31st 1862
+            Lucius Smith states that Augustine "last week had a tower of fits getting Better."
+            The other two references
+            to Augustine report that he was not attendance at the Celebration Sunday School on
+            August 13 or a basket 
+            meeting on August 17.
+            "1860 United States Federal Census"
+            
+         </p>
+         <p><strong>Smith, Isaac Newton</strong> (b. 1824-02-16 - d. 1912-06-27).
+            Lucuis Smith's brother, Isaac Newton, is frequently referered to as Newton in 
+            Lucuis' diary. Most of the references to Newton in Lucius Smith's entries note the
+            labor that Newton
+            performs from "hawling" materials to digging the well and thrashing wheat. Census
+            records indicate that
+            Isaac Newton Smith married and relocated to Blendon, Ohio by 1900 and identified his
+            occupation as a 
+            physician. "1900 United States Federal Census"
+            
+         </p>
+         <p><strong>Smith, Johnathan Wesley</strong> (b. 1838-08-16 - d. ).
+            
+            John is Lucius Smith's second younger brother. Lucius refers to him throughout the
+            journal, commonly 
+            in reference to labor shared by the brothers on family farm. John was particularly
+            noted as helping 
+            Lucius with the labor on his well and his Mill. In the week of August 23rd 1862, Lucius
+            also mentions 
+            that John was considering enlisting in the company that was presently raising, but
+            expressed doubt
+            that he would actually commit. However, Lucius's prediction proved wrong within a
+            year, as John and 
+            brother Newton both enlisted in June of 1863.
+            
+            "1850 United States Federal Census";
+            "1860 United States Federal Census";
+            "US Civil War Draft Registrations Record, 1863-1865";
+            
+            
+         </p>
+         <p><strong>Smith, Lucius Clark</strong> (b. 1834-11-24).
+            Archibald Smith's oldest son
+         </p>
+         <p><strong>Smith, Samuel</strong> (b. 1838 - d. ).
+            Lucius Smith mentions Samuel Smith twice in his diary: first, in reference to a visit
+            he makes with his
+            (Samuel's) mother on August 27th and second, in reference to a letter that Lucius
+            writes to him on September 7th. There isn't any 
+            evidence that Samuel is a direct relation, but his occupation as a plow maker may
+            explain Lucius's connection to him.
+         </p>
+         <p><strong>Wells, Eliza (nee Beach)</strong> (b. 1804 - d. ).
+            Lucius Clark Smith's aunt, the sister of his mother, married to Thornton Wells, mother
+            to son of the same name.  A frequent visitor the Smith household in Albany, particularly
+            on her way to and from Columbus.  She also hosted Lucius at her home in Liberty (Licking
+            County) on numerous occassions.
+         </p>
+         <p><strong>Wells, Thornton E B</strong> (b.  - d. 1869).
+            Lucius Smith's cousin. Son of Eliza Wells (nee Beach), Lucius Smith's mother's sister.
+            He stops by 
+            Smith's house in Albany while traveling to and from Columbus. He often helps Smith
+            with cutting and hawling of wood.
+         </p>
+         <p><strong>Wilson, George</strong>.
+             In the entry dated 24th August 1862, Lucius Smith mentions that George Wilson is
+            one of the few people 
+            who have been discharged from the army. Smith also mentions visiting Wilson's house
+            quite a few times in August and 
+            December. Wilson helps Smith with grinding and looking after the "little boyes" who
+            work at the mill. 
+         </p>
+         <h3 id="organizationsMentioned">List of Organizations Mentioned in Lucius Smith's Diary</h3>
+         <p><strong>John L. Gill and Son</strong>:
+            John L. Gill, Sr. was a Columbus Tinner and one of the founding partners of the
+            Franklin Foundry. Gill took over sole proprietorship in 1852, then associated his
+            son
+            with the business in 1857, taking the name "John L. Gill and Son" for the business.
+            The
+            foundry was a major metal casting concern in Columbus in the 1850's and 1860's, specializing
+            in farm mechanism such as plows, mills and harvesters.
+            However, "John L. Gill and Son" is also a name associated specifically with sorghum
+            production
+            in Ohio, being mentioned both in the first "Report of the Commissioner of Agriculture"
+            to 
+            Congress in 1862 and the Ohio State Department of Agriculture report of the same year.
+            While
+            both Gill Jr. and Sr. were both active in this aspect of the family business - both
+            are
+            mentioned in the Sorgo Journal and Farm Machinist of 1865 - John L. Gill, Jr., the
+            
+            eponymous "and Son," seemed to have taken a more active role, being both the Secretary
+            of
+            1862 and 1865 Ohio Sorghum Convention and appointed to a committee "to correspond
+            with or visit
+            the Commissioner of Internal Revenue, and secure, if possible, some mitigation of
+            the duty
+            proposed to be assessed on Sorghum."
+            Nor were the Gills slow to capitalize on the advantage that their duel family businesses
+            provided.
+            In the 1862 Ohio Cultivator, Gill Jr. responds to criticism that the Ohio Sorghum
+            Convention, 
+            of which he was the Secretary, was monopolized by "the inventors, manufacturers and
+            agents of Mills
+            and Evaporators, and was made an advertising medium" for them.
+            
+            
+         </p>
+         <h3 id="placesMentioned">List of Places Mentioned in Lucius Smith's Diary</h3>
+         <p><strong>Cincinnati</strong>.
+            United States; Ohio (Lat/Long: 
+            39.1500 -84.4500). 
+            Several times throughout September, Smith mentions Cincinnati in reference to the
+            events transpiring
+            there. On the week ending September 6th, Smith mentions that the Rebels under General
+            Smith are advancing 
+            onto the city and that it has been put under martial law, along with neighboring towns.
+            On the 12th, he
+            writes that thousands of people are going to Cincinnati to defend it, taking theirs
+            guns, etc., and that 
+            the governor is already refusing people. Finally, on the week ending September 20th,
+            Smith writes that
+            Cincinnati has been saved after "some of the severest fiting of the war." The trajectory
+            of these events 
+            describes what has come to be known as the Defense of Cincinnati, about which the
+            Editorial Introduction 
+            includes additional information.
+         </p>
+         <p><strong>Columbus</strong>.
+            United States; Ohio (Lat/Long: 
+            39.9500 -82.9833). 
+            On 1st September 1862, Smith mentions going to Columbus with his father to get some
+            equipments 
+            like cast cog wheel and cistern pump. On 12th September he goes to Columbus again
+            with his father
+            and Eliza to get some things for his Cane works and during the week ending 25th October
+            he sends 
+            someone to Columbus to get a pipe. He also mentions corresponding with Samual Smith
+            from Columbus
+            on 7th September 1862. 
+         </p>
+         <p><strong>New Albany</strong>.
+            United States; Ohio (Lat/Long: 
+            40.0667 -82.8000). 
+            On 2 August 1862, Smith mentions going to "Albany" to do business.
+         </p>
+         <hr><a name="revHistory"></a><h2 id="revision">Revision History</h2>
+         <table width="90%" cellpadding="5px">
+            <tr>
+               <td>
+                  <h3>Date</h3>
+               </td>
+               <td>
+                  <h3>Name</h3>
+               </td>
+               <td>
+                  <h3>Change</h3>
+               </td>
+            </tr>
+            <tr class="revTable" valign="top">
+               <td nowrap>2015-09-01</td>
+               <td nowrap>Ulman, H. Lewis</td>
+               <td>Redesign site to meet requirements of the Ohio State University Libraries' Knowledge
+                  Bank; proof entire site.
+               </td>
+            </tr>
+            <tr class="revTable" valign="top">
+               <td nowrap>2012-12-20</td>
+               <td nowrap>Ulman, H. Lewis</td>
+               <td>Continuing revision of layout/interface, no changes to text of transcription.</td>
+            </tr>
+            <tr class="revTable" valign="top">
+               <td nowrap>2012-12-06</td>
+               <td nowrap>Ulman, H. Lewis</td>
+               <td>Numerous changes to layout/interface, no changes to text of transcription.</td>
+            </tr>
+            <tr class="revTable" valign="top">
+               <td nowrap>2012-12-03</td>
+               <td nowrap></td>
+               <td>Released a public working draft of the edition.</td>
+            </tr>
+            <tr class="revTable" valign="top">
+               <td nowrap>2012-08-27</td>
+               <td nowrap>Ulman, H. Lewis</td>
+               <td>Created first drafts of TEI customization files, Relax NG schemas, and XSL stylesheets.
+                  
+               </td>
+            </tr>
+         </table>
+         <hr>
+         <h2>About this Editorial Introduction</h2>
+         <p><a name="view"></a>Text on this page is derived from the
+            edition's XML source document, LCSmith-Diaries.xml.
+         </p>
+         <hr>
+         <p>→ <a href="./lcsmith-by-entry.html">Link to the text of the journal</a>.
+            
+         </p>
+      </div>
+   </body>
+</html>
