@@ -152,8 +152,19 @@
                      <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
                      <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
                      <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
-                     <li><a href="./LCSmith-ODD-RNC-XML-XSL.zip">Download Source Files</a></li>
-                     <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
+                       <li><a>Download Source Files</a>
+                          <ul>
+                             <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
+                             <li><a href="./LCSmith-Common.xsl">XSL: Base Stylsheet</a></li>
+                             <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
+                             <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
+                             <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
+                             <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
+                             <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
+                             <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
+                          </ul>
+                       </li>
+                       <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
                      <li><a href="./LCSmithMaps.html">Map</a></li>
                    </ul>
                   </li>
