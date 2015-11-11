@@ -109,7 +109,7 @@
             </div>
             <div id="titleBar">
                <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
-                  1 August 1862 to 31 December 1862</span></p>
+                  30 July 1862 to 31 December 1862</span></p>
                <hr/>
             </div>
             
@@ -230,7 +230,7 @@
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:refsDecl">
       <h3>Encoding Conventions</h3>
       <xsl:apply-templates/>
-      <p align="center">
+      <p align="left">
          <xsl:value-of
             select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
             disable-output-escaping="yes"/>
@@ -480,7 +480,7 @@
    <xsl:template match="tei:q">
       "<xsl:apply-templates/>"
    </xsl:template>
-   <xsl:template match="//tei:note[@type='introductory']//tei:bibl">(<xsl:apply-templates/>)</xsl:template>
+   <xsl:template match="//tei:note[@type='introductory' or 'biographical']//tei:bibl">(<xsl:apply-templates/>)</xsl:template>
    <xsl:template match="tei:title[@level='a']">"<xsl:apply-templates/>"</xsl:template>
    <xsl:template match="tei:title[@level='m']"><cite><xsl:apply-templates/></cite></xsl:template>
    <xsl:template match="tei:title[@level='j']">

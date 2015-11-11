@@ -20,7 +20,7 @@
       -->
          
          <titleStmt>
-            <title>Selected Entries from the Lucius Clark Smith Diaries,<lb/>1 August 1862 to 31 December 1862</title>
+            <title>Selected Entries from the Lucius Clark Smith Diaries,<lb/> 30 July 1862 to 31 December 1862</title>
 
             <!-- 
             Here we list the editors of the edition, using the form of your name
@@ -331,76 +331,89 @@
                         simultaneously to keep up with the demand for his services.</p>
                         
                      <p rend="h3" xml:id="sorghum">
-                        Sorghum and the Production of Molasses in Nineteenth Century Ohio
+                        Sorghum and the Production of Molasses in Nineteenth-Century Ohio
                         <lb/>
                      </p>
-                     <p>
-                        Production of molasses from sorghum was a fairly new agricultural activity during the mid-nineteenth century. 
-                        It had cultural and  economic implications. Several books published about farming during the period 
-                        describe the process in some detail. In <title level="m">History of Ohio Agriculture</title> (1900), Charles William Burkett 
-                        mentions that sorghum was introduced to Ohio by the early settlers in the nineteenth century. These early 
-                        settlers were interested in developing family farms. In <title level="m">Soils and Crops of the Farm</title>, 
-                        George Espy Morrow and Thomas Forsyth Hunt observe,<quote> “Sorghum is the only agriculturally important plant 
-                           which has been introduced into the United States since the American Revolution...and was widely distributed 
-                           during the decade prior to the war between the states”</quote> <bibl><ref target="HuntMorrow">260</ref></bibl>.  
-                     </p>
-                     <p><hi rend="bold">History and Technology</hi>
-                        <lb/>The Sorghum cane, which is supposed to be native to China, came to United States via France in the 1850s. Before the 
-                        introduction of sorghum, maple sap, juice from beet and sugarcane were used to produce sugar. However, those posed 
-                        specific difficulties to the country in which local industries were trying to find a national market: the sugar produced 
-                        from the other kinds of canes dried up fast. In Ohio, sorghum was initially raised in small scales and molasses made from 
-                        it were sold in local markets. In the Springfield market, for instance, molasses from sorghum were sold at 75 cents a 
-                        gallon at the outset. The Leffel sorghum mill at Springfield thrived during the 1860s. Its owner Joseph Leffel had two 
-                        acres of cane which he crushed using horse power. Some of Leffel's contemporary sorghum mill owners like Rev. Abraham 
-                        Myers harnessed the water of the Mad River for power <bibl><ref target="Prince">Prince 84-5</ref></bibl>. The standard 
-                        stages in making sorghum molasses included growing of sorghum cane, followed by grinding the cane at the Cane house 
-                        using horse power and then, boiling the juice in large vessels. </p>
-                        <p>Mid-nineteenth century Ohio may have used more 
-                        large scale agricultural machines than any one state at the time <bibl><ref target="DocsMsgs">Documents, Messages... 504</ref></bibl> . 
-                        The Steam Thresher and Sugar Mills were used for grinding sorghum. The latter was invented 
-                        around 1856-57 for specifically this purpose unlike the Steam Thresher which was used for grinding several other 
-                        kinds of grains. Both the Steam Thresher and the Sugar Mill helped cut down labor costs.
-                        Some late nineteenth century documents also state that the produced molasses were first taken home in large barrels 
-                        by the farmers and then, the rest was sold. Evidently, in the nineteenth century the sorghum industry was more geared 
-                        toward domestic rather than a large scale commercial enterprise for many mill owners. At the same time, the potential of 
-                        the industry to grow rapidly was recognized by farmers and mill owners. 
-                        
-                     </p>
-                     <p><hi rend="bold">Commercialization</hi>
-                     
-                        <lb/>On 7th January 1862 a State Sorghum Convention was held at Columbus, Ohio. The convention not only discussed the culture 
-                        of growing sorghum and manufacturing molasses from it, but also promoted certain kinds of pans and mills as facilitators 
-                        of more profitable and durable products than others. <title level="j">The Ohio Cultivator</title> documents a debate between a sales agent of 
-                        "Implements and Machinery," and the secretary of the convention on the subject of advertising at the 
-                        convention <bibl><ref target="Bateham">Bateham and Sullivan 156-57</ref></bibl>. Interestingly, the same volume features a recipe called "Mr. Thorn's Sorghum Cake" 
-                        which includes Sorghum molasses among its ingredients. Thus, the mid-nineteenth century agricultural culture in Ohio was closely related to the growing 
-                        acceptance and significance of sorghum molasses. However, the growth of the industry was slow over the decades in the state. 
-                        H. Talcott, a member of the Jefferson Sugar Manufacturing Company , presented a paper in the Agricultural convention recorded 
-                        in the <title level="s">Annual Report of the Ohio State Board of Agriculture </title>(1883), to endorse the promotion of the sorghum-molasses 
-                        industry in Ohio: he proposed growing sorghum as a rotation crop with corn and charted 
-                        its many uses which included preparation of sugar, cooking molasses, rum vinegar and prepared coffee.  Talcott's presentation is 
-                        prompted by the rather scattered nature of the sorghum industry till the 1880s 
-                        and <quote>"no very good results or much practical use made of the crop" </quote>(90). 
-                        
-                     </p>                    
-                     <p> Thus, Lucius Smith's investment in the Cane House, which surfaces in most of his journal entries from August to December 
-                        1862, represents a  relatively novel agricultural and industrial development in the state. Smith follows state-of-the-art 
-                        technologies for producing molasses. Furthermore, Smith's visit to different cities in search of the 
-                        right apparatuses for his mill is put into perspective by the history of the manufacturing businesses, 
-                        publicity and sales campaigns around the sorghum molasses industry in 1860s Ohio. </p>
+                     <p> Production of molasses from sorghum was a fairly new agricultural activity
+                        during the mid-nineteenth century, and it carried cultural and economic
+                        implications. In <title level="m">History of Ohio
+                           Agriculture</title> (1900), Charles William Burkett mentions that sorghum
+                        was introduced to Ohio by the early settlers in the nineteenth century.
+                        These early settlers were interested in developing family farms. In <title
+                           level="m">Soils and Crops of the Farm</title>, George Espy Morrow and
+                        Thomas Forsyth Hunt observe,<quote> “Sorghum is the only agriculturally
+                           important plant which has been introduced into the United States since
+                           the American Revolution . . . and was widely distributed during the decade
+                           prior to the war between the states”</quote>
+                        <bibl><ref target="HuntMorrow">260</ref></bibl>. </p>
+                     <p><hi rend="bold">History and Technology</hi></p>
+                        <p><lb/>Sorghum cane, native to China, came to
+                        United States via France in the 1850s. Before the introduction of sorghum,
+                        maple sap, juice from beets, and sugarcane were used to produce sugar.
+                        However, those sources posed specific difficulties for local
+                        industries trying to find a national market: the sugar produced from
+                        the other kinds of canes dried up fast. In Ohio, sorghum was initially
+                        raised on a small scale and molasses made from it was sold in local markets.
+                        In the Springfield market, for instance, molasses from sorghum was sold for
+                        75 cents a gallon. The Leffel sorghum mill at Springfield
+                        thrived during the 1860s. Its owner Joseph Leffel had two acres of cane
+                        which he crushed using horse power, while some of Leffel's contemporary sorghum
+                        mill owners like Rev. Abraham Myers harnessed the water of the Mad River for
+                        power <bibl><ref target="Prince">Prince 84-5</ref></bibl>. The standard
+                        stages in making sorghum molasses included growing the sorghum cane, followed
+                        by grinding the cane at the Cane house using horse power, and then boiling
+                        the juice in large vessels. </p>
+                     <p>Mid-nineteenth century Ohio may have used more large-scale agricultural
+                        machines than any other state at the time <bibl><ref target="DocsMsgs"
+                              >Documents, Messages . . . 504</ref></bibl>. Steam threshers and
+                        sugar mills were used for grinding sorghum. The latter was invented around
+                        1856-57 for specifically this purpose, unlike the steam thresher, which was
+                        used for grinding several other kinds of grains. Both the steam thresher and
+                        the sugar mill helped cut down labor costs. Some late nineteenth-century
+                        documents also suggest that most of the molasses was used at home,
+                        and only the surplus was sold. Evidently, for many mill owners in
+                        nineteenth-century Ohio, the sorghum industry was geared more toward domestic use
+                        rather than large-scale commercial enterprise. At the
+                        same time, the potential of the industry to grow rapidly was recognized by
+                        farmers and mill owners alike. </p>
+                     <p><hi rend="bold">Commercialization</hi></p>
+                        <p>On 7 January 1862, a State Sorghum Convention was held in Columbus,
+                        Ohio. The convention not only discussed the culture of growing sorghum and
+                        manufacturing molasses from it but also promoted certain kinds of pans and
+                        mills for their ability to produce better molasses than others. Apparently, these
+                        agendas sometimes clashed.
+                           <title level="j">The Ohio Cultivator</title> documents a debate between a
+                        sales agent of "Implements and Machinery" and the secretary of the
+                        convention on the subject of advertising at the convention <bibl><ref
+                              target="Bateham">Bateham and Sullivan 156-57</ref></bibl>.
+                           Be that as it may, sorghum molasses played an increasingly important role in mid-nineteenth century agricultural in Ohio.
+                        But the industry grew slowly. H. Talcott, a
+                        member of the Jefferson Sugar Manufacturing Company, presented a paper at
+                        the Agricultural convention recorded in the <title level="s">Annual Report
+                           of the Ohio State Board of Agriculture </title>(1883), to endorse the
+                        promotion of the sorghum-molasses industry in Ohio: he proposed growing
+                        sorghum as a rotation crop with corn and listed its many uses, which
+                        included preparation of sugar, cooking molasses, rum vinegar, and prepared
+                        coffee. Talcott's presentation was prompted by the rather scattered nature of
+                        the sorghum industry until the 1880s and the fact that <quote>"no very good results or much
+                           practical use [was being] made of the crop" </quote>(90).</p>                    
+                     <p> Thus, Lucius Smith's investment in a Cane House, which figures in most
+                        of his journal entries from August to December 1862, represents a relatively
+                        novel agricultural and industrial development in the state. Smith adopts
+                        state-of-the-art technologies for producing molasses and visits different cities in search of the right apparatuses for his mill. </p>
                      
                      
                      <p rend="h3" xml:id="civilWar">
                         The Civil War and Civic Life   
                      </p>
                      <p><hi rend="bold">The State of the Draft in Ohio</hi></p>
-                        Throughout the months of August and September Lucius Clark Smith expressed anxiety about the draft and referred to men volunteering out of fear of being drafted.
+                        <p>Throughout the months of August and September, Lucius Clark Smith expressed anxiety about the draft and referred to men volunteering out of fear of being drafted.
                         On August 4, 1862, the Secretary of War, Edwin M. Stanton, issued an order to draft 300,000 men into the military to serve for nine months. Although each state 
                         was called to supply their required quota of men by the fifteenth of August, Ohio was granted repeated extensions due to the mounting pressure to provide regiments
                         in the defense of its southern border. The draft was first postponed to September 16 <bibl><ref target="InRelation">"In Relation to the Draft"</ref></bibl> and then for a second time until October 1 
-                     <bibl><ref target="DraftPostponed">"Drafting Postponed"</ref></bibl>.
+                     <bibl><ref target="DraftPostponed">"Drafting Postponed"</ref></bibl>.</p>
                      <p>
-                         During each postponement Ohio's Unionist governor David Tod encouraged citizens at large to voluntarily enlist. He also urged the commissioners responsible for 
+                         During each postponement, Ohio's Unionist governor David Tod encouraged citizens at large to voluntarily enlist. He also urged the commissioners responsible for 
                          organizing the draft in their respective district to do likewise. It was during the first postponement that Tod encouraged the county commissioners directly to use 
                          this time to recruit more regiments in order to fulfill Ohio's quota of 23,000 militia men through volunteers, <quote>"thereby sav[ing] the trouble, expense and vexation 
                          of resorting to drafting in Ohio"</quote> <bibl><ref target="InRelation">"In Relation to the Draft"</ref></bibl>.
@@ -408,17 +421,17 @@
                      <p>
                          Just two days before the first postponement was set to end, Tod announced the second extension and concluded with an impassioned plea to Ohio's men to answer the call 
                          to service: <quote>"The necessity for the force called for by the President is now apparent to all. Our very firesides are threatened in the desperate efforts of the rebels 
-                         to destroy our glorious Government. Rally then, noble men of Ohio, and with the grand effort to fill up the ranks"</quote><bibl><ref target="DraftPostponed">"Drafting 
+                         to destroy our glorious Government. Rally then, noble men of Ohio, and with the grand effort to fill up the ranks"</quote> <bibl><ref target="DraftPostponed">"Drafting 
                          Postponed"</ref></bibl>. Between September 15 and October 1, however, about 8,000 men voluntarily enlisted, which left some 12,000 still to be drafted. Thus, in spite of the
                          Governor's efforts to solicit voluntary enlistment since the initial announcement of the draft in August, three-fourths of the counties in Ohio commenced the draft on the first 
                          of October in order to meet their respective quotas <bibl><ref target="TheDraft">"The Draft in Ohio"</ref></bibl>. 
                      </p>
                      <p>
-                        While many counties and townships held meetings to encourage enlistment and <quote>"devis[e] ways and means to raise each town's quota and avoid the draft"</quote>, the men of
+                        While many counties and townships held meetings to encourage enlistment and <quote>"devis[e] ways and means to raise each town's quota and avoid the draft,"</quote> the men of
                         Ohio were clearly reluctant to voluntarily enlist <bibl><ref target="HowtoAvoidaDraft">"How to Avoid a Draft"</ref></bibl>. Part of the difficulty in attracting volunteers was 
                         attributed to the requirement in Ohio that volunteers provide three years of service rather than the nine months required of draftees. <title level="j">The Daily Cleveland Herald</title>
                         in late December of 1862 characterized the draft as a failure that <quote>"engendered much bad feeling in portions of the State, and has proved a slow process in filling up the Union 
-                        army rank and file" </quote>. The article concludes by suggesting, "The same effort and expenditure in enlisting nine months volunteers would have filled the muster rolls sooner and fuller" 
+                        army rank and file."</quote> The article concludes by suggesting, "The same effort and expenditure in enlisting nine months volunteers would have filled the muster rolls sooner and fuller" 
                         <bibl><ref target="TheDraftFailure">"The Draft a Failure"</ref></bibl>. For those counties who secured their full quota through voluntary enlistment, however, the increased service requirement 
                         of the volunteers was held up as testimony to their collective patriotism - that they sent "three year soldiers" rather than "nine months [sic] men" <bibl><ref target="TheDraftOver">"The Draft 
                         Over"</ref></bibl>.
@@ -437,7 +450,7 @@
                         Democratic papers used the draft to critique Republicans' administration and avoidance of the draft without opposing the draft itself.  
                      </p>
                      <p>
-                        During 1862, those who openly criticized the draft were liable to be arrested for charges of disloyalty, treasonable language, and discouraging enlistment. One such notable arrest that is directly 
+                        During 1862, those who openly criticized the draft were liable to be arrested on charges of disloyalty, treasonable language, and discouraging enlistment. One such notable arrest that is directly 
                         referenced in Smith's diary is that of Edson B. Olds. Olds had served as a congressional representative from 1849 until his failed bid for re-election in 1854.Before the draft was officially announced 
                         in August, Olds delivered a speech about the draft that eventually led to popular uproar and later to his arrest. In July, 1862, the <title level="j">Lancaster Eagle</title> published a response from 
                         Olds defending his speech. He claimed his views were misrepresented and that he was not discouraging men from enlisting. Rather, Olds argued he was only presenting a vision of what might happen should the Republicans
@@ -472,7 +485,7 @@
                         for trade largely because of the emergence during the 19th century of the steamboat, which made river trade a substantially less burdensome 
                         undertaking in the region. Propelled by the development of railways—<quote>“By the eve of the Civil War, Ohio boasted some 3,000 miles of track, . . . 
                            the most of any state in the entire nation” <bibl><ref target="Phillips">Phillips</ref></bibl></quote>—Cincinnati became host to an influx of immigrants, particularly from Ireland and Germany. 
-                        By 1850 <quote>“47.2 percent of Cincinnatians were immigrants, and more than 70 percent came from either Ireland or Germany”<bibl><ref target="Phillips">Phillips</ref></bibl></quote>. 
+                        By 1850 <quote>“47.2 percent of Cincinnatians were immigrants, and more than 70 percent came from either Ireland or Germany” <bibl><ref target="Phillips">Phillips</ref></bibl></quote>. 
                      </p>
                      <p>
                         These immigrants tended to be Catholics, and, coupled with large swaths of transplanted southerners, they constituted a largely Democratic voting 
@@ -494,8 +507,8 @@
                         The September 4, 1862, edition of the <title level="j">Milwaukee Daily Sentinel</title> reports that, on September 1st, <quote>“[Confederate Major General] Kirby Smith’s army appeared 
                         in the suburbs [of Lexington], and demanded the surrender of the city, which was complied with by the citizens” <bibl><ref target="DailySentinel">"War in Kentucky"</ref></bibl></quote>. With the Confederates having taken 
                         Lexington, they prepared to mount an attack on Cincinnati; consequently, Union Major General Lew Wallace declared martial law and seized sixteen 
-                        steamboats to be armed. Wallace would organize residents of Cincinnati, Covington, and Newport for defense. The Sentinel reports that on September 2nd, 
-                        <quote>“Citizens are enrolling themselves rapidly in the different wards” and that “[t]he Forty-fifth and Ninety ninth Ohio are falling back slowly to Covington. . . . 
+                        steamboats to be armed. Wallace would organize residents of Cincinnati, Covington, and Newport for defense. The <title level="m">Sentinel</title> reports that on September 2nd, 
+                        <quote>“Citizens are enrolling themselves rapidly in the different wards” and that “[t]he Forty-fifth and Ninety-ninth Ohio are falling back slowly to Covington. . . . 
                         All steamboats are ordered to remain on the Ohio side of the river. . . . Some apprehension is felt for our safety” <bibl><ref target="DailySentinel">"War in Kentucky"</ref></bibl></quote>. Indicative of this apprehension, 
                         Cincinnati mayor George Hatch ordered all businesses closed.
                      </p>
@@ -530,7 +543,7 @@
                <head>People Mentioned in Lucius Smith's Diary</head>
                <person xml:id="SmithLC">
                   <persName>Smith, Lucius Clark</persName>
-                  <note type="biographical">Archibald Smith's oldest son</note>
+                  <note type="biographical">Archibald Smith's oldest son, the author of this diary.</note>
                   <birth when="1834-11-24"><placeName ref="#NewAlbany">New Albany, OH</placeName></birth>
                </person>
                <person xml:id="John">
@@ -543,12 +556,11 @@
                      Lucius with the labor on his well and his Mill. In the week of August 23rd 1862, Lucius also mentions 
                      that John was considering enlisting in the company that was presently raising, but expressed doubt
                      that he would actually commit. However, Lucius's prediction proved wrong within a year, as John and 
-                     brother <persName>Newton</persName> both enlisted in June of 1863.
-                     <bibl>
-                        <ref target="#Ancestry1850">"1850 United States Federal Census"</ref>;
+                     brother <persName>Newton</persName> both enlisted in June of 1863
+                     <bibl><ref target="#Ancestry1850">"1850 United States Federal Census"</ref>;
                         <ref target="#Ancestry1860">"1860 United States Federal Census"</ref>;
-                        <ref target="#DraftRecord1863">"US Civil War Draft Registrations Record, 1863-1865"</ref>;
-                     </bibl>
+                        <ref target="#DraftRecord1863">"US Civil War Draft Registrations Record, 1863-1865"</ref>
+                     </bibl>.
                   </note>
                </person>
                <person xml:id="MissesMontgomery">
@@ -557,7 +569,7 @@
                      "Misses Montgomery," identified as the sister-in-law of Lucius's uncle, Charles Beach,
                      visited the Smith household twice in the course of the journal. On the 24th of November,
                      she is reported as visiting with Aunt Eliza and other relatives "on their way to the 
-                     Robertses" and on the 31st of November, she is reported as visiting over Sunday on her 
+                     Robertses," and on the 31st of November, she is reported as visiting over Sunday on her 
                      return trip.
                   </note>
                </person>
@@ -568,9 +580,8 @@
                      made to help Smith dig his well. However, it seems that Dague's promise came to little. While
                      several later entries mention "John" helping Lucius with the well, the familiar usage of the
                      name makes it much more likely that this "John" was Smith's brother, <persName>Johnathan Wesley 
-                     Smith.</persName>
-                     <ref target="#Ancestry1850">"1850 United States Federal Census"</ref>;
-                     <ref target="#DraftRecord1863">"US Civil War Draft Registrations Record, 1863-1865"</ref>;
+                     Smith</persName> <bibl><ref target="#Ancestry1850">"1850 United States Federal Census"</ref>;
+                     <ref target="#DraftRecord1863">"US Civil War Draft Registrations Record, 1863-1865"</ref></bibl>.
                   </note>
                </person>
                <person xml:id="JCoons">
@@ -581,10 +592,10 @@
                   On 30th November, 1862, Lucius mentions that John Coons "and wife" (Elizabeth, sometimes spelled "Elisabeth")
                      are visiting. Coons was a contempory of Smiths who lived in Plain Township, though his draft papers of 1863
                      show his home as nearby Harlem Township. John Coons enlisted in the Union Army in June of 1863, alongside Lucius's
-                     brothers, <persName>John Wesley Smith</persName> and <persName>Isaac Newton Smith</persName>.
-                     <ref target="#Ancestry1860">"1860 United States Federal Census"</ref>;
+                     brothers, <persName>John Wesley Smith</persName> and <persName>Isaac Newton Smith</persName>
+                     <bibl><ref target="#Ancestry1860">"1860 United States Federal Census"</ref>;
                      <ref target="#Ancestry1900">"1860 United States Federal Census"</ref>;
-                     <ref target="#DraftRecord1863">"US Civil War Draft Registrations Record, 1863-1865"</ref>;   
+                     <ref target="#DraftRecord1863">"US Civil War Draft Registrations Record, 1863-1865"</ref></bibl>.   
                   </note>
                </person>
                <person xml:id="GCollins">
@@ -600,7 +611,7 @@
                      It is the likely that Lucius is referred to the lawyer Gilbert G. Collins who was later elected
                      mayor of Columbus from 1879-1880. Collins lived in Plains Township with his parents, Andrew and
                      Mary Collins until their death. He relocated to Columbus to study law 1858 and was admitted to 
-                     practice in March 1861.<bibl><ref target="#BEO19thcentury">"Collins, Gilbert G"</ref>;
+                     practice in March 1861 <bibl><ref target="#BEO19thcentury">"Collins, Gilbert G"</ref>;
                         <ref target="#Ancestry1850">"1850 United States Federal Census"</ref>;
                         <ref target="#Ancestry1860">"1860 United States Federal Census"</ref>;
                         <ref target="#FindaGrave25957529">"Pvt Gilbert George Collins"</ref>
@@ -609,14 +620,14 @@
                            changed to student; 1870 listed as head of house, married and occupation identified as lawyer).
                            There is also an image available of Collins at the Columbus Metro library should we want to
                            include it-->     
-                     </bibl>                    
+                     </bibl>.                    
                   </note>
                </person>
                <person xml:id="SmithIN"><persName>Smith, Isaac Newton</persName>
                   <birth when="1824-02-16" precision="medium"><placeName evidence="external">Plain Township, Franklin, OH</placeName></birth>
                   <death when="1912-06-27" precision="medium"><placeName>Westerville, OH</placeName></death>
-                  <note type="biographical">Lucuis Smith's brother, Isaac Newton, is frequently referered to as Newton in 
-                  Lucuis' diary. Most of the references to Newton in Lucius Smith's entries note the labor that Newton
+                  <note type="biographical">Lucius Smith's brother, Isaac Newton, is frequently referered to as Newton in 
+                  Lucius's diary. Most of the references to Newton in Lucius Smith's entries note the labor that Newton
                   performs from "hawling" materials to digging the well and thrashing wheat. Census records indicate that
                   Isaac Newton Smith married and relocated to Blendon, Ohio by 1900 and identified his occupation as a 
                   physician. <bibl><ref target="#Ancestry1900">"1900 United States Federal Census"</ref></bibl>
@@ -624,9 +635,9 @@
                </person>
                <person xml:id="SmithCA"><persName>Smith, Charles Augustine</persName>
                   <birth when="1836"/>
-                  <note type="biographical">Charles "Augustine" Smith is Lucuis Smith's brother. On Sunday, August 31st 1862
+                  <note type="biographical">Charles "Augustine" Smith is Lucius Smith's brother. On Sunday, August 31st 1862
                   Lucius Smith states that Augustine "last week had a tower of fits getting Better." The other two references
-                  to Augustine report that he was not attendance at the Celebration Sunday School on August 13 or a basket 
+                  to Augustine report that he did not attend the Celebration Sunday School on August 13 or a basket 
                   meeting on August 17.
                   <bibl><ref target="Ancestry1860">"1860 United States Federal Census"</ref></bibl>
                </note>
@@ -650,7 +661,7 @@
                </person>
                <person xml:id="SmithArch" source="SmithA">
                   <persName>Smith, Archibald</persName>
-                  <note type="biographical">Lucius Clark Smith's father. L.C. Smith mentions him with great frequency throughout his diary, almost
+                  <note type="biographical">Lucius Clark Smith's father. Lucius mentions him with great frequency throughout his diary, almost
                   always in reference to the work the two are doing.</note>
                   <birth when="1803-09-15"><placeName>Bergen, NJ</placeName></birth>
                   <death when="1883-08"><placeName>New Albany, OH</placeName></death>
@@ -660,7 +671,7 @@
                <person xml:id="CoxS">
                   <persName>Cox, Samuel Sullivan</persName>
                   <note type="biographical">
-                  Smith mentions Samuel Cox giving a war speech, along with <persName>Cancey Olds</persName> and <persName ref="GalawayS">Sam Galaway</persName> at
+                  Smith mentions Samuel Cox giving a war speech, along with <persName>Cancey Olds</persName> and <persName ref="GalawayS">Sam Galaway</persName>, at
                   a large gathering on August 13th. It is likely that Smith is here referring to Ohio Democratic Congressman Samuel Sullivan Cox, who gave a number
                   of speeches in central Ohio during this period.</note>
                   <birth when="1824-09-30"><placeName>Zanesville, OH</placeName></birth>
@@ -693,7 +704,7 @@
                <person xml:id="GalawayS">
                   <persName>Galaway, Samuel</persName>
                   <note type="biographical">Smith mentions Samuel Galaway as giving a war speech, along with <persName>Cancey Olds</persName> and
-                  <persName>Cox, Samuel</persName> at a large gathering on August 13th.</note>
+                  <persName>Samuel Cox</persName> at a large gathering on August 13th.</note>
                   <birth when="1836"><placeName>OH</placeName></birth>
                   <occupation>Farmer</occupation>
                   <bibl><ref target="Ancestry1850">"1850 United States Federal Census"</ref>;
@@ -715,10 +726,10 @@
                      <placeName>Franklin County, OH</placeName>
                   </birth>
                   <note type="biographical">George Goodrich is frequently mentioned in Smith's entries from August through December for helping
-                     Archibald Smith and Lucius Smith at the Cane House. Goodrich seems to be involved in chores like boiling, making and 
+                     Archibald Smith and Lucius Smith at the Cane House. Goodrich seems to be involved in chores like boiling, making, and 
                      cleaning pans at the Cane House. Lucius Smith and Goodrich, probably, also wanted to collaborate on a fur mill business 
                      with Mr. Watterman from Delaware. Goodrich reportedly moves to Delware between 14th and 20th December of 1862. In the last
-                     week of December, Lucius Smith mentions writing to Goodrich in Delaware.  </note>
+                     week of December, Lucius Smith mentions writing to Goodrich in Delaware.</note>
                  <death when="1903">
                     <placeName>Galena, Delaware County, OH</placeName>
                  </death>
@@ -735,10 +746,10 @@
                <person xml:id="WellsT">
                   <persName ref="#WellsT">Wells, Thornton E. B.</persName>
                   <birth notAfter="1843"></birth>
+                  <death when="1869"><placeName>Concord, Licking County, OH</placeName></death>
                   <note type="biographical">Lucius Smith's cousin. Son of Eliza Wells (nee Beach), Lucius Smith's mother's sister. He stops by 
-                     Smith's house in Albany while traveling to and from Columbus. He often helps Smith with cutting and hawling of wood.</note>
-                                 <death when="1869"><placeName>Concord, Licking County, OH</placeName></death>
-                  <bibl><ref target="#Ancestry1860">"1860 United States Federal Census"</ref>; <ref target="#FindaGrave74277136">"Thornton E B Wells"</ref></bibl>
+                     Smith's house in Albany while traveling to and from Columbus. He often helps Smith with cutting and hawling of wood
+                     <bibl><ref target="#Ancestry1860">"1860 United States Federal Census"</ref>; <ref target="#FindaGrave74277136">"Thornton E B Wells"</ref></bibl>.</note>
                </person>
                <person xml:id="WellsE">
                   <persName>Wells, Eliza (nee Beach)</persName>
@@ -755,7 +766,7 @@
                   <bibl><ref target="Ancestry1880">"1880 United States Federal Census</ref></bibl>
                </person>
                <person xml:id="EvansReece">
-                  <persName>Evans, Rowland "Reece"</persName><persName>Rowland "Roll" Evans</persName>
+                  <persName>Evans, Rowland "Reece"; </persName><persName>Rowland "Roll" Evans</persName>
                   <note type="biographical">Census records indicate that there were two Rowland Evans residing in Albany in the 1860s, possibly a nephew and uncle duo.  Presumably one of them was referred to as “Reece” and the other as “Roll,” but it remains unclear which was which.</note>
                   <bibl><ref target="Ancestry1860">"1860 United States Federal Census</ref></bibl>
                </person>
@@ -884,11 +895,11 @@
                   <placeName>Columbus</placeName>
                   <country>United States</country>
                   <region type="state">Ohio</region>
-                  <desc>On 1st September 1862, Smith mentions going to Columbus with his father to get some equipments 
-                     like cast cog wheel and cistern pump. On 12th September he goes to Columbus again with his father
-                     and Eliza to get some things for his Cane works and during the week ending 25th October he sends 
+                  <desc>On 1st September 1862, Smith mentions going to Columbus with his father to get some equipment 
+                     like a cast cog wheel and cistern pump. On 12th September, he goes to Columbus again with his father
+                     and Eliza to get some things for his Cane works, and during the week ending 25th October, he sends 
                      someone to Columbus to get a pipe. He also mentions corresponding with Samual Smith from Columbus
-                     on 7th September 1862. </desc>
+                     on 7th September 1862.</desc>
                   <location><geo>39.9500 -82.9833</geo></location>
                                </place>
             </listPlace>
@@ -1046,7 +1057,7 @@
                with a variety of tools for studying those texts. </p>
             <p>Each text was edited in connection with an undergraduate or graduate course offered
                by H. Lewis Ulman, Associate Professor of English at The Ohio State University. The
-               courses provide students with an opportunity to explore issues of textuality
+               courses provided students with an opportunity to explore issues of textuality
                and mediation that arise when our cultural archives spread from page to screen and
                from library shelves to networked databases. Electronic textual editing serves as our
                vehicle for examining what happens—and envisioning what might happen—when artifacts
@@ -1057,7 +1068,7 @@
             <p>While providing a reliable textual edition is a <foreign xml:lang="lat">sine qua
                   non</foreign>, the Smith edition also explores ways of telling four stories
                inextricably woven into our work: the lives and historical milieu evoked by the
-               texts, the history of the physical journal (including its recent restoration), the
+               texts, the history of the physical journal, the
                editorial process that gave rise to this particular interpretation of the text, and
                the mediation of our electronic delivery system. </p>
          </projectDesc>
@@ -1089,7 +1100,7 @@
             <p>
                <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF
                images at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and
-               full quality before being loaded into the Media Manager application. All edges were
+               full quality before being loaded into an image serve application. All edges were
                overscanned by at least 1/4 inch. No color correction was used at any stage of image
                preparation, but a scan of a photographer's 18% grey card on the same scanner
                produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur in
@@ -1097,22 +1108,14 @@
                provide a reasonable approximation of colors on the manuscript pages.
             </p>
             <p>
-               <emph rend="bold">Production Location of Digital Assets</emph>. The TEI P5-encoded
+               <emph rend="bold">Production Location and Archiving of Digital Assets</emph>. The TEI P5-encoded
                transcription of the Smith journal, along with XSL style sheets used to provide
                variant "views" of the edition, TEI ODD documents used to produce custom schemas
-               based on the TEI markup language, and the resulting schemas are stored on a server
-               hosted by College of Arts and Sciences at The Ohio State University and on a Google
-               SVN repository. Readers may download copies of those source files via a link at the
-               top of this page. High resolution scans of the manuscript pages, scans of plates from
-               contemporary sources, and photographs of the journal are stored in the Media Manager
-               application hosted by the College of Arts and Science at The Ohio State University.
-               The files constituting the project's Web site are stored on a Web server hosted by
-               the College (http://people.cohums.ohio-state.edu/ulman1/LCSmithDiaries/).</p>
-            <p>
-               <emph rend="bold">Archiving of Digital Assets</emph>. Once the edition is complete,
-               its digital assets will be archived in The Ohio State University
-               Knowledge Bank (https://kb.osu.edu/dspace/). 
-            </p>
+               based on the TEI markup language and the resulting schemas, high resolution scans of the manuscript pages, HTML
+               output of XSL transformations of the base TEI document,
+               and all other media used in the edition are stored in The Ohio State 
+               University Library's institutional repository, The Knowledge Bank. Readers may download copies of those source files via a menu at the
+               top of this page.</p>
 
          </editorialDecl>
 
@@ -1121,8 +1124,7 @@
                <emph rend="bold">Markup of Physical Structure and Page Layout</emph>. The manuscript
                   <emph rend="bold">pages</emph>, encoded by the empty page break or &lt;pb/&gt;
                element, are the primary physical structures represented in the markup. Each
-               &lt;pb&gt; element includes a &quot;facs&quot; attribute identifying the unique ID of
-               a high-resolution scan of that image in the Media Manager application. <emph
+               &lt;pb&gt; element includes a &quot;facs&quot; attribute identifying the high-resolution scan of that image in the Knowledge Bank. <emph
                   rend="bold">Line breaks</emph> (i.e., lineation determined or influenced by the
                physical constraints of the page rather than compositional choices by the author) are
                encoded with the empty &lt;lb/&gt; element. No attributes are included in the
@@ -1135,8 +1137,7 @@
                &quot;type='Entry'&quot;, constitutes the primary textual structure represented in
                the markup. Each entry contains a
                &lt;dateline&gt; element and one or more paragraphs. Each dateline may include a
-               &lt;name&gt; element with (optionally) a @type attribute containing one of
-               the following values: city, region; and a &lt;date&gt; element with a
+               &lt;date&gt; element with a
                @when attribute whose value is in the form YYYY-MM-DD. The value of the
                @when attribute represents the editors' judgment about the actual date when the entry
                was composed; the contents of the &lt;date&gt; element represent what Smith actually
