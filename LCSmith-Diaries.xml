@@ -95,7 +95,7 @@
                </p>
             </availability>
 
-            <date>2012-12-03</date>
+            <date>2015-12-01</date>
 
          </publicationStmt>
 
@@ -1051,7 +1051,7 @@
                being revised); "Dear Wife," twenty-one letters written by riverboat captain William
                B. Anderson to his wife Louisa while he plied the Ohio river during the height of the
                American Civil War, 1862&#x2013;1864; "Journal of a Tour to Europe," by Samuel Sullivan Cox;
-               and "Louisa A. Doane's Journal of Two Ocean Voyages (1852-1853). These documentary
+               and "Louisa A. Doane's Journal of Two Ocean Voyages (1852-1853)." These documentary
                editions are intended to provide wide exposure and access to manuscripts that might
                otherwise be difficult for scholars to discover and consult, and to provide users
                with a variety of tools for studying those texts. </p>
@@ -1189,7 +1189,7 @@
          -->
 
          <creation>
-            <date>2012-08-27</date>
+            <date>2015-12-01</date>
          </creation>
 
 
@@ -1226,7 +1226,7 @@
             changes made during the development of the electronic text" (TEI P4X, ch. 5).
             Add additional changes at the top of the list.
          -->
-         <change when="2015-09-01" who="HLU">Redesign site to meet requirements of the Ohio State University Libraries' Knowledge Bank; proof entire site.</change>
+         <change when="2015-12-01" who="HLU">Redesign site to meet requirements of the Ohio State University Libraries' Knowledge Bank; proof entire site.</change>
          <change when="2012-12-20" who="HLU">Continuing revision of layout/interface, no changes to text of transcription.</change>
          <change when="2012-12-06" who="HLU">Numerous changes to layout/interface, no changes to text of transcription.</change>
          <change when="2012-12-03" who="Editors">Released a public working draft of the edition.</change>
@@ -1250,7 +1250,7 @@
             <dateline><lb/><date when="1862-07-30"><choice>
                      <sic>Wednsday</sic>
                      <corr>Wednesday</corr>
-                  </choice> July 30th <hi rend="underline">1862</hi></date></dateline>
+                  </choice> July 30th <hi rend="underlined">1862</hi></date></dateline>
             <p>
                <lb/>to day <persName>John</persName>
                <lb/>and me Hawled Hay all day &#xbd; day in
@@ -1258,7 +1258,7 @@
                <lb/>are mowing. <choice><sic>verry</sic><corr>very</corr></choice> warm and we need
                <lb/>rain the Ground is rapidly Drying up
                <lb/>after so <choice><sic>mutch</sic><corr>much</corr></choice> Hard <choice><sic><unclear
-                  cert="low">loung</unclear></sic><corr>long</corr></choice> rains.
+                  cert="low">lonng</unclear></sic><corr>long</corr></choice> rains.
             </p>
          </div>
          <div xml:id="LCS18620731a" type="Entry">
@@ -1292,7 +1292,7 @@
          <pb facs="LCSmith-620802"/>
          <div type="Entry" xml:id="LCS18620802a">
              <dateline><lb/><date when="1862-08-02">Saturday August 2nd 
-                <hi rend="underline">1862</hi></date></dateline>
+                <hi rend="underlined">1862</hi></date></dateline>
             <!--
                Note about checking perpetual calendar. The @when attribute should reflect your
                judgment about the correct date. The <date> element should indicate what the author wrote.
@@ -1309,8 +1309,8 @@
                <lb/>oats in the Barn. afternoon Went up to
                <lb/><persName>Robertses</persName> with 
                     <persName>John</persName> as He is going to
-               <lb/><unclear cert="medium">stay<gap rend="overwrite" unit="chars"
-                  extent="2"/></unclear> and Help Him we had all calcu<seg type="softhyphen">
+               <lb/>stay<gap rend="overwrite" unit="chars"
+                  extent="2"/> and Help Him we had all calcu<seg type="softhyphen">
                <lb/></seg>lated on going up and Helping Him a
                <!-- 
                   Note that Smith breaks a word across the two lines above but does not indicate
@@ -1347,11 +1347,11 @@
          <!-- HLU section ends here -->
          <pb facs="LCSmith-620803"/>
             <div xml:id="LCS18620803" type="Entry">
-            <dateline><lb/><date when="1862-08-03">Sunday August 3<choice><abbr>d</abbr><expan>rd</expan></choice> <hi rend="underline">1862</hi></date></dateline>
+            <dateline><lb/><date when="1862-08-03">Sunday August 3<choice><abbr>d</abbr><expan>rd</expan></choice> <hi rend="underlined">1862</hi></date></dateline>
             <p>
                <lb/>Wrote a
-               <lb/>letter to <abbr>sam Smith</abbr> and done my diary
-               <lb/>writing went over to <persName>millers</persName> <time><choice><sic>Eavning</sic><corr>Evening</corr></choice></time> 
+               <lb/>letter to Sam Smith and done my diary
+               <lb/>Writing went over to <persName>Millers</persName> <time><choice><sic>Eavning</sic><corr>Evening</corr></choice></time> 
             </p>
             <p>
                <lb/>Went to <choice><sic>se</sic><corr>see</corr></choice><persName><unclear cert="low">Hiram</unclear> Smith</persName> as He
@@ -1368,13 +1368,13 @@
                <lb/>the Hay and thrashed out some wheat
                <lb/><time>night <choice><abbr>Tues</abbr><expan>Tuesday</expan></choice></time> <persName>John</persName> come sick Having <del rend="overstrike">a</del>
                <lb/>Had a slight touch of bowel complaint.
-               <lb/><choice><sic>Todayes</sic><corr>Today's</corr></choice> paper Tuesday Brings an<del rend="overstrike">d</del>
+               <lb/><choice><sic>Todayes</sic><corr>Today's</corr></choice> papers Tuesday Brings an<del rend="overstrike">d</del>
                <lb/>order from the Secretary of War 
                <lb/>calling for an unconditional Draft of
                <lb/>three hundred thousand more men
                <lb/>in addition to the same amount of 
                <lb/>volunteers previously called for
-               <lb/>some time ago. the order was <choice><sic>isued</sic><corr>issued</corr></choice> yester<seg type="softhyphen">
+               <lb/>some time ago. the order was <choice><sic>issud</sic><corr>issued</corr></choice> yester<seg type="softhyphen">
                <lb/></seg>day morning. that amount of men will Tell
                <lb/>Hard on the people
          </p>
@@ -1382,9 +1382,9 @@
          <pb facs="LCSmith-620806"/>
          <div xml:id="LCS18620805" type="Entry">
    <lb/>
-   <dateline><lb/><date when="1862-08-05">Wednsday 6th Aug <hi rend="underline">1862</hi></date></dateline>
+   <dateline><lb/><date when="1862-08-05">Wednsday 6th Aug <hi rend="underlined">1862</hi></date></dateline>
             <p>
-            <time>last night</time>
+            <lb/>last night
             <lb/>Had a good rain to day <persName>Newton</persName>
             <lb/><persName>John</persName> &amp; me quarried and Hawled stone from
             <lb/><persName>Cambells</persName> Hawled five loads. They are for
@@ -1409,14 +1409,14 @@
 </div>
 <div xml:id="LCS18620808" type="Entry">
    <dateline><lb/><date when="1862-08-08"><choice><abbr>Frid</abbr><expan>Friday</expan></choice> 8th</date></dateline> <p>to day I went
-      <lb/>to see a <choice><sic>coupel</sic><corr>couple</corr></choice> of Horse power and engaged
-      <lb/>one of <persName>Daniel Bennits</persName> got my Horse shod
+      <lb/>to see a <choice><sic>coupel</sic><corr>couple</corr></choice> of Horse powers and engaged
+      <lb/>one of <persName>Daniel Bennit</persName> got my Horse shod
       <lb/><persName>Newton</persName> Hawled stone for me
    </p>
 </div>
          <pb facs="LCSmith-620809"/> 
 <div xml:id="LCS18620809" type="Entry">
-   <dateline><lb/><date when="1862-08-09">Saturday 9th Aug <hi rend="underline">1862</hi></date></dateline>
+   <dateline><lb/><date when="1862-08-09">Saturday 9th Aug <hi rend="underlined">1862</hi></date></dateline>
    <p><time>morning</time>
       <lb/>went to <placeName>Columbus</placeName> got <persName>Gilbert Collins</persName>
       <lb/>to put my property over in the old <rs type="familial"><choice><sic>mans</sic><corr>man's</corr></choice></rs>
@@ -1431,7 +1431,7 @@
    </p>
 </div>       
 <div xml:id="LC18620810" type="Entry">
-   <dateline><lb/><date when="1862-08-10">Sunday 10th Aug <hi rend="underline">1862</hi></date></dateline>
+   <dateline><lb/><date when="1862-08-10">Sunday 10th Aug <hi rend="underlined">1862</hi></date></dateline>
       <p><lb/><time>morning</time> came Home got Home at noon
       <lb/>We Have Had a nice rain went over
       <lb/>to see <persName>John Dague</persName> about Digging my
@@ -1443,7 +1443,7 @@
 </div>         
          <pb facs="LCSmith-620811"/>
          <div xml:id="LCS18620811" type="Entry">
-            <dateline><lb/><date when="1862-08-11">Monday Aug 11th <hi rend="underline">1862</hi></date></dateline>
+            <dateline><lb/><date when="1862-08-11">Monday Aug 11th <hi rend="underlined">1862</hi></date></dateline>
             <p>
                <time>morning</time> <persName>John</persName>
                   <lb/>and I went up near Center and got my 
@@ -1495,7 +1495,7 @@
          </div>
 <div xml:id="LCS18620814" type="Entry">       
    <dateline><lb/><date from="1862-08-14" to="1862-08-16">Thursday <choice><abbr>Frid</abbr><expan>Friday</expan></choice> and Saturday<lb/>
-            August 14, 15 and 16th <hi rend="underline">1862</hi></date></dateline>
+            August 14, 15 and 16th <hi rend="underlined">1862</hi></date></dateline>
             <p>
                <lb/><persName><choice><abbr>Wm</abbr><expan>William</expan></choice> Yantus</persName> <persName>John</persName> and I worked
                <lb/>at the Well we got it some over <unclear cert="medium">23</unclear> ft
@@ -1600,7 +1600,7 @@
          </div>      
          <div xml:id="LCS18620824" type="Entry">
             <lb/> 
-               <dateline><lb/><date when="1862-08-24">Sunday Aug 24<hi rend="superscript"></hi>th<hi rend="underline">1862</hi></date></dateline>
+               <dateline><lb/><date when="1862-08-24">Sunday Aug 24<hi rend="superscript"></hi>th<hi rend="underlined">1862</hi></date></dateline>
             <p>
                <lb/>
                <lb/>staid Home forenoon afternoon
@@ -1716,7 +1716,7 @@
                   Lucius was alluding to a physical or mental condition of “falling fits” or “nervous diseases” such 
                   as epilepsy.  A medical understanding of epilepsy existed by this time, though its causes and 
                   treatment remained open to much speculation. <bibl><ref target="evangelist">"The Boy who had 'Fits'"</ref><ref target="medical">"Westminster Hospital"<ref target="Ohio medical"></ref></ref></bibl></note> getting Better
-               <lb/><hi rend="underline">now</hi>         
+               <lb/><hi rend="underlined">now</hi>         
             </p>
          </div>
          <pb facs="LCSmith-620901a"/>
@@ -1800,7 +1800,7 @@
          </div>
          <pb facs="LCSmith-620907"/>
          <div xml:id="LCS18620907" type="Entry">
-            <dateline><lb/><date when="1862-09-07">Sunday Sept 7th <hi rend="underline">1862</hi></date></dateline>
+            <dateline><lb/><date when="1862-09-07">Sunday Sept 7th <hi rend="underlined">1862</hi></date></dateline>
             <p><lb/>staid <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice>
             <lb/>Home all day rather Lonesome Wrote a
                <lb/>Letter to <persName ref="#SmithS">samual Smith</persName>. <placeName>Columbus Ohio.</placeName>
@@ -1941,7 +1941,7 @@
             <p><lb/>Staid <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice>
             <lb/>Home all day <choice><orig><distinct type="archaic_orthography" time="17-17">untill</distinct></orig><reg source="OED">until</reg></choice> <choice><sic>eavning</sic><corr>evening</corr></choice> when a
             <lb/>parcel of us took a Ride Horse
-            <lb/><hi rend="underline">Back</hi></p>
+            <lb/><hi rend="underlined">Back</hi></p>
          </div>
          <div xml:id="LCS18620927" type="Entry">
             <dateline><lb/><date from="1862-09-22" to="1862-09-27">for the week ending
@@ -2188,7 +2188,7 @@
                   <lb/> Wilson</persName> Has been Helping me this week to grind
                   <lb/> Him and <persName>Tomy Homer</persName> do the grinding <persName ref="#GoodrichG">george
                      <lb/> Goodrich</persName> &amp; <persName>Newton</persName> &amp; me the Boiling  my time
-                  <lb/> However is <choice><sic>Dividid</sic><corr>Divided</corr></choice> <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> at all <hi rend="underline">works</hi>
+                  <lb/> However is <choice><sic>Dividid</sic><corr>Divided</corr></choice> <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> at all <hi rend="underlined">works</hi>
                               
                </p>
                <p><lb/> this week Mr Long called <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> with Mr
@@ -2468,7 +2468,7 @@
                <lb/>Total valuation $987.00
                <lb/>counting that made at 20 <choice><abbr>cts</abbr><expan>cents</expan></choice> value 20 <choice><abbr>cts</abbr><expan>cents</expan></choice>
                <lb/>and that made on the Half. my Half at 50 <choice><abbr>cts</abbr><expan>cents</expan></choice>
-               <lb/><choice><sic>pur</sic><corr>per</corr></choice> gallon <hi rend="underline">about</hi> Half I made was on
+               <lb/><choice><sic>pur</sic><corr>per</corr></choice> gallon <hi rend="underlined">about</hi> Half I made was on
                <lb/>the Halves I have sold to the Best of
                <lb/>my accounts 281 gallons.
             </p>
@@ -2529,7 +2529,7 @@
                         <corr>Father</corr>
                      </choice></rs> &amp; <rs type="familial">Mother</rs> and 
                <lb/><persName>Newton</persName> went to Columbus I sent in the
-               <lb/>pay for my new mill $88<hi rend="underline">00</hi> I Have
+               <lb/>pay for my new mill $88<hi rend="underlined">00</hi> I Have
                <lb/>Squared up with most all my Debts
                <lb/>and Have some $80.00 left yet.
             </p>
@@ -2539,7 +2539,7 @@
                <lb/>of coarse Boots of <unclear cert="medium">manure</unclear> cleaned up
                <pb facs="LCSmith-621207a"/>
                <lb/>A Lot of Cane seed I Have a nice
-               <lb/>Lot of It and <hi rend="underline">good</hi>. <choice><sic>Boyes</sic><corr>Boys</corr></choice> Husked
+               <lb/>Lot of It and <hi rend="underlined">good</hi>. <choice><sic>Boyes</sic><corr>Boys</corr></choice> Husked
                <lb/>some corn most <choice><sic>to</sic><corr>too</corr></choice> cold and dry.
                <lb/>nice Weathe<supplied reason="omitted" resp="ed">r</supplied> all week first part
                <lb/>clear and quite warm Last part cold 
@@ -2551,7 +2551,7 @@
          <div xml:id="LCS18621207" type="Entry">
             <dateline><date when="1862-12-07"><lb/>Sunday Decem 7<hi rend="super">th</hi> 1862</date></dateline>
             <p>
-               <lb/><choice><sic>staid</sic><corr>Stayed</corr></choice> Home all day <hi rend="underline">real Winter</hi>
+               <lb/><choice><sic>staid</sic><corr>Stayed</corr></choice> Home all day <hi rend="underlined">real Winter</hi>
                <lb/>
             </p>
          </div>
@@ -2582,7 +2582,7 @@
                <lb/></seg>ness I went to get a Job of collecting of Him
                <lb/>to Do But He Had got a Hand. Evening
                <lb/>went to see some old Friends of when I use<supplied reason="omitted" resp="ed">d</supplied>
-               <lb/>to go to school <hi rend="underline">there</hi>
+               <lb/>to go to school <hi rend="underlined">there</hi>
             </p>
     
          <!-- End the Section Misha is working on here.
@@ -2695,7 +2695,7 @@
             <dateline><lb/><date from="1862-12-21" to="1862-12-27">For the Week Ending
                <choice><abbr>Sat</abbr><expan>Saturday</expan></choice>
                <choice><abbr>Decem</abbr><expan>December</expan></choice> 27th
-               <add place="above"><hi rend="underline">1862</hi></add></date></dateline>
+               <add place="above"><hi rend="underlined">1862</hi></add></date></dateline>
             <p>
                <lb/>Monday <persName ref="#GrovenberyG">Garret Grovenbery</persName> came up and
                <lb/>I traded my two year old colt off to Him
@@ -2724,7 +2724,7 @@
                <lb/>not turn out so Disasterous for us as was
                <lb/>at first thought. There Has been trouble
                <lb/>in <name type="organization">the cabinet</name> Tendering of Resignations
-               <lb/>and <hi rend="underline"><unclear reason="illegible"
+               <lb/>and <hi rend="underlined"><unclear reason="illegible"
                   cert="low"><choice><sic>Ect</sic><corr>Etc</corr></choice></unclear></hi>
             </p>
             <pb facs="LCSmith-621227b"/>
@@ -2742,7 +2742,7 @@
                <lb/>Side while the <persName>Reeses</persName> party only got one
                <lb/>turkey counted 10 scalps squirrel one Quail
                <lb/>one <choice><sic><unclear>Rabaet</unclear></sic><corr>Rabbit</corr></choice>
-               <unclear>I</unclear> and <hi rend="underline"><choice><sic>ect</sic><corr>etc</corr></choice></hi> according to value
+               <unclear>I</unclear> and <hi rend="underlined"><choice><sic>ect</sic><corr>etc</corr></choice></hi> according to value
                <lb/>of the thing, we Beat them over one Hundred
                <lb/>Scalps. They treated all Hands to the
                <lb/>oysters <choice><sic>witch</sic><corr>which</corr></choice> was the agreement
@@ -2808,7 +2808,7 @@
                <lb/>saw wood part of the Day Eavning turned quite
                <lb/>cold Went to <placeName>albany</placeName> and Bought a Sack of flour
                <lb/>as we are out and did not Raise Wheat enough
-               <lb/>for our own use <hi rend="underline">poor
+               <lb/>for our own use <hi rend="underlined">poor
                   <choice><sic>arraingment</sic><corr>arrangement</corr></choice></hi>. Dance
                <lb/>to <persName>Wilkinses</persName> to night.
             </p>

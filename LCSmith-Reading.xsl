@@ -90,8 +90,11 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    
     <!-- Recoverable cancellations by the author or another hand -->
     <xsl:template match="tei:del"/>
+    
+    <!-- Figures -->
     <xsl:template match="tei:figure[@rend='embed']">
         <div class="fl_img_right">
             <img>

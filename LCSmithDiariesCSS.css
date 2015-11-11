@@ -234,3 +234,6 @@ td {
     display:none;
 }
 
+.cancel {
+    text-decoration:line-through;
+}

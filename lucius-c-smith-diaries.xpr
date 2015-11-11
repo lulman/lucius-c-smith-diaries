@@ -14,7 +14,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Edintro.xsl</String>
+                                    <String>LCSmith-Diaries.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -29,7 +29,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Common.xsl</String>
+                                    <String>LCSmith-Diplomatic.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -59,21 +59,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Diplomatic.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>LCSmith-diplomatic</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>LCSmith-Reading.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -89,7 +74,22 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Diaries.xml</String>
+                                    <String>LCSmith-Common.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>LCSmith-diplomatic</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>LCSmith-Edintro.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -469,5 +469,6 @@
         <file name="LCSmith-Diplomatic.xsl"/>
         <file name="LCSmith-Edintro.xsl"/>
         <file name="LCSmith-Reading.xsl"/>
+        <file name="LCSmithDiariesCSS.css"/>
     </projectTree>
 </project>
