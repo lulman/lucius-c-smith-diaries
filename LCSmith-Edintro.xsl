@@ -307,10 +307,20 @@
          <xsl:sort select="tei:persName[1]"/>
          <p>
             <strong><xsl:value-of select="tei:persName"/></strong>
-         <xsl:if test="tei:birth">
-            <xsl:text> (b. </xsl:text><xsl:value-of
-            select="tei:birth/@when"/><xsl:if test="tei:death"> - d. <xsl:value-of
-               select="tei:death/@when"></xsl:value-of></xsl:if>)</xsl:if>.
+            <xsl:if test="tei:birth or tei:death">
+               <xsl:choose>
+                  <xsl:when test="tei:birth[@notAfter]"> (b. not before <xsl:value-of select="tei:birth/@notAfter"/></xsl:when>
+                  <xsl:when test="tei:birth[@when]"> (b. <xsl:value-of select="tei:birth/@when"/></xsl:when>
+                  <xsl:otherwise> (</xsl:otherwise></xsl:choose>
+               <xsl:choose>
+                  <xsl:when test="not(tei:birth)"></xsl:when>
+                  <xsl:when test="not(tei:death)"></xsl:when>
+                  <xsl:otherwise>; </xsl:otherwise>
+               </xsl:choose>
+               <xsl:choose>
+                  <xsl:when test="tei:death[@notBefore]">d. not before <xsl:value-of select="tei:death/@notBefore"/></xsl:when>
+                  <xsl:when test="tei:death[@when]">d. <xsl:value-of select="tei:death/@when"/></xsl:when>
+                  <xsl:otherwise></xsl:otherwise></xsl:choose>)</xsl:if>.
           <xsl:apply-templates select="tei:note[@type='biographical']"/>
          </p>
       </xsl:for-each>

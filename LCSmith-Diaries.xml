@@ -549,7 +549,6 @@
                <person xml:id="John">
                   <persName>Smith, Johnathan Wesley</persName>
                   <birth when="1838-08-16"><placeName ref="#NewAlbany">New Albany, OH</placeName></birth>
-                  <death></death>
                   <note type="biographical">
                      John is Lucius Smith's second younger brother. Lucius refers to him throughout the journal, commonly 
                      in reference to labor shared by the brothers on family farm. John was particularly noted as helping 
@@ -587,7 +586,7 @@
                <person xml:id="JCoons">
                   <persName>Coons, John W.</persName>
                   <birth when="1834"><placeName evidence="external">Plain Township, OH</placeName></birth>
-                  <death atLeast="1900"></death>
+                  <death notBefore="1900"></death>
                   <note>
                   On 30th November, 1862, Lucius mentions that John Coons "and wife" (Elizabeth, sometimes spelled "Elisabeth")
                      are visiting. Coons was a contempory of Smiths who lived in Plain Township, though his draft papers of 1863
