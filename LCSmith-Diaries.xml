@@ -1418,7 +1418,7 @@
    <dateline><lb/><date when="1862-08-09">Saturday 9th Aug <hi rend="underlined">1862</hi></date></dateline>
    <p><time>morning</time>
       <lb/>went to <placeName>Columbus</placeName> got <persName>Gilbert Collins</persName>
-      <lb/>to put my property over in the old <rs type="familial"><choice><sic>mans</sic><corr>man's</corr></choice></rs>
+      <lb/>to put my property over in the old <rs type="familial"><choice><sic>Mans</sic><corr>Man's</corr></choice></rs>
       <lb/>Hands so that if I am drafted <del rend="overstrike">I</del> He
       <lb/>can take care of it for me and them
       <lb/>Patent Right men can also stand
@@ -1426,7 +1426,7 @@
       <lb/>and staid all night. <del rend="erased">G</del><persName>Joseph</persName> and
       <lb/><persName><choice><abbr>Wm</abbr><expan>William</expan></choice></persName> Have both Enlisted for fear of
       <lb/> the Draft this afernoon Had a good
-      <lb/>rain.
+      <lb/>Rain.
    </p>
 </div>       
 <div xml:id="LC18620810" type="Entry">
@@ -1435,16 +1435,16 @@
       <lb/>We Have Had a nice rain went over
       <lb/>to see <persName>John Dague</persName> about Digging my
       <lb/>well as He promised to do it But
-         <lb/>the cite to get Him to do it is <choice><sic>verry</sic><corr>very</corr></choice>
+         <lb/>the <unclear cert="medium">cite</unclear> to get Him to do it is <choice><sic>verry</sic><corr>very</corr></choice>
          <lb/>slim <choice><sic>verry</sic><corr>very</corr></choice> pleasant day
       <lb/> But <choice><sic>awfull</sic><corr>awful</corr></choice> Lonesome
    </p>
 </div>         
          <pb facs="LCSmith-620811"/>
          <div xml:id="LCS18620811" type="Entry">
-            <dateline><lb/><date when="1862-08-11">Monday Aug 11th <hi rend="underlined">1862</hi></date></dateline>
+            <dateline><lb/><date when="1862-08-11">Monday Aug 11th <hi rend="underlined">1862</hi></date>.</dateline>
             <p>
-               <time>morning</time> <persName>John</persName>
+                  <lb/>Morning <persName>John</persName>
                   <lb/>and I went up near Center and got my 
                   <lb/>Horse power for my mill It has to <choice><sic>bee</sic><corr>be</corr></choice>
                   <lb/>Rewooded anew. <time>Afternoon</time> <persName>Newton</persName> commen<seg type="softhyphen">
@@ -1461,7 +1461,7 @@
                <lb/><time>Afternoon</time> Hawled a load of wood to 
                <lb/><placeName>Albany</placeName> for <rs type="familial" ref="SmithArch">Dad</rs> and Hawled up a 
                <lb/>load of saw Dust and put it in my
-               <lb/>new cane <choice><sic>Hous</sic><corr>House</corr></choice>for the party <choice><sic>tomorow</sic><corr>tomorrow</corr></choice>
+               <lb/>new cane <choice><sic>Hous</sic><corr>House</corr></choice> for the party <choice><sic>tomorow</sic><corr>tomorrow</corr></choice>
                <lb/>night fixed up seats and arranged things
                <lb/><persName>Newton</persName> &amp; <rs type="familial" ref="SmithArch">Dad</rs> made a <choice><orig><distinct type="archaic_orthography" time="15-16">sinck</distinct></orig><reg source="OED">sink</reg></choice> and spout
                <lb/>for the well to carry the water under the
@@ -1473,18 +1473,18 @@
             <dateline><lb/><date when="1862-08-13"><choice><sic>Wednsday</sic><corr>Wednesday</corr></choice> 13th Aug <unclear cert="medium">/</unclear>62</date></dateline>
             <p>
                <lb/>To day all went to the Celebration
-               <lb/>Sunday school expect <rs type="familial" ref="SmithArch">Dad</rs> and <persName>Augustine</persName>
+               <lb/>Sunday school except <rs type="familial" ref="SmithArch">Dad</rs> and <persName>Augustine</persName>
                <pb facs="LCSmith-620814"/>
                <lb/><time>forenoon</time> <persName>Mr Taft</persName> gave the Sunday school a
-               <lb/>Lecture after Dinner <del rend="overstrike">we</del><persName>Mr Cancey Olds</persName>
+               <lb/>Lecture after Dinner <del rend="overstrike">we</del> <persName>Mr Cancey Olds</persName>
                <lb/><persName ref="CoxS">Sam Cox</persName> <persName ref="GalawayS">Sam Galaway</persName> made War
                <lb/><choice><sic>speaches</sic><corr>speeches</corr></choice> there was a large turnout of
                <lb/>people several thousand <time><choice><sic>Eavning</sic><corr>Evening</corr></choice></time> <choice><sic>riged</sic><corr>rigged</corr></choice>
                <lb/>up the cane House with lights I put up 
                <lb/>three Coal oil Lamp on the Beams and 
                <lb/>It made it <choice><sic>verry</sic><corr>very</corr></choice> light and nice there was a 
-               <lb/>large turnout over a Hundred and we
-               <lb/>Had a right good party as to the place <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice>
+               <lb/>Large turnout over a Hundred and we
+               <lb/>Had a right good party as to the place
                <lb/>It was a perfect love of a place for a 
                <lb/>party. It lasted <choice><orig><distinct type="archaic_orthography" time="17-17">untill</distinct></orig><reg source="OED">until</reg></choice> midnight. I was
                <lb/>tired near out by standing <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice>
@@ -1502,7 +1502,7 @@
                <lb/>and we Had to either curb it up or
                <lb/>wall up and as there was quite a good 
                <pb facs="LCSmith-620817"/>
-               <lb/>stream of water came in about ten 
+               <lb/>stream of Water came in about ten 
                <lb/>feet from the top we concluded we
                <lb/>Had as well wall up we dug nearly
                <lb/>14 ft in Blue Clay and then did not 
@@ -1518,11 +1518,10 @@
          </div>
          <div xml:id="LCS18620817" type="Entry">
             <dateline><lb/><date when="1862-08-16">Sunday 17th Aug 1862</date></dateline>
-            <lb/>
             <p>
                <lb/>to day all
                <lb/>Went to Basket meeting
-               <lb/>Expect <persName>John</persName> and <persName>Augustine</persName>. <persName>Homer</persName>
+               <lb/>Except <persName>John</persName> and <persName>Augustine</persName>. <persName>Homer</persName>
                <lb/><persName>Rhoda</persName> and <persName ref="#WellsT">Thornton Wells</persName> were down
                <lb/><persName>Henry</persName> has enlisted Considerable feeling
                <lb/>seems to manifest itself among the
@@ -1538,7 +1537,7 @@
                <lb/>Bond of a thousand Dollars persons
                <lb/>trying to get away can be arrested and
                <lb/>put right into the ranks. Enlisting 
-               <lb/>is quite <choice><sic>livly</sic><corr>lively</corr></choice>
+               <lb/>is quite <choice><sic>Livly</sic><corr>lively</corr></choice>.
             </p>
          </div>
          <div xml:id="LCS18620818" type="Entry">
@@ -1553,7 +1552,7 @@
                <lb/>It works <choice><sic>verry</sic><corr>very</corr></choice> well and looks <choice><sic>verry</sic><corr>very</corr></choice> well
                <lb/>It cost me $6.7<unclear cert="low">8</unclear> as follows 28 ft at 20 cts
                <lb/>per foot = 5.60 Irons 60 <persName>John</persName> to Help
-               <lb/>bore 3<del rend="overstrike">6</del>1 &#xbc; work <del rend="overstrike">I done and it back</del>Leather
+               <lb/>bore 3<del rend="overstrike">6</del>1 &#xbc; work <del rend="overstrike">I done and it back</del> Leather
                <lb/>for it 25 Besides my work and
                <pb facs="LCSmith-620823b"/>
                <lb/><persName>Johns Moles</persName> Bill amouted to five
@@ -1565,11 +1564,11 @@
                <lb/><persName>John</persName> and me Hawled of the
                <lb/>Well dirt on the road done a good 
                <lb/>job of work completed my work of this
-               <lb/>year and last two. put a box and 
+               <lb/>year and last two. put a Box and 
                <lb/>underground spouting to my well.
                <lb/>the pump <unclear cert="medium">lather</unclear>. monday night went
-               <lb/>to a party to <persName>Isaacs Smith</persName> Tues to
-               <lb/><unclear cert="medium"><persName>Gremias</persName></unclear> and <choice><sic>Wednsday</sic><corr>Wednesday</corr></choice> night to a war
+               <lb/>to a party to <persName>Isaacs Smith</persName> Tues to <seg type="nohyphen"><unclear>give
+               <lb/>mias</unclear></seg> and <choice><sic>Wednsday</sic><corr>Wednesday</corr></choice> night to a war
                <lb/>meeting at <placeName>Albany</placeName>. I subscribed $3.00 to
                <lb/>a Bounty fund for our Township <persName>Lewis
                <lb/>Bell</persName> and <persName>Harrison Smith</persName> and some
