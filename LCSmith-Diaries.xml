@@ -1584,16 +1584,16 @@
                <pb facs="LCSmith-620824"/>
             <p>
                <lb/><del rend="erased">G</del><persName>McClellan</persName> has retreated to <placeName>Yorktown</placeName>
-               <lb/>and Pope since <name type="event">the battle of Culpeper
+               <lb/>and Pope since <name type="event">the battle of Culp<del extent="1" unit="chars" rend="erased">p</del>eper
                <lb/>Court House</name> has also fell back in the
                <lb/>west the <name type="organization">Rebels</name> seem to be pressing North.
             </p>
             <p>
                <lb/>Weather cool and very Dry had
-               <lb/>one <del rend="erase">l</del>little shower but it is very dry the 
+               <lb/>one<del rend="erase">l</del> <choice><sic>litle</sic><corr>little</corr></choice> shower but it is very Dry the 
                <lb/>corn is not earing so as to make a
                <lb/>half crop the ground seems to not
-               <lb/>stand a drouth as at other times
+               <lb/>stand a Drouth as at other times
             </p>
          </div>      
          <div xml:id="LCS18620824" type="Entry">
@@ -1611,20 +1611,19 @@
                <lb/>
                <lb/>
                <lb/>
-               <lb/>
             </p>
          </div>
          <pb facs="LCSmith-620825"/> 
          <div xml:id="LCS18620825" type="Entry">
             <lb/>
-            <dateline><lb/><date when="1862-08-25">Monday 25 August 1862</date></dateline>
+            <dateline><date when="1862-08-25">Monday 25 August 1862</date></dateline>
             <p>
-               <lb/>forenoon
+               <lb/><del unit="chars" extent="2" rend="erased">mo</del>forenoon
             </p>
             <p>
                <lb/>Went to see <persName>Mr Souders</persName> to get Him
                <lb/>to come and Help me make my
-               <lb/><choice><sic>Doores</sic><corr>doors</corr></choice> and to <placeName>Jersey</placeName> to <unclear cert="high">morrow</unclear> to
+               <lb/><choice><sic>Doores</sic><corr>doors</corr></choice> and to <placeName>Jersey</placeName> to <unclear cert="high">Monroes</unclear> to
                <lb/>get a pair of Boots made.  afternoon
                <lb/>worked at my Building <persName ref="SmithIN">Newton</persName> hawled
                <lb/>Wood half day finished Hawling I now
@@ -1638,7 +1637,7 @@
          </div>
          <div xml:id="LCS18620826" type="Entry">
             <lb/>
-            <dateline><lb/><date when="1862-08-26">Tues 26</date></dateline>
+            <dateline><date when="1862-08-26">Tues 26</date></dateline>
             <p>
                <lb/>to day went to <placeName>West<seg type="softhyphen">
                <lb/></seg>erville</placeName> to see about getting some casting
@@ -1661,7 +1660,7 @@
          </div>
          <div xml:id="LCS18620827" type="Entry">
             <lb/>
-            <dateline><lb/><date when="1862-08-27"><choice><sic>Wednsday</sic><corr>Wednesday</corr></choice> 27th Aug 1862</date></dateline>
+            <dateline><date when="1862-08-27"><choice><sic>Wednsday</sic><corr>Wednesday</corr></choice> 27th Aug 1862</date></dateline>
             <p>
                <lb/>worked at my House at my <unclear cert="low">stream</unclear>
                <lb/>spout put up the timbers and arranged
@@ -1674,7 +1673,7 @@
          </div>
          <div xml:id="LCS18620828" type="Entry">
             <lb/>
-            <dateline><lb/><date when="1862-08-28">Thursday 28</date></dateline>
+            <dateline><date when="1862-08-28">Thursday 28</date></dateline>
             <p>
                <lb/>To day spent the day
                <lb/>with the folks went awhile to <persName ref="EvansReece">Roll Eavenes</persName>
@@ -1693,14 +1692,14 @@
          </div>
          <div xml:id="LCS18620831" type="Entry">
             <lb/>
-            <dateline><lb/><date when="1862-08-31">Sunday august 31st 1862</date></dateline>
+            <dateline><date when="1862-08-31">Sunday august 31st 1862</date></dateline>
             <p>
                <lb/>staid Home 
                <lb/>all day Had a swad of
                <lb/>girls <choice><sic>Hear</sic><corr>here</corr></choice> all they like the side saddle 
                <lb/>a little well.  night went to meeting to 
                <lb/><placeName ref="NewAlbany">Albany</placeName> Heard <persName><choice><sic>Hurlocker</sic><corr>Horlocker</corr></choice></persName> preach.  seen
-               <lb/><persName>sam</persName> and <persName>Frank <del rend="overstrike">L</del> Lane</persName> they did not go
+               <lb/><persName>Sam</persName> and <persName>Frank <del rend="overstrike">L</del> Lane</persName> they did not go
                <lb/>Home yesterday as <persName>aunt Hariet</persName> was <del rend="overstrike">u</del> sick
                <lb/>will tomorrow.  To day it seems as if 
                <lb/><choice><sic>evry</sic><corr>every</corr></choice> thing would die for want of
@@ -1720,7 +1719,7 @@
          <pb facs="LCSmith-620901a"/>
          <div xml:id="LCS18620901" type="Entry">
             <lb/>
-            <dateline><lb/><date from="1862-09-01" to="1862-09-06">Monday September 1st 1862</date>
+            <dateline><date from="1862-09-01" to="1862-09-06">Monday September 1st 1862</date>
             <lb/>for the week ending sat Sept 6th</dateline>
             <p>
                <lb/>Worked at my cane House all
@@ -1906,8 +1905,8 @@
             <lb/>and riveted my sheet Iron together
             <lb/><rs type="familial" ref="SmithArch">Father</rs> Helped me all the week <persName ref="#GoodrichG">George good<seg type="softhyphen">
             <lb/>rich</seg></persName> three days <del><gap reason="overwritten" unit="words" extent="1"></gap></del> when He got sick
-            <lb/>Him &amp; <rs type="familial" ref="SmithArch">Father</rs> made boots pans nearly
-            <lb/><unclear cert="low">cor</unclear> to Hawl cane on and laid the
+            <lb/>Him &amp; <rs type="familial" ref="SmithArch">Father</rs> made boat pans nearly
+            <lb/><unclear cert="low">car</unclear> to Hawl cane on and laid the
             <lb/>track made feed table <choice><sic>riged</sic><corr>rigged</corr></choice> a pumice
             <lb/>carrier to the mill and various things
             <lb/>It Has been a week Hard work for us all
