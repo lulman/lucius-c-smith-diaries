@@ -1915,7 +1915,7 @@
             <lb/>and no rain. we now have plenty of Peaches
             <lb/>and <unclear cert="low">diging</unclear> them </p> 
             <pb facs="LCSmith-620921"/>
-            <lb/><p><persName><unclear cert="low"><choice><sic>Mclean</sic><corr>McClellan</corr></choice></unclear></persName> Has succeed in driving
+            <lb/><p><persName><choice><orig><abbr>Mcllan</abbr></orig><reg>McClellan</reg></choice></persName> Has succeed in driving
             <lb/>out the Rebels out of <placeName><choice><sic>meriland</sic><corr>Maryland</corr></choice></placeName><ptr type="noteAnchor" target="Maryland"/>
             <note resp="ed" xml:id="Maryland">Smith is here referring to the Maryland Campaign, wherein contemporary sources describe Confederates crossing the 
                Potomac River, invading Maryland, and taking over the city of Frederick on September 7, 1862 <bibl><ref target="Invasion">"Invasion"</ref></bibl>. This led to the Battle of 
@@ -1961,7 +1961,7 @@
             <lb/><persName>Newton</persName> Helped me one day and one
             <lb/>day went to <persName ref="#GrovenberyG">Grovenberies</persName> after a load
             <lb/>of corn for me we now Have
-            <lb/>things <choice><sic>riged</sic><corr>rigged</corr></choice> in good still lonely
+            <lb/>things <choice><sic>riged</sic><corr>rigged</corr></choice> in good still I only
             <lb/>they will work well and not break
             <lb/><choice><sic>especialy</sic><corr>especially</corr></choice> the mill I tried that It <choice><sic>seams</sic><corr>seems</corr></choice>
             <lb/>to work well. I ought to Have
@@ -2001,7 +2001,7 @@
             <lb/>timbling shaf<supplied reason="omitted" resp="ed">t</supplied> <choice><sic>witch</sic><corr>which</corr></choice> is geared to the mill
             <pb facs="LCSmith-621003"/>
             <lb/>It did not Break But twisted all
-            <lb/>up like <unclear cert="low">Jan</unclear> would twist a switch
+            <lb/>up like you would twist a switch
             <lb/>It was but 1&#xbd; inches thick as large as
             <lb/>we could Have It on account of the
             <lb/>Eyes in the <unclear cert="low">Wheels.</unclear> Made 63 gallons
@@ -2059,12 +2059,15 @@
                <p><lb/>still no Rain. Last week  we
                <lb/>Had a small little rain enough to lay the
                <lb/>Dust. I dont <choice><sic>mutch</sic><corr>much</corr></choice> look for rain this fall.
-                  <lb/> <choice><sic>Scarsley</sic><corr>Scarcely</corr></choice> any Wheat is Sowed yet.</p> </div>
+                  <lb/> <choice><sic>Scarsley</sic><corr>Scarcely</corr></choice> any Wheat is Sowed yet.
+               <lb/>
+               </p>
+            </div>
                <div xml:id="LCS18621012a" type="Entry">
-                  <dateline><lb/><date from="1862-10-06" to="1862-10-11">For the Week Ending <choice><abbr>Oct</abbr><expan>October</expan></choice> 11 <unclear cert="low">of</unclear> 62
+                  <dateline><lb/><date from="1862-10-06" to="1862-10-11">For the Week Ending <choice><abbr>Oct</abbr><expan>October</expan></choice> "/62
                      <lb/> <unclear cert="low"> Sunday</unclear> morning</date></dateline>
                   <p><lb/> Early finished fixing the mills 
-                  <lb/> and went to walk. they work well. we drove
+                  <lb/> and went to work. they work well. we drove
                   <lb/> It through as Hard as we could all the 
                      <lb/> week and made 458 gallons average per
                      <lb/> day 46 &#8531; last weeke we made 203 &#189;
@@ -2072,7 +2075,7 @@
                      <lb/> me done the Boiling. <persName ref="#GoodrichG">George</persName> tending the clensing 
                      <lb/> pans and I the finishing  pan. <persName>Homer</persName>
                      <lb/> and <persName>Thomas Longman</persName> feed the mills and
-                     <lb/> <persName> Newton</persName> tends them. <persName>Corris</persName> Cane and Wheals 
+                     <lb/> <persName> Newton</persName> tends them. carries Cane and Wheals 
                   <lb/> off premises. Next week I shall put
                      
                      <pb facs="LCSmith-621012"/> 
