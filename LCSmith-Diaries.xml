@@ -2100,12 +2100,12 @@
                   
                   <lb/>This week we first Drove <choice><sic>Buisness</sic><corr>Business</corr></choice> right
                   <lb/> through all the week we made 550 &#188; gallons
-                  <lb/> of molasses and of the Best Kind. <del rend="erased"> <choice><sic>averag</sic><corr>average</corr></choice></del>91 17/24
+                  <lb/> of molasses and of the Best Kind. <del rend="erased"> </del><choice><sic>averag</sic><corr>average</corr></choice> 91 17/24
                   <lb/> we made one day 119 &#188; <choice><abbr>galls</abbr><corr>gallons</corr></choice> we done some
                   <lb/> finishing in the <choice><sic>eavning</sic><corr>evening</corr></choice> and But little this 
                   <lb/> week Has been somewhat cooler so that we
                   <lb/> can grind juice and leave it in the cistern
-                  <lb/> overnight last week <damage agent="Stain"></damage> we could not as it
+                  <lb/> overnight last week we could not as it
                   <lb/> would in a short time sour three Hands in
                   <lb/> Boiling and three grinding my well Has given
                   <lb/> out and we Have to get all our water out of
@@ -2118,7 +2118,7 @@
                   <lb/> <unclear cert="high">along</unclear> although I have tried to Discourage It. 
                   <lb/> I now Have near a months work and Hand the 
                   <lb/> Yard is nearly filled. I Have been Having the
-                  <lb/> Dip thrice all the week and quite Bad so
+                  <lb/> Diptheria all the week and quite Bad so
                   <lb/> as to be very unable at times to Keep up still I
                   <lb/> made out to Keep <choice><sic>Buisness</sic><corr>Business</corr></choice> agoing. Had Dr <persName>Rainy</persName>
                   <lb/> to Docter me. <rs type="familial" ref="SmithArch">Father</rs> mashed His <choice><sic>Had</sic><corr>Hand</corr></choice> <choice><sic>verry</sic><corr>very</corr></choice> bad
@@ -2126,7 +2126,7 @@
                   <lb/> Cellar. got some of my cane cut up in shock
                   <lb/> this week. <persName ref="#WilsonG">george Wilson</persName> and <persName>george Daily</persName> Helped 
                   <lb/> <persName ref="#WilsonG">george Wilson</persName> tending the mill Boyes Daily in 
-                  <lb/> the cane <damage agent="Stain"></damage> patch. first frost of any account
+                  <lb/> the cane patch. first frost of any account
                   <lb/> was friday morning. 
                </p>
             </div>
@@ -2142,7 +2142,7 @@
             <div xml:id="LCS18621025a" type="Entry">
                <dateline><lb/><date from="1862-10-20" to="1862-10-25">For the week Ending <choice><abbr>Oct</abbr><expan>October</expan></choice> 25 1862</date></dateline>
                <p> <lb/>This week Drove
-                  <lb/>the Business as fast as we could move
+                  <lb/>the Business as fast as we could made
                   <lb/>579 gallons. we Had some considerable bad
                   <lb/> Luck most every day. <choice><sic>Burt</sic><corr>Burst</corr></choice> one of the pipes
                   <lb/> out that went under one of the furnaces my
@@ -2150,11 +2150,11 @@
                   <lb/> and got me a new one and Thurs day we 
                   <lb/> <choice><sic>Broake</sic><corr>Broke</corr></choice> the old mill one <del rend="overstrike">th</del> of the sides
                   <lb/> and as it cannot well  be fixed it is in a bad 
-                  <lb/> fix when the mill was move at <placeName>Lancester</placeName>
+                  <lb/> fix when the mill was made at <placeName>Lancester</placeName>
                   <lb/> the company Have moved away and I will 
-                  <lb/>Have to get it fixed some time by the old price 
+                  <lb/>Have to get it fixed some time by the old piece 
                   <lb/> or get a pattern made. put a sweep to the new 
-                  <lb/> mill as as to put on two Horses<ptr type="noteAnchor" target="Horse"/>
+                  <lb/> mill so as to put on two Horses<ptr type="noteAnchor" target="Horse"/>
                   <note resp="ed" xml:id="Horse">Lucius Smith's use of the word "Horse," in the context of 
                      his mill, usually refers to "horsepower." Horsepower, as it is understood today, 
                      is a unit for measuring power. The engines that drove sugar mills in the 1860s 
@@ -2185,9 +2185,9 @@
                   <lb/> However is <choice><sic>Dividid</sic><corr>Divided</corr></choice> <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> at all <hi rend="underlined">works</hi>
                               
                </p>
-               <p><lb/> this week Mr Long called <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> with Mr
-                  <lb/> <persName>Day</persName> patentee as now and of the right of
-                  <lb/> <unclear cert="medium">cooks</unclear> pans and wanted me to pay Him
+               <p><lb/> this week Mr Long called <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> with
+                  <lb/> Mr <persName>Day</persName> patentee as now and of the right of
+                  <lb/> <unclear cert="medium">Cooks</unclear> pans and wanted me to pay Him
                   <lb/> $37 Dollars the price of one His pans of the same
                   <lb/> size as mine. i told him I would give $10.00
                   <lb/> and no more. He would not take It and
@@ -2197,13 +2197,15 @@
                <p><lb/> Warm and Dry up to <choice><abbr>Sat</abbr><expan>Saturday</expan></choice> morning 
                   <lb/> When it Drizzled rain most all day and
                   <lb/> turned to snow at night and snowed like 
-                  <lb/> fury all night.                  
+                  <lb/> fury all night. 
+                  <lb/>
+                  <lb/>
                </p>
             </div>
             
             <pb facs="LCSmith-621026"/>
             <div xml:id="LCS18621026" type="Entry">
-               <dateline><lb/> <date when="1862-10-26"> Sunday <choice><abbr>Oct</abbr><expan>October</expan></choice> 26th 1862</date></dateline>
+               <dateline><lb/><del rend="erased">Morn</del> <date when="1862-10-26"> Sunday <choice><abbr>Oct</abbr><expan>October</expan></choice> 26th 1862</date></dateline>
                <p><lb/> morning real winter snow
                   <lb/> from five to eight inches Deep and cold
                   <lb/> cleaned up the House carried in cane worked
@@ -2218,9 +2220,9 @@
                <lb/> November 1st 1862 Saturday </date></dateline>
                              <p>
                                 <lb/> This Week Had good luck made 636 &#189;
-                                <lb/> gallons of <unclear cert="low"><choice><sic>Extry</sic><corr>Extra</corr></choice></unclear> good molasses. <choice><abbr>Mon</abbr><expan>Monday</expan></choice> I went to
+                                <lb/> gallons of <choice><sic>Exty</sic><corr>Extra</corr></choice> good molasses. <choice><abbr>Mon</abbr><expan>Monday</expan></choice> I went to
                                 <lb/> Hunt a mill but could not find any <del rend="overstrike">wednesday</del>
-                                <lb/> <del>I got F</del> Tuesday I got <rs type="familial" ref="SmithArch">Father</rs> to go down
+                                <lb/> <del rend="erased">I got F</del> Tuesday I got <rs type="familial" ref="SmithArch">Father</rs> to go down
                                 <lb/> to <persName>shafers</persName> as He has <choice><sic>throwen</sic><corr>thrown</corr></choice> out His mill
                                 <lb/> like mine and Borrowed the piece to match
                                 <lb/> my Broken one and wednesday we put it up
@@ -2329,7 +2331,7 @@
                <lb/>some 80 gallons of It the rest is spoiled
                <lb/>Enough to make some two Hundred
                <lb/>Gallons to me quite  a loss as I worked so
-               <lb/>Hard for It Frid and sat we clearned
+               <lb/>Hard for It Frid and sat we cleaned
                <lb/>up. clensed up some skinnings but they did
                <lb/>not make verry good molasses. In all we have
                <lb/>Made 4402 &#xbe; Gallons. <date when="1862-11-17">Monday</date> Morning It
@@ -2362,9 +2364,9 @@
                <lb/>to produce as many scalps as the othe<supplied reason="omitted" resp="ed">r</supplied> are to
                <lb/>treat to cigars 
                   <choice>
-                     <sic>aples &amp;</sic>
-                     <corr>&amp; apple</corr>
-                  </choice> cider Next
+                     <sic>aples</sic>
+                     <corr>apple</corr>
+                  </choice>&amp; cider Next
                <lb/>
                <choice>
                   <sic>Wednsday</sic>
@@ -2394,7 +2396,7 @@
                   </choice>
                <lb/>the old mare away and cut Her open on
                <lb/>the Back and found Her Back Broken the
-               <lb/>small Ridge Bone Just inside the skin the
+               <lb/>small Ridge Bone Just under the skin,
                <lb/>It was 
                   <choice>
                      <sic>Brok</sic>
@@ -2416,9 +2418,7 @@
                <lb/><persName>Aunt Eliza</persName> and <persName>Thorton</persName> came down with
                <lb/>a <persName>Misses Montgomery</persName> a sister of <persName>uncle Dave
                <lb/>Beaches</persName> Wife. and a young man on their
-               <lb/>way to Robertses. Hawled down our <choice><sic>Bead</sic><corr>bed</corr></choice>
-               <lb/>from the cane
-               <lb/>House
+               <lb/>way to Robertses. Hawled down our <choice><sic>Bead</sic><corr>bed</corr></choice> <add place="margin">from the cane House</add>
             </p>
          </div>
          <div xml:id="LCS18621125" type="Entry">
