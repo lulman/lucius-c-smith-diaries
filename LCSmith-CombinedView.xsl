@@ -39,7 +39,7 @@
         font-family: 'Fanwood Text',georgia, serif;
         }
         .pageview {
-        margin-bottom:100px;
+        margin-bottom:200px;
         float:left;
         }
         .pagebreak {
@@ -134,7 +134,7 @@
                 <xsl:attribute name="target">top</xsl:attribute>
                 <img class="pageview">
                     <xsl:attribute name="src"><xsl:value-of select="@facs"/>-small.jpg</xsl:attribute>
-                    <xsl:attribute name="width">475</xsl:attribute>
+                    <xsl:attribute name="width">425</xsl:attribute>
                 </img>
             </a>
         </div>
