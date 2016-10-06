@@ -89,11 +89,11 @@
          <body>
             <!-- Build the masthead and navigation links at the top of the page -->
             <div class="masthead">
-               <div id="display1"> <img src="image-LCSmith-Daguerreotype.jpg" height="120" title="Lucius Clark Smith, 1858 (Age 23)"/> </div>
-               <div id="display2"> <img src="image-ArchibaldSmithHouse.jpg" height="120" title="Smith Homestead"/> </div>
-               <div id="display3"> <img src="image-Archibald-MaryAnnSmith.jpg" height="120" title="Lucius Smith's parents, Archibald and MaryAnn"/> </div>
-               <div id="display4"> <img src="image-Horse-Power-CaneMill-1857.jpg" height="120" title="A sorghum mill"/> </div>
-               <div id="display5"><img src="image-WarMeeting-18620815.jpg" height="120" title="Newark Advocate, 15 August 1862"/> </div>
+               <div id="display1"> <img src="image-LCSmith-daguerreotype.jpg" height="120" title="Portrait of Lucius Clark Smith, 1858 (Age 23)"/> </div>
+               <div id="display2"> <img src="image-archibaldsmithhouse.jpg" height="120" title="Photograph of Smith Homestead"/> </div>
+               <div id="display3"> <img src="image-archibald-maryannsmith.jpg" height="120" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/> </div>
+               <div id="display4"> <img src="image-horse-power-canemill-1857.jpg" height="120" title="Drawing of a sorghum mill"/> </div>
+               <div id="display5"><img src="image-warmeeting-18620815.jpg" height="120" title="Notice in Newark Advocate for 15 August 1862 of a war meeting."/> </div>
             </div>
             <div id="titleBar">
                <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
@@ -104,6 +104,7 @@
             </div>
             
             <div id="navBar">
+               <p><a href="#view">About this view of the diary.</a></p>
                <ul id="menu">
                   <li><a href="./lcsmith-diaries.html#introduction">Editorial Introduction</a>
                      <ul>
@@ -161,7 +162,7 @@
                </ul>
             </div>
             <script>
-               $( "#menu" ).menu({ position: { my: "left top", at: "right-70 top+32" } });
+               $( "#menu" ) .menu({ position: { my: "left top", at: "right-70 top+32" } });
             </script>
             
             <!-- Apply templates to the tei:body. -->
@@ -224,11 +225,12 @@
             <!-- Describe this view of the journal. -->
             <h2>About this View of the Journal</h2>
             <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
+               
             <hr/>
+            <a href="#topofpage">Top of Page</a>
+               
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
-               <a href="./lcsmith-diaries.html#introduction"
-                  target="_self">Home Page</a>
                <br/>
                <br/>
                <emph>Created: <xsl:apply-templates
@@ -465,6 +467,16 @@
          </xsl:attribute>
          <xsl:attribute name="target">_blank</xsl:attribute>
          <xsl:value-of select="tei:head"/>
-      </a>]. </xsl:template>
+      </a>].
+   </xsl:template>
+   
+   <xsl:template match="tei:figure[@rend='namedanchor']">
+      <a>
+      <xsl:attribute name="name">
+         <xsl:value-of select="tei:graphic/@url"/>
+      </xsl:attribute>
+   </a>
+   </xsl:template>
+   
 
 </xsl:stylesheet>

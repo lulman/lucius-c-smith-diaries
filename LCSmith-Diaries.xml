@@ -121,7 +121,7 @@
                <extent>188 pp.</extent>
 
                <publicationStmt>
-                  <p>Pulbication statement from the library.</p>
+                  <p>Publbication statement from the library.</p>
                </publicationStmt>
 
                <!-- 
@@ -545,6 +545,7 @@
                   <persName>Smith, Lucius Clark</persName>
                   <note type="biographical">Archibald Smith's oldest son, the author of this diary.</note>
                   <birth when="1834-11-24"><placeName ref="#NewAlbany">New Albany, OH</placeName></birth>
+                  <death when="1915-02-10"></death>
                </person>
                <person xml:id="John">
                   <persName>Smith, Johnathan Wesley</persName>
@@ -974,18 +975,18 @@
                <bibl xml:id="FindaGrave73411433" n="GeorgeA">"George Asbury Goodrich". <title level="m">Findagrave.com</title>. 2011. Web. 24 October 2012.
                   </bibl>
                <bibl xml:id="FindaGrave74277136" n="Thornton">"Thornton E. B. Wells." <title level="m">Findagrave.com</title>. 2011. Web. 25 October 2012.</bibl>
-               <bibl xml:id="Ancestry1880" n="1880">"1880 United States Federal Census". <title level="m">Ancestry.com</title>. 1999.  Web.  20 October 2012.</bibl>
-               <bibl xml:id="Ancestry1860" n="1860">"1860 United States Federal Census". <title level="m">Ancestry.com</title>. 2009. Web. 20 October 2012.</bibl>
-               <bibl xml:id="Ancestry1870" n="1870">"1870 United States Federal Census." <title level="m">Ancestry.com</title>. 2009. Web. 22 October 2012.</bibl>
-               <bibl xml:id="VeteransSchedule1890" n="1890">"1890 Veterans Schedules". <title level="m">Ancestry.com</title>. 2005. Web. 25 October 2012.</bibl>
-               <bibl xml:id="Ancestry1900" n="1900">"1900 United States Federal Census". <title level="m">Ancestry.com</title>. 2004. Web. 24 October 2012</bibl>
+               <bibl xml:id="Ancestry1880" n="Eighteen-eighty">"1880 United States Federal Census." <title level="m">Ancestry.com</title>. 1999.  Web.  20 October 2012.</bibl>
+               <bibl xml:id="Ancestry1860" n="Eighteen-sixty">"1860 United States Federal Census." <title level="m">Ancestry.com</title>. 2009. Web. 20 October 2012.</bibl>
+               <bibl xml:id="Ancestry1870" n="Eighteen-seventy">"1870 United States Federal Census." <title level="m">Ancestry.com</title>. 2009. Web. 22 October 2012.</bibl>
+               <bibl xml:id="VeteransSchedule1890" n="Eighteen-ninety">"1890 Veterans Schedules." <title level="m">Ancestry.com</title>. 2005. Web. 25 October 2012.</bibl>
+               <bibl xml:id="Ancestry1900" n="Nineteen">"1900 United States Federal Census." <title level="m">Ancestry.com</title>. 2004. Web. 24 October 2012</bibl>
                <bibl xml:id="BEO19thcentury" n="Collins">"Collins, Gilbert G." <title level="m">The Biographical Encyclopedia of Ohio of the Nineteenth Century.</title>
                   Cincinnati and Philadelphia: Galaxy Publishing Company, 1876. <title level="s">Making of America.</title> Web. 27 October 2012. </bibl>
-               <bibl xml:id="Ancestry1850" n="1850">"1850 United States Federal Census." <title level="m">Ancestry.com</title>. 2009.  Web.  28 October 2012.</bibl>
-               <bibl xml:id="Ancestry1840" n="1840">"1840 United States Federal Census." <title level="m">Ancestry.com</title>. 2009. Web. 29 October 2012.</bibl>
+               <bibl xml:id="Ancestry1850" n="Eighteen-fifty">"1850 United States Federal Census." <title level="m">Ancestry.com</title>. 2009.  Web.  28 October 2012.</bibl>
+               <bibl xml:id="Ancestry1840" n="Eighteen-forty">"1840 United States Federal Census." <title level="m">Ancestry.com</title>. 2009. Web. 29 October 2012.</bibl>
                <bibl xml:id="FindaGrave25957529" n="Pvt">"Pvt Gilbert George Collins." <title level="m">Findagrave.com</title>. 2008. Web. 29 October 2012.</bibl>
                <bibl xml:id="DraftRecord1863" n="USCivil"><title level="a">US Civil War Draft Registrations Record, 1863-1865.</title> <title level="m">Ancestry.com</title>. 2010. Web. 4 November 2012.</bibl>
-               <bibl xml:id="evangelist" n="boy"><title level="a">The Boy Who Had 'Fits.'</title> <title level="m">New York Evangelist</title> 21 June 1855: 100. Print.</bibl>
+               <bibl xml:id="evangelist" n="Boy"><title level="a">The Boy Who Had 'Fits.'</title> <title level="m">New York Evangelist</title> 21 June 1855: 100. Print.</bibl>
                <bibl xml:id="medical" n="Wilks">Wilks, Dr. <title level="a">Cases of Epilepsy with Clinical Remarks on the Use of Bromide and Iodide of Potassium in that Disease.</title> <title level="j">Medical News</title> February 1862: 25. Web.</bibl>
                <bibl xml:id="OhioMedical" n="Westminster"> <title level="a">Westminster Hospital.—Epilepsy for thirty-two years...</title><title level="j">The Ohio Medical and Surgical Journal</title> 1 May 1859: 392. Web.</bibl>
                <bibl xml:id="BoysStick" n="Boys"><title level="a">Boys, Stick to the Farm.</title> <title level="j">The New England Farmer; a Monthly Journal</title> (October 1863). Web.</bibl>
@@ -1010,7 +1011,7 @@
                <bibl xml:id="Harper" n="Harper">Harper, Robert S. <title level="m">Ohio Handbook of the Civil War.</title> Columbus, OH: The Ohio Historical Society, 1961.</bibl>
                <bibl xml:id="InRelation" n="InRelation"><title level="a">In Relation to the Draft.</title> <title level="j">The Crisis</title> (Columbus,OH). 10 September 1862. Web. 24 November 2012.</bibl>
                <bibl xml:id="DraftPostponed" n="DraftPostponed"><title level="a">Drafting Postponed until the First of October.</title> <title level="j">The Crisis</title> (Columbus,OH). 17 September 1862. Web. 25 November 2012.</bibl>
-               <bibl xml:id="TheDraft" n="TheDraft"><title level="a">The Draft in Ohio.</title> <title level="j">The Daily Cleveland Herald</title> (Cleveland, OH). 3 November 1862. Web 25 November 2012.</bibl>
+               <bibl xml:id="TheDraft" n="DraftIn"><title level="a">The Draft in Ohio.</title> <title level="j">The Daily Cleveland Herald</title> (Cleveland, OH). 3 November 1862. Web 25 November 2012.</bibl>
                <bibl xml:id="Invasion" n="Rebel"><title level="a">Rebel Invasion of Maryland.</title> <title level="j">Daily National Intelligencer</title> (Washington D.C.). 8 September 1862: Issue 15; col B. Web. 22 November 2012.</bibl>
                <bibl xml:id="Retreat" n="Retreat"><title level="a">The Retreat of the Rebel Army.</title> <title level="j">Boston Daily Advertiser</title> (Boston, MA). 22 September 1862: Issue 72; col C. Web. 22 November 2012.</bibl>
          <bibl xml:id="HuntMorrow" n="Hunt">Hunt, Thomas F.,  and George E. Morrow. <title level="m">Soils and Crops of the Farm.</title> Chicago: Howard and Wilson Publishing Company, 1892. Print.</bibl>
@@ -1029,7 +1030,7 @@
             <bibl xml:id="DrEBOlds" n="DrEBOlds"><title level="a">Dr. E. B. Olds.</title> <title level="j"> The Tiffin Weekly Tribune</title> (Tiffin, Ohio). 22 August 1862. Web. 26 November 2012. </bibl> 
             <bibl xml:id="ArrestandImprisonmentofOlds" n="ArrestandImprison"><title level="a">The Arrest and Imprisonment of the Notorious E.B. Olds.</title> <title level="j">The Daily Cleveland Herald</title> (Cleveland, OH) 17 December 1862. Print 26 November 2012.</bibl>
             <bibl xml:id="DrOldsVision" n="OldsEdson">Olds, Edson B. <title level="a">Dr. Olds' Vision.</title><title level="j"> The Crisis</title> (Columbus, OH). 6 August 1862. Web. 24 November 2012.</bibl>   
-            <bibl xml:id="TheDraftOver" n="TheDraftOver"><title level="a">The Draft Over—The 11th Ward Frees Itself from Draft.</title><title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 8 October 1862. 24 November 2012.</bibl>
+            <bibl xml:id="TheDraftOver" n="DraftOver"><title level="a">The Draft Over—The 11th Ward Frees Itself from Draft.</title><title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 8 October 1862. 24 November 2012.</bibl>
             </listBibl>
          </sourceDesc>
 
@@ -1249,7 +1250,9 @@
             <dateline><lb/><date when="1862-07-30"><choice>
                      <sic>Wednsday</sic>
                      <corr>Wednesday</corr>
-                  </choice> July 30th <hi rend="underlined">1862</hi></date></dateline>
+                  </choice> July 30th <hi rend="underlined">1862</hi></date>
+               <figure rend="namedanchor"><figDesc/><graphic url="topofpage"/></figure>
+            </dateline>
             <p>
                <lb/>to day <persName>John</persName>
                <lb/>and me Hawled Hay all day &#xbd; day in
@@ -2493,7 +2496,7 @@
                <lb/>Montgomery</persName> came to stay over Sunday
                <lb/>with us on Her Road Home
                <lb/><persName>John Coons</persName> and <persName>Wife</persName> are <choice><sic>Hear</sic><corr>here</corr></choice>.
-               <lb/>nice <choice><sic>prety</sic><corr>pretty</corr></choice> day <choice><sic>staid</sic><corr>stayed</corr></choice> Home all
+               <lb/>nice <choice><sic>prety</sic><corr>pretty</corr></choice> day staid Home all
                <lb/>Day.
             </p>
          </div>
@@ -2545,7 +2548,7 @@
          <div xml:id="LCS18621207" type="Entry">
             <dateline><date when="1862-12-07"><lb/>Sunday Decem 7<hi rend="super">th</hi> 1862</date></dateline>
             <p>
-               <lb/><choice><sic>staid</sic><corr>Stayed</corr></choice> Home all day <hi rend="underlined">real Winter</hi>
+               <lb/>staid Home all day <hi rend="underlined">real Winter</hi>
                <lb/>
             </p>
          </div>
@@ -2555,7 +2558,7 @@
                <date when="1862-12-08">Monday</date> <persName ref="#GoodrichG">George 
                <lb/>Goodrich</persName> and me went and to <persName>uncle
                
-               <lb/>Lew<add place="above">i</add>ses</persName> and <choice><sic>staid</sic><corr>stayed</corr></choice> all night walked over
+               <lb/>Lew<add place="above">i</add>ses</persName> and staid all night walked over
                <lb/>nice walking. Tuesday morning went over
                <lb/>to <placeName>Worthington</placeName> and then by the cars<ptr type="noteAnchor" target="Cars"/>
                <note resp="ed" xml:id="Cars">

@@ -101,11 +101,11 @@
          </head>
          <body>
             <div class="masthead">
-               <div id="display1"> <img src="image-LCSmith-daguerreotype.jpg" height="120" title="Lucius Clark Smith, 1858 (Age 23)"/> </div>
-               <div id="display2"> <img src="image-archibaldsmithhouse.jpg" height="120" title="Smith Homestead"/> </div>
-               <div id="display3"> <img src="image-archibald-maryannsmith.jpg" height="120" title="Lucius Smith's parents, Archibald and MaryAnn"/> </div>
-               <div id="display4"> <img src="image-horse-power-canemill-1857.jpg" height="120" title="A sorghum mill"/> </div>
-               <div id="display5"><img src="image-warmeeting-18620815.jpg" height="120" title="Newark Advocate, 15 August 1862"/> </div>
+               <div id="display1"> <img src="image-LCSmith-daguerreotype.jpg" height="120" title="Portrait of Lucius Clark Smith, 1858 (Age 23)"/> </div>
+               <div id="display2"> <img src="image-archibaldsmithhouse.jpg" height="120" title="Photograph of Smith Homestead"/> </div>
+               <div id="display3"> <img src="image-archibald-maryannsmith.jpg" height="120" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/> </div>
+               <div id="display4"> <img src="image-horse-power-canemill-1857.jpg" height="120" title="Drawing of a sorghum mill"/> </div>
+               <div id="display5"><img src="image-warmeeting-18620815.jpg" height="120" title="Notice in Newark Advocate for 15 August 1862 of a war meeting."/> </div>
             </div>
             <div id="titleBar">
                <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
