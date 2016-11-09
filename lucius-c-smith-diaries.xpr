@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="18.0">
+<project version="18.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="18.0" xml:space="preserve">
+            <serialized version="18.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>enable.project.master.files.support</String>
@@ -14,11 +14,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Reading.xsl</String>
+                                    <String>LCSmith-Edintro.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>LCSmith-reading</String>
+                                        <String>LCSmith-edintro</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -34,6 +34,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>LCSmith-edintro</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>LCSmith-Reading.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>LCSmith-reading</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -79,21 +94,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>LCSmith-diplomatic</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>LCSmith-Edintro.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>LCSmith-edintro</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -323,10 +323,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${pd}/lcsmith-diaries.html</File>
+                                    <File>${pd}/lcsmith-diaries-redesign.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/lcsmith-diaries.html</String>
+                                    <String>${pd}/lcsmith-diaries-redesign.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
