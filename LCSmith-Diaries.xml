@@ -1237,6 +1237,7 @@
 
    <text>
       <body>
+         <ab><figure rend="namedanchor"><figDesc/><graphic url="topofpage"/></figure></ab>
          <!-- 
             We begin in medias res at July 30, 1862. The ID of the Entry follows 
             the pattern LCSYYYYMMDDa, where LCS stands for Lucius Clark Smith,
@@ -1250,7 +1251,6 @@
                      <sic>Wednsday</sic>
                      <corr>Wednesday</corr>
                   </choice> July 30th <hi rend="underlined">1862</hi></date>
-               <figure rend="namedanchor"><figDesc/><graphic url="topofpage"/></figure>
             </dateline>
             <p>
                <lb/>to day <persName>John</persName>

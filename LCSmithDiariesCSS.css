@@ -63,7 +63,7 @@ ul li {
   display: block;
   position: relative;
   float: left;
-  background: #6699FF;
+  background: #996600;
 }
 
 /* This hides the dropdowns */
@@ -79,7 +79,7 @@ ul li a {
 }
 
 ul li a:hover { 
-background-color: #6699FF; 
+background-color: #996600; 
 }
 
 /* Display the dropdown */
@@ -87,13 +87,13 @@ background-color: #6699FF;
 li:hover > ul {
   display: block;
   position: absolute;
-  background-color: #6699FF;
+  background-color: #996600;
 }
 
 li:hover li { float: none; }
 
-li:hover a { background-color: #669900;} 
-li:hover li a:hover { background-color: #6699FF; }
+li:hover a { background-color: #666600;} 
+li:hover li a:hover { background-color: #996600; }
 
 .main-navigation li ul li { border-top: thin solid #000000; }
 
@@ -166,8 +166,8 @@ visibility: hidden;
 a[name="topofpage"] {
 display: block;
 content: " ";
-margin-top: -300px;
-height: 300px;
+margin-top: -180px;
+height: 180px;
 visibility: hidden;
 }
 
@@ -180,15 +180,20 @@ a:hover {
 p.hang15 a:before {
 display: inline-block;
 content: " ";
-margin-top: -360px;
-height: 360px;
+margin-top: -180px;
+height: 180px;
 visibility: hidden;	
+}
+
+p.aboutView {
+  margin-top:10px;
+  margin-bottom:0px;
 }
 a.notePointer:before {
 display: inline-block;
 content: " ";
-margin-top: -360px;
-height: 360px;
+margin-top: -180px;
+height: 180px;
 visibility: hidden;	
 }
 sup.noteAnchor {

@@ -146,6 +146,7 @@
             <!-- BUILD THE VERTICAL IMAGE BAR -->
             
             <div id="navBar">
+               <p class="aboutView"><a href="#view">About this View.</a></p>
                <div id="display1"><img src="image-LCSmith-daguerreotype.jpg" width="150" title="Portrait of Lucius Clark Smith, 1858 (Age 23)"/></div>
                <div id="display2"><img src="image-archibaldsmithhouse.jpg" width="150" title="Photograph of Smith Homestead"/></div>
                <div id="display3"><img src="image-archibald-maryannsmith.jpg" width="150" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/></div>
