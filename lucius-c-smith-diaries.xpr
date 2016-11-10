@@ -29,36 +29,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Diaries.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>LCSmith-edintro</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>LCSmith-Reading.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>LCSmith-reading</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>LCSmith-Diplomatic.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -89,11 +59,41 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>LCSmith-Reading.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>LCSmith-reading</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>LCSmith-Common.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>LCSmith-diplomatic</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>LCSmith-Diaries.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>LCSmith-edintro</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -302,7 +302,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${currentFileURL}</String>
+                                    <String>${pdu}/LCSmith-Edintro.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${pdu}/LCSmith-Diaries.xml</String>
@@ -323,10 +323,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${pd}/lcsmith-diaries-redesign.html</File>
+                                    <File>${pd}/lcsmith-diaries-redesign-20161109j.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/lcsmith-diaries-redesign.html</String>
+                                    <String>${pd}/lcsmith-diaries-redesign-20161109j.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

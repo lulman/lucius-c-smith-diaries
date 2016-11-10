@@ -8,6 +8,7 @@
          <xd:p></xd:p>
       </xd:desc>
    </xd:doc>
+   <!-- OLD VARIABLE RULES 20161109
    <xsl:variable name="bodyRule">
       body {
       font-family: 'Fanwood Text',georgia, serif;
@@ -44,6 +45,41 @@
       border-radius: 10px;	
       }
    </xsl:variable>
+   END OLD VARIABLE RULES -->
+ <!-- NEW VARIABLE RULES 20161109 -->
+   <xsl:variable name="bodyRule">
+      body {
+      font-family: 'Fanwood Text',georgia, serif;
+      font-size: 1em;
+      width: 800px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 100px;
+      }
+   </xsl:variable>
+   <xsl:variable name="navBarRule">
+      #navBar {
+      top:450px;
+      float : left;
+      text-align : left;
+      margin-left: 10px;
+      margin-top:0px;
+      background-color: rgba(255, 255, 255, 1);
+      }
+   </xsl:variable>
+   <xsl:variable name="maintextRule">
+      #maintext {
+      float:right;
+      top:100px;
+      width:610px;
+      margin-left:20px;
+      padding:5px;
+      background-color: rgba(209,209,209, 0.5);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10 px;
+      border-radius: 10px;	
+      }
+   </xsl:variable>
    
    <!-- 
    
@@ -73,61 +109,41 @@
                <xsl:value-of
                   select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
             </title>
-            <!-- REMOTE JS CALLS
-            <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"/>
-            <link href="LCSmithDiariesCSS.css" rel="stylesheet" type="text/css" />
-            <script src="http://code.jquery.com/jquery-1.8.3.js"/>
-            <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"/>
-            -->
+            
+            <!-- LOCAL JS CALLS -->
             <link rel="stylesheet" href="jquery-ui.css"/>
             <link href="LCSmithDiariesCSS.css" rel="stylesheet" type="text/css" />
             <script src="jquery-1.8.3.min.js"/>
             <script src="jquery-ui-1.9.2.custom.js"/>
             
-              
+            <!-- CALL VARIABLES -->  
             <style type="text/css">
                <xsl:value-of select="$maintextRule"/>
                <xsl:value-of select="$navBarRule"/>
                <xsl:value-of select="$bodyRule"/>
-               .ui-menu {
-               width: 200px;
-               }
             </style>
             
-            <!--FONTS-->
+            <!-- DECLARE FONTS-->
             <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
             <link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'/>
             
          </head>
+         
          <body>
             <div class="masthead">
-               <div id="display1"> <img src="image-LCSmith-daguerreotype.jpg" height="120" title="Portrait of Lucius Clark Smith, 1858 (Age 23)"/> </div>
-               <div id="display2"> <img src="image-archibaldsmithhouse.jpg" height="120" title="Photograph of Smith Homestead"/> </div>
-               <div id="display3"> <img src="image-archibald-maryannsmith.jpg" height="120" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/> </div>
-               <div id="display4"> <img src="image-horse-power-canemill-1857.jpg" height="120" title="Drawing of a sorghum mill"/> </div>
-               <div id="display5"><img src="image-warmeeting-18620815.jpg" height="120" title="Notice in Newark Advocate for 15 August 1862 of a war meeting."/> </div>
-            </div>
-            <div id="titleBar">
-               <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
-                  30 July 1862 to 31 December 1862</span></p>
-               <hr/>
-            </div>
-            
-            <div id="navBar">
-               <ul id="menu">
-                  <li><a href="./lcsmith-diaries.html#introduction">Editorial Introduction</a>
-                     <ul>
-                        <li><a href="./lcsmith-diaries.html#introduction">Introduction</a>
-                           <ul>
-                              <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
-                              <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
-                              <li><a href="./lcsmith-diaries.html#sorghum">Sorghum Farming</a></li>
-                              <li><a href="./lcsmith-diaries.html#civilWar">Civil War and Civic Life</a></li>
-                              <li><a href="./lcsmith-diaries.html#borders">Borderlands/Hinterlands</a></li>
-                           </ul>
+               <div>
+                  <ul class="main-navigation">
+                     <li><a href="./lcsmith-diaries.html#introduction">Editorial Introduction</a><ul>
+                        <li><a href="./lcsmith-diaries.html#introduction">Introduction</a><ul>
+                           <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
+                           <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
+                           <li><a href="./lcsmith-diaries.html#sorghum">Sorghum Farming</a></li>
+                           <li><a href="./lcsmith-diaries.html#civilWar">Civil War and Civic Life</a></li>
+                           <li><a href="./lcsmith-diaries.html#borders">Borderlands/Hinterlands</a></li>
+                        </ul>
                         </li>
                         <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
-                        <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>	
+                        <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>
                         <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
                         <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
                         <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
@@ -135,44 +151,51 @@
                         <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
                         <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
                      </ul>
-                  </li>
-                  
-                  <li><a>Views of the Diary</a>
-                     <ul>
+                     </li>
+                     <li><a>Views of the Diary</a><ul>
                         <li><a href="./lcsmith-by-entry.html">By Diary Entry</a></li>
                         <li><a href="./lcsmith-by-ms-page.html">By MS Page</a></li>
                         <li><a href="./lcsmith-combined.html">Facsimile/Text</a></li>
                      </ul>
-                  </li>
-                  
-                  <li><a href="./lcsmith-diaries.html#appendices">Appendices</a>
-                    <ul>
-                     <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
-                     <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
-                     <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
-                     <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
-                     <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
-                       <li><a>Download Source Files</a>
-                          <ul>
-                             <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
-                             <li><a href="./LCSmith-Common.xsl">XSL: Base Stylsheet</a></li>
-                             <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
-                             <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
-                             <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
-                             <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
-                             <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
-                             <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
-                          </ul>
-                       </li>
-                       <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
-                     <li><a href="./LCSmithMaps.html">Map</a></li>
-                   </ul>
-                  </li>
-               </ul>
+                     </li>
+                     <li><a href="./lcsmith-diaries.html#appendices">Appendices</a><ul>
+                        <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
+                        <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
+                        <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
+                        <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
+                        <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
+                        <li><a>Download Source Files</a><ul>
+                           <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
+                           <li><a href="./LCSmith-Common.xsl">XSL: Base Stylsheet</a></li>
+                           <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
+                           <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
+                           <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
+                           <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
+                           <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
+                           <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
+                        <li><a href="./LCSmithMaps.html">Map</a></li>
+                     </ul>
+                     </li>
+                  </ul> 
+               </div> <!-- END ul class main-navigation -->
+            </div> <!-- END masthead -->
+            
+            <div id="titleBar">
+               <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
+                  30 July 1862 to 31 December 1862</span></p>
+               <hr/>
             </div>
-            <script>
-               $( "#menu" ).menu({ position: { my: "left top", at: "right-70 top+32" } });
-            </script>
+            <div id="navBar">
+               <div id="display1"><img src="image-LCSmith-daguerreotype.jpg" width="150" title="Portrait of Lucius Clark Smith, 1858 (Age 23)"/></div>
+               <div id="display2"><img src="image-archibaldsmithhouse.jpg" width="150" title="Photograph of Smith Homestead"/></div>
+               <div id="display3"><img src="image-archibald-maryannsmith.jpg" width="150" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/></div>
+               <div id="display4"><img src="image-horse-power-canemill-1857.jpg" width="150" title="Drawing of a sorghum mill"/></div>
+               <div id="display5"><img src="image-warmeeting-18620815.jpg" width="150" title="Notice in Newark Advocate for 15 August 1862 of a war meeting."/></div>
+            </div> <!-- END div navBar (now images; need to fix) -->
+            
             
    <xsl:element name="div">
    <xsl:attribute name="id">maintext</xsl:attribute>
