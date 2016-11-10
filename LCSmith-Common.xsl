@@ -136,15 +136,15 @@
                      </li>
                   </ul> 
                </div> <!-- END ul class main-navigation -->
+               <div id="titleBar">
+                  <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
+                     30 July 1862 to 31 December 1862</span></p>
+                  <hr/>
+               </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
             
             <!-- BUILD THE VERTICAL IMAGE BAR -->
             
-            <div id="titleBar">
-               <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
-                  30 July 1862 to 31 December 1862</span></p>
-               <hr/>
-            </div>
             <div id="navBar">
                <div id="display1"><img src="image-LCSmith-daguerreotype.jpg" width="150" title="Portrait of Lucius Clark Smith, 1858 (Age 23)"/></div>
                <div id="display2"><img src="image-archibaldsmithhouse.jpg" width="150" title="Photograph of Smith Homestead"/></div>

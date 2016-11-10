@@ -41,7 +41,7 @@
         #navBar {
         position: fixed;
         width: 150px;
-        top:170px;
+        top:150px;
         float : left;
         text-align : left;
         margin-left: 10px;
@@ -54,6 +54,7 @@
         float:right;
         top:100px;
         width:610px;
+        margin-top:60px;
         margin-left:20px;
         padding:5px;
         background-color: rgba(209,209,209, 0.5);

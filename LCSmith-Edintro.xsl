@@ -24,7 +24,7 @@
    <xsl:variable name="navBarRule">
       #navBar {
       position: fixed;
-      top: 170px;
+      top: 150px;
       float : left;
       text-align : left;
       margin-left: 10px;
@@ -35,8 +35,8 @@
    <xsl:variable name="maintextRule">
       #maintext {
       float:right;
-      top:100px;
       width:610px;
+      margin-top:50px;
       margin-left:20px;
       padding:5px;
       background-color: rgba(209,209,209, 0.5);
@@ -151,15 +151,15 @@
                      </li>
                   </ul> 
                </div> <!-- END ul class main-navigation -->
+               <div id="titleBar">
+               <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
+                  30 July 1862 to 31 December 1862</span></p>
+               <hr/>
+            </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
        
             <!-- BUILD THE VERTICAL IMAGE BAR -->
        
-            <div id="titleBar">
-               <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
-                  30 July 1862 to 31 December 1862</span></p>
-               <hr/>
-            </div>
             <div id="navBar">
                <div id="display1"><img src="image-LCSmith-daguerreotype.jpg" width="150" title="Portrait of Lucius Clark Smith, 1858 (Age 23)"/></div>
                <div id="display2"><img src="image-archibaldsmithhouse.jpg" width="150" title="Photograph of Smith Homestead"/></div>
@@ -202,7 +202,7 @@
             <hr/>
       <p>&#x2192; <a href="./lcsmith-by-entry.html">Link to the text of the journal</a>.
             </p>
-</xsl:element>
+</xsl:element> <!-- END maintext -->
          </body>
       </html>
    </xsl:template>

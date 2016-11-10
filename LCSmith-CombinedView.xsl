@@ -64,7 +64,7 @@
         #navBar {
         position: fixed;
         width: 150px;
-        top:170px;
+        top:150px;
         float : left;
         text-align : left;
         margin-left: 10px;
@@ -77,6 +77,7 @@
         float:right;
         top:100px;
         width:860px;
+        margin-top:60px;
         margin-left:20px;
         padding:5px;
         background-color: rgba(209,209,209, 0.5);
@@ -86,92 +87,7 @@
         }
     </xsl:variable>
     
-<!--    <xsl:variable name="bodyRule">
-        body {
-        background-position: top;
-        margin-left: 10px;
-        width: 1200px;
-        margin-right: 10px;
-        font-family: 'Fanwood Text',georgia, serif;
-        }
-        .pageview {
-        margin-bottom:200px;
-        float:left;
-        }
-        .pagebreak {
-        clear: both;
-        }
-        #maintext hr {
-        clear:left;
-        }
-        .masthead {
-        vertical-align: top;
-        text-align:center;
-        width:1200px;
-        top:0;
-        padding-top:15px;
-        position: fixed;
-        background-color: rgba(255, 255, 255, 1);
-        color: rgba(1, 1, 1, 0.8);
-        z-index:1;
-        }
-        #display1 {
-        display: inline;
-        float: left;
-        margin-bottom: 0;
-        background-color: #fff;
-        padding-top: 0px;
-        height: 150px;
-        text-align: left;
-        }
-        #display2, #display3, #display4, #display5 {
-        margin-left: 50px;
-        display: inline;
-        float: left;
-        margin-bottom: 0;
-        background-color: #fff;
-        padding-top: 0px;
-        height: 150px;
-        text-align: center;
-        }
-        #titleBar {
-        vertical-align: top;
-        width:1200px;
-        top:150px;
-        position: fixed;
-        background-color: rgba(255, 255, 255, 1);
-        color: rgba(1, 1, 1, 0.8);
-        z-index:1;
-        }
-    </xsl:variable>
-    <xsl:variable name="maintextRule">
-        #maintext {
-        position:relative;
-        top:320px;
-        width:860px;
-        margin-left:300px;
-        padding:5px;
-        background-color: rgba(209,209,209, 0.5);
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10 px;
-        border-radius: 10px;	
-        }
-    </xsl:variable>
-    <xsl:variable name="navBarRule">
-        #navBar {
-        position:fixed;
-        top:360px;
-        float : left;
-        width : 280px;
-        text-align : left;
-        left : 10px;
-        margin-top:0px;
-        height:600px;
-        background-color: rgba(255, 255, 255, 1);
-        z-index:1;
-        }
-    </xsl:variable>
--->    
+   
     <!-- Include common style sheet for Lucius Clark Smith Diaries. -->
     
     <xsl:include href="LCSmith-Common.xsl"/>
