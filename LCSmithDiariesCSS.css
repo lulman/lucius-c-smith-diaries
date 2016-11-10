@@ -140,11 +140,29 @@ h2 {
 	font-weight:bold;
 	text-align: left;
 }
+
+h2:before {
+display: block;
+content: " ";
+margin-top: -100px;
+height: 100px;
+visibility: hidden;
+}
+
 h3 {
    margin-top: 2em;
    font-size: 1.25em;
    font-style: italic;                    
 }
+
+h3:before {
+display: block;
+content: " ";
+margin-top: -100px;
+height: 100px;
+visibility: hidden;
+}
+
 a[name="topofpage"] {
 display: block;
 content: " ";

@@ -323,10 +323,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${pd}/lcsmith-diaries-redesign-20161109j.html</File>
+                                    <File>${pd}/lcsmith-diaries.html</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/lcsmith-diaries-redesign-20161109j.html</String>
+                                    <String>${pd}/lcsmith-diaries.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
