@@ -14,11 +14,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Edintro.xsl</String>
+                                    <String>LCSmith-CombinedView.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>LCSmith-edintro</String>
+                                        <String>LCSmith-CombinedView</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -44,11 +44,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-CombinedView.xsl</String>
+                                    <String>LCSmith-Reading.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>LCSmith-CombinedView</String>
+                                        <String>LCSmith-reading</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -59,11 +59,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Reading.xsl</String>
+                                    <String>LCSmith-Edintro.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>LCSmith-reading</String>
+                                        <String>LCSmith-edintro</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

@@ -8,45 +8,9 @@
          <xd:p></xd:p>
       </xd:desc>
    </xd:doc>
-   <!-- OLD VARIABLE RULES 20161109
-   <xsl:variable name="bodyRule">
-      body {
-      font-family: 'Fanwood Text',georgia, serif;
-      font-size: 1em;
-      width: 1000px;
-      margin-left: 50px;
-      margin-right: 50px;
-      }
-   </xsl:variable>
-   <xsl:variable name="navBarRule">
-      #navBar {
-      position:fixed;
-      top:300px;
-      float : left;
-      width : 280px;
-      text-align : left;
-      left : 50px;
-      margin-top:0px;
-      height:600px;
-      background-color: rgba(255, 255, 255, 1);
-      z-index:1;
-      }
-   </xsl:variable>
-   <xsl:variable name="maintextRule">
-      #maintext {
-      position:relative;
-      top:280px;
-      width:610px;
-      margin-left:350px;
-      padding:5px;
-      background-color: rgba(209,209,209, 0.5);
-      -webkit-border-radius: 10px;
-      -moz-border-radius: 10 px;
-      border-radius: 10px;	
-      }
-   </xsl:variable>
-   END OLD VARIABLE RULES -->
- <!-- NEW VARIABLE RULES 20161109 -->
+      
+ <!-- VARIABLE CSS RULES -->
+      
    <xsl:variable name="bodyRule">
       body {
       font-family: 'Fanwood Text',georgia, serif;
@@ -59,7 +23,8 @@
    </xsl:variable>
    <xsl:variable name="navBarRule">
       #navBar {
-      top:450px;
+      position: fixed;
+      top: 170px;
       float : left;
       text-align : left;
       margin-left: 10px;
@@ -84,8 +49,8 @@
    <!-- 
    
    HTML WRAPPER: Note that this section (between the xsl:template tags) 
-   places the entire contents enclosed within the TEI Header of your document into 
-   the body element of the Web page. 
+   places the entire contents enclosed within the TEI Header into 
+   the body element of the HTML page. 
    
    -->
    <xsl:template match="/">
@@ -129,7 +94,12 @@
             
          </head>
          
+         <!-- BUILD THE BODY OF THE HTML PAGE -->
+         
          <body>
+            
+            <!-- BUILD THE MENUBAR -->
+            
             <div class="masthead">
                <div>
                   <ul class="main-navigation">
@@ -182,7 +152,9 @@
                   </ul> 
                </div> <!-- END ul class main-navigation -->
             </div> <!-- END masthead -->
-            
+       
+            <!-- BUILD THE VERTICAL IMAGE BAR -->
+       
             <div id="titleBar">
                <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
                   30 July 1862 to 31 December 1862</span></p>
@@ -199,7 +171,9 @@
             
    <xsl:element name="div">
    <xsl:attribute name="id">maintext</xsl:attribute>
-   <!-- Order and apply templates for the sections of the header you wish to include. -->
+      
+            <!-- Order and apply templates for the sections of the header you wish to include. -->
+      
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']"/>
             <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']"/>
@@ -234,12 +208,14 @@
    </xsl:template>
    
    <!-- Format the introductory notes. -->
+      
    <xsl:template match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
       <h2 id="introduction">Introduction</h2>
       <xsl:apply-templates/>
    </xsl:template>
    
-   <!-- Format information about your source document. -->
+   <!-- Format information about the source document. -->
+      
    <xsl:template
       match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
       <hr/>
@@ -274,7 +250,8 @@
       </p>
    </xsl:template>
 
-   <!-- Format information about your electronic document. -->
+   <!-- Format information about the electronic document. -->
+      
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
       <a name="projectDescription"></a><h3>Project Description</h3>
       <p>
@@ -392,7 +369,8 @@
       </xsl:for-each>
    </xsl:template>
 
-   <!-- Format information about the revision history of your document. -->
+   <!-- Format information about the revision history of the document. -->
+      
    <xsl:template match="tei:TEI/tei:teiHeader/tei:revisionDesc">
          <hr/>
          <a name="revHistory"/>
@@ -427,6 +405,7 @@
    </xsl:template>
 
    <!-- Format miscellaneous elements -->
+      
    <xsl:template match="tei:lb"><br/></xsl:template>
    <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">
       <br/><xsl:apply-templates/>
@@ -524,6 +503,7 @@
    <xsl:template match="tei:date"/>
 
    <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS -->
+      
    <xsl:template match="tei:figure[@rend='link']"> 
       <a>
          <xsl:attribute name="HREF">
@@ -556,6 +536,7 @@
    </xsl:template> 
   
    <!-- Suppress some unused elements in the XML file. -->
+      
    <xsl:template match="tei:text"/>
    <xsl:template match="tei:editor"/>
    <xsl:template match="tei:principal"/>

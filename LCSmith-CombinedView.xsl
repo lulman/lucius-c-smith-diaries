@@ -32,6 +32,62 @@
     </xsl:variable>
     <xsl:variable name="bodyRule">
         body {
+        font-family: 'Fanwood Text',georgia, serif;
+        font-size: 1em;
+        <!-- Expand body width to 1050 -->
+        width: 1050px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        }
+        .masthead {
+        vertical-align: top;
+        text-align:center;
+        width:1050px;
+        top:0;
+        padding-top:15px;
+        padding-bottom:15px;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(1, 1, 1, 0.8);
+        z-index:1;
+        }        
+        .pageview {
+        margin-bottom:200px;
+        float:left;
+        }
+        .pagebreak {
+        clear: both;
+        }
+    </xsl:variable>
+    <xsl:variable name="navBarRule">
+        #navBar {
+        position: fixed;
+        width: 150px;
+        top:170px;
+        float : left;
+        text-align : left;
+        margin-left: 10px;
+        margin-top:0px;
+        background-color: rgba(255, 255, 255, 1);
+        }
+    </xsl:variable>
+    <xsl:variable name="maintextRule">
+        #maintext {
+        float:right;
+        top:100px;
+        width:860px;
+        margin-left:20px;
+        padding:5px;
+        background-color: rgba(209,209,209, 0.5);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10 px;
+        border-radius: 10px;	
+        }
+    </xsl:variable>
+    
+<!--    <xsl:variable name="bodyRule">
+        body {
         background-position: top;
         margin-left: 10px;
         width: 1200px;
@@ -115,7 +171,7 @@
         z-index:1;
         }
     </xsl:variable>
-    
+-->    
     <!-- Include common style sheet for Lucius Clark Smith Diaries. -->
     
     <xsl:include href="LCSmith-Common.xsl"/>
