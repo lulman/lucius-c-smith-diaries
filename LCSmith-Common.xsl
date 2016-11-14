@@ -121,7 +121,7 @@
                         <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
                         <li><a>Download Source Files</a><ul>
                            <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
-                           <li><a href="./LCSmith-Common.xsl">XSL: Base Stylsheet</a></li>
+                           <li><a href="./LCSmith-Common.xsl">XSL: Base Stylesheet</a></li>
                            <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
                            <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
                            <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
@@ -146,14 +146,20 @@
             <!-- BUILD THE VERTICAL IMAGE BAR -->
             
             <div id="navBar">
-               <p class="aboutView"><a href="#view">About this View.</a></p>
+               <!--<p class="aboutView"><a href="#view">About this View.</a></p>-->
                <div id="display1"><img src="image-LCSmith-daguerreotype.jpg" width="150" title="Portrait of Lucius Clark Smith, 1858 (Age 23)"/></div>
                <div id="display2"><img src="image-archibaldsmithhouse.jpg" width="150" title="Photograph of Smith Homestead"/></div>
                <div id="display3"><img src="image-archibald-maryannsmith.jpg" width="150" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/></div>
                <div id="display4"><img src="image-horse-power-canemill-1857.jpg" width="150" title="Drawing of a sorghum mill"/></div>
                <div id="display5"><img src="image-warmeeting-18620815.jpg" width="150" title="Notice in Newark Advocate for 15 August 1862 of a war meeting."/></div>
-               <div><p><button>Switch between Smith's spelling and regularized spelling.</button></p></div>
+               <!--<div><p><button>Switch between Smith's spelling and regularized spelling.</button></p></div>-->
             </div> <!-- END div navBar (now images; need to fix) -->
+            
+            <div id="viewMenu">
+               <p class="aboutView"><a href="#view">About this View.</a></p>
+               <p><button>Switch between Smith's spelling and regularized spelling.</button></p>
+            </div>
+            
             
             <!-- Apply templates to the tei:body. -->
             
@@ -235,7 +241,7 @@
                   disable-output-escaping="yes"/>
             </p>
           </xsl:element>                      
-         </body>
+         </body>                  
       </html>
    </xsl:template>
 

@@ -24,7 +24,7 @@
    <xsl:variable name="navBarRule">
       #navBar {
       position: fixed;
-      top: 150px;
+      top: 120px;
       float : left;
       text-align : left;
       margin-left: 10px;
@@ -36,7 +36,7 @@
       #maintext {
       float:right;
       width:610px;
-      margin-top:50px;
+      margin-top:35px;
       margin-left:20px;
       padding:5px;
       background-color: rgba(209,209,209, 0.5);
@@ -136,7 +136,7 @@
                         <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
                         <li><a>Download Source Files</a><ul>
                            <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
-                           <li><a href="./LCSmith-Common.xsl">XSL: Base Stylsheet</a></li>
+                           <li><a href="./LCSmith-Common.xsl">XSL: Base Stylesheet</a></li>
                            <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
                            <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
                            <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>

@@ -40,7 +40,7 @@
     <xsl:variable name="navBarRule">
         #navBar {
         position: fixed;
-        top:150px;
+        top:120px;
         width:150px;
         float : left;
         text-align : left;
@@ -48,12 +48,19 @@
         margin-top:0px;
         background-color: rgba(255, 255, 255, 1);
         }
+        #viewMenu {
+        position: fixed;
+        top:120px;
+        left: 865px;
+        width:150px;
+        margin-top: 0px;
+        }
     </xsl:variable>
     <xsl:variable name="maintextRule">
         #maintext {
         float:right;
         width:610px;
-        margin-top:60px;
+        margin-top:35px;
         margin-left:20px;
         padding:5px;
         background-color: rgba(209,209,209, 0.5);
