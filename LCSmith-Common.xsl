@@ -158,12 +158,12 @@
                <div id="display3"><img src="image-archibald-maryannsmith.jpg" width="150" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/></div>
                <div id="display4"><img src="image-horse-power-canemill-1857.jpg" width="150" title="Drawing of a sorghum mill"/></div>
                <div id="display5"><img src="image-warmeeting-18620815.jpg" width="150" title="Notice in Newark Advocate for 15 August 1862 of a war meeting."/></div>
-               <!--<div><p><button>Switch between Smith's spelling and regularized spelling.</button></p></div>-->
             </div> <!-- END div navBar (now images; need to fix) -->
             
             <div id="viewMenu">
                <p class="aboutView"><a href="#view">About this View.</a></p>
                <p><button>Switch between Smith's spelling and regularized spelling.</button></p>
+               <!-- Change font size button should go here -->
             </div>
             
             

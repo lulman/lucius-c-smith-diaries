@@ -31,6 +31,13 @@
       margin-top:0px;
       background-color: rgba(255, 255, 255, 1);
       }
+      #viewMenu {
+      position: fixed;
+      top:120px;
+      left: 865px;
+      width:150px;
+      margin-top: 0px;
+      }     
    </xsl:variable>
    <xsl:variable name="maintextRule">
       #maintext {
@@ -45,7 +52,7 @@
       border-radius: 10px;	
       }
    </xsl:variable>
-   
+      
    <!-- 
    
    HTML WRAPPER: Note that this section (between the xsl:template tags) 
@@ -80,7 +87,7 @@
             <link href="LCSmithDiariesCSS.css" rel="stylesheet" type="text/css" />
             <script src="jquery-1.8.3.min.js"/>
             <script src="jquery-ui-1.9.2.custom.js"/>
-            
+                        
             <!-- CALL VARIABLES -->  
             <style type="text/css">
                <xsl:value-of select="$maintextRule"/>
@@ -173,8 +180,9 @@
                <div id="display4"><img src="image-horse-power-canemill-1857.jpg" width="150" title="Drawing of a sorghum mill"/></div>
                <div id="display5"><img src="image-warmeeting-18620815.jpg" width="150" title="Notice in Newark Advocate for 15 August 1862 of a war meeting."/></div>
             </div> <!-- END div navBar (now images; need to fix) -->
-            
-            
+
+            <!-- Font size buttons would go here -->
+              
    <xsl:element name="div">
    <xsl:attribute name="id">maintext</xsl:attribute>
       
