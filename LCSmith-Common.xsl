@@ -163,7 +163,10 @@
             <div id="viewMenu">
                <p class="aboutView"><a href="#view">About this View.</a></p>
                <p><button>Switch between Smith's spelling and regularized spelling.</button></p>
-               <!-- Change font size button should go here -->
+               <div class="container">
+                  <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
+                  <!--<p id="font-size"></p>-->
+               </div>
             </div>
             
             
@@ -246,6 +249,9 @@
                   select="//tei:teiCorpus/tei:teiHeader/tei:availability/tei:p[@id='CreativeCommons']"
                   disable-output-escaping="yes"/>
             </p>
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src="index.js"></script>
+               
           </xsl:element>                      
          </body>                  
       </html>

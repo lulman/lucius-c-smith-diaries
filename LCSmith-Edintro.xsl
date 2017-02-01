@@ -181,7 +181,12 @@
                <div id="display5"><img src="image-warmeeting-18620815.jpg" width="150" title="Notice in Newark Advocate for 15 August 1862 of a war meeting."/></div>
             </div> <!-- END div navBar (now images; need to fix) -->
 
-            <!-- Font size buttons would go here -->
+            <div id="viewMenu">
+               <div class="container">
+                  <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
+                  <!--<p id="font-size"></p>-->
+               </div>
+            </div>
               
    <xsl:element name="div">
    <xsl:attribute name="id">maintext</xsl:attribute>
@@ -216,8 +221,13 @@
             <hr/>
       <p>&#x2192; <a href="./lcsmith-by-entry.html">Link to the text of the journal</a>.
             </p>
-</xsl:element> <!-- END maintext -->
+   </xsl:element> <!-- END maintext -->
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src="index.js"></script>
          </body>
+
+         <!-- Change text size script here?? -->         
+
       </html>
    </xsl:template>
    
