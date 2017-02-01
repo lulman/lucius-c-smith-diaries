@@ -101,22 +101,22 @@
             <!-- BUILD THE MENUBAR -->
             
             <div class="masthead">
-               <div>
-                  <ul class="main-navigation">
-                     <li><a href="./lcsmith-diaries.html#introduction">Editorial Introduction</a>
-                       <ul>
-                        <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
-                        <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>
-                        <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
-                        <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
-                        <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
-                        <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
-                        <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
-                        <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
-                       </ul>
+               <div id="navigation">
+                  <ul class="nav">
+                     <li class="link"><a class="main"  href="./lcsmith-diaries.html#introduction">Editorial Introduction</a>
+                        <ul class="sub">
+                           <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
+                           <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
+                           <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
+                           <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
+                           <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
+                           <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
+                           <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
+                        </ul>
                      </li>
-                     <li><a href="">Historical Introduction</a>
-                        <ul>
+                     <li class="link"><a class="main"  href="">Historical Introduction</a>
+                        <ul class="sub">
                            <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
                            <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
                            <li><a href="./lcsmith-diaries.html#sorghum">Sorghum Farming</a></li>
@@ -124,39 +124,39 @@
                            <li><a href="./lcsmith-diaries.html#borders">Borderlands/Hinterlands</a></li>
                         </ul>
                      </li>
-                     <li><a href="">Views of the Diary</a>
-                       <ul>
-                        <li><a href="./lcsmith-by-entry.html">By Diary Entry</a></li>
-                        <li><a href="./lcsmith-by-ms-page.html">By MS Page</a></li>
-                        <li><a href="./lcsmith-combined.html">Facsimile/Text</a></li>
-                      </ul>
-                     </li>
-                     <li><a href="./lcsmith-diaries.html#appendices">Appendices</a>
-                       <ul>
-                        <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
-                        <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
-                        <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
-                        <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
-                        <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
-                        <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
-                        <li><a href="./LCSmithMaps.html">Map</a></li>
-                       </ul>
-                     </li>
-                     <li><a href="">Source Files</a>
-                       <ul>
-                         <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
-                         <li><a href="./LCSmith-Common.xsl">XSL: Base Stylesheet</a></li>
-                         <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
-                         <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
-                         <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
-                         <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
-                         <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
-                         <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
+                     <li class="link"><a class="main"  href="">Views of the Diary</a>
+                        <ul class="sub">
+                           <li><a href="./lcsmith-by-entry.html">By Diary Entry</a></li>
+                           <li><a href="./lcsmith-by-ms-page.html">By MS Page</a></li>
+                           <li><a href="./lcsmith-combined.html">Facsimile/Text</a></li>
                         </ul>
-                      </li>
-                        
-                   </ul> <!-- End class main-navigation -->
-               </div> <!-- END div enclosing ul class main-navigation -->
+                     </li>
+                     <li class="link"><a class="main"  href="./lcsmith-diaries.html#appendices">Appendices</a>
+                        <ul class="sub">
+                           <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
+                           <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
+                           <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
+                           <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
+                           <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
+                           <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
+                           <li><a href="./LCSmithMaps.html">Map</a></li>
+                        </ul>
+                     </li>
+                     <li class="link"><a class="main"  href="">Source Files</a>
+                        <ul class="sub">
+                           <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
+                           <li><a href="./LCSmith-Common.xsl">XSL: Base Stylesheet</a></li>
+                           <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
+                           <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
+                           <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
+                           <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
+                           <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
+                           <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
+                        </ul>
+                     </li>
+                  </ul> <!-- End ul class nav -->
+               </div> <!-- End div id navigation -->
+               
                <div id="titleBar">
                <p align="center"><span class="projectTitle">Selected Entries from the Lucius Clark Smith Diaries,<br/>
                   30 July 1862 to 31 December 1862</span></p>
