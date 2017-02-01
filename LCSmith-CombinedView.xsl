@@ -49,7 +49,15 @@
         background-color: rgba(255, 255, 255, 1);
         color: rgba(1, 1, 1, 0.8);
         z-index:1;
-        }        
+        }
+        #titleBar {
+        vertical-align: top;
+        width:1050px;
+        position: relative;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(1, 1, 1, 0.8);
+        }
+        
         .pageview {
         margin-bottom:200px;
         float:left;
