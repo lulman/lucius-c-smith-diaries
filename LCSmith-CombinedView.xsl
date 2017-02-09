@@ -84,6 +84,29 @@
         width:150px;
         margin-top: 0px;
         }
+        .close {
+        position: absolute;
+        top: 95px;
+        right: 190px;
+        color: #f1f1f1;
+        font-size: 36px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+        .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 2; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 50px;
+        top: 122px;
+        width: 1050px; /* Full width */
+        height: 90%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(100,100,100); /* Fallback color */
+        background-color: rgba(100,100,100,0.9); /* Black w/ opacity */
+        }
     </xsl:variable>
     <xsl:variable name="maintextRule">
         #maintext {

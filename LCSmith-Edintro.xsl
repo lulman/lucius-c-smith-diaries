@@ -350,6 +350,8 @@
                      </script>
 
             </div> <!-- End div id NavBar -->
+            
+            <!-- END THE VERTICAL IMAGE BAR -->
                
             <div id="viewMenu">
                <div class="container">
