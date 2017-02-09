@@ -59,11 +59,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Edintro.xsl</String>
+                                    <String>LCSmith-Common.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>LCSmith-edintro</String>
+                                        <String>LCSmith-diplomatic</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -74,11 +74,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>LCSmith-Common.xsl</String>
+                                    <String>LCSmith-Edintro.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>LCSmith-diplomatic</String>
+                                        <String>LCSmith-edintro</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
