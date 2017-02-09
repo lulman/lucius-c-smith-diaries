@@ -13,12 +13,14 @@
 	margin-bottom: 0;
 	background-color: #fff;
 	padding-top: 0px;
+	width: 150px;
 }
 #display2, #display3, #display4, #display5 {
-	clear:right;
+	/*clear:right;*/
 	margin-bottom: 0;
 	background-color: #fff;
 	padding-top: 0px;
+	width: 150px;
 }
 .masthead img {
   -webkit-border-radius: 10px;
@@ -39,6 +41,120 @@ li {
    font-family:  'Fanwood Text',georgia, serif;
    font-size: 1em;
 }
+
+/* BEGIN MODAL IMAGE WINDOW RULES */
+
+/* Style the Image Used to Trigger the Modal */
+#myImg1, #myImg2, #myImg3, #myImg4, #myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 50px;
+    top: 122px;
+    width: 1005px; /* Full width */
+    height: 90%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(100,100,100); /* Fallback color */
+    background-color: rgba(100,100,100,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 50%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption1, #caption2, #caption3, #caption4, #caption5 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption1, #caption2, #caption3, #caption4, #caption5 { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 90px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 36px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/* END MODAL IMAGE WINDOW RULES */
+
+/* BUTTONS FOR MODALS */
+
+button.modalb{
+  margin      : 0;
+  padding     : 0;
+  border      : 0;
+  background  : transparent;
+  font-family : inherit;
+  font-size   : 1em;
+  cursor      : pointer;
+}
+
+button.modalb::-moz-focus-inner{
+  padding : 0;
+  border  : 0;
+}
+
+/* END BUTTON FOR MODALS */
+
 /* DROPDOWN UNORDERED MENU LISTS */
 
 .nav, .nav ul {
@@ -59,7 +175,7 @@ li {
     margin-top: 10px;
     border-bottom: thin solid;
     border-top: thin solid;
-    z-index:10;
+    z-index:1;
 }
 .nav {
     position:absolute;
@@ -79,7 +195,7 @@ li {
     font-weight: 500;
     text-decoration:none;
     color:#000;
-    z-index:10;
+    z-index:1;
     visibility:visible;
 }
 .nav .sub a {

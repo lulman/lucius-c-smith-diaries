@@ -24,7 +24,7 @@
       top: 120px;
       float : left;
       text-align : left;
-      margin-left: 10px;
+      /* margin-left: 10px; */
       margin-top:0px;
       background-color: rgba(255, 255, 255, 1);
       }
@@ -106,12 +106,140 @@
          </div>
       </div>
       <div id="navBar">
-         <div id="display1"><img src="image-LCSmith-daguerreotype.jpg" width="150" title="Portrait of Lucius Clark Smith, 1858 (Age 23)"></div>
-         <div id="display2"><img src="image-archibaldsmithhouse.jpg" width="150" title="Photograph of Smith Homestead"></div>
-         <div id="display3"><img src="image-archibald-maryannsmith.jpg" width="150" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn"></div>
-         <div id="display4"><img src="image-horse-power-canemill-1857.jpg" width="150" title="Drawing of a sorghum mill"></div>
-         <div id="display5"><img src="image-warmeeting-18620815.jpg" width="150" title="Notice in Newark Advocate for 15 August 1862 of a war meeting."></div>
-      </div>
+         <div id="display1"><button class="modalb" id="b1"><img id="myImg1" src="image-LCSmith-daguerreotype.jpg" alt="Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society." title="Portrait of Lucius Clark Smith, 1858 (Age 23)" width="150"></button><div id="myModal1" class="modal"><button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button><img class="modal-content" id="img1" src="image-LCSmith-daguerreotype.jpg" alt="Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society."><div id="caption1">
+                  Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society.
+                  
+               </div>
+            </div>
+         </div>
+         <div id="display2"><button class="modalb" id="b2"><img id="myImg2" src="image-archibaldsmithhouse.jpg" alt="Photograph of Smith Homestead (undated). Courtesy of New Albany Historical Society." title="Photograph of Smith Homestead" width="150"></button><div id="myModal2" class="modal"><button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button><img class="modal-content" id="img2" src="image-archibaldsmithhouse.jpg" alt="Photograph of Smith Homestead (undated). Courtesy of New Albany Historical Society."><div id="caption2">
+                  Photograph of Smith Homestead (undated). Courtesy of New Albany Historical Society.
+                  
+               </div>
+            </div><script>		
+                     // Get the second modal
+                     var modal2 = document.getElementById('myModal2');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img2 = document.getElementById('b2');
+                     var modalImg2 = document.getElementById("img2");
+                     var captionText2 = document.getElementById("caption2");
+                     img2.onclick = function(){
+                     modal2.style.display = "block";
+                     modalImg2.src = this.img.src;
+                     captionText2.innerHTML = this.alt;
+                     }
+                     
+                      // Get the span element that closes the modal 
+                        var span = document.getElementsByClassName("close")[0];
+                        
+                        // When the user clicks on span (x), close the modal 
+                           span.onclick = function() {
+                           modal2.style.display = "none";
+                           }
+                  </script></div>
+         <div id="display3"><button class="modalb" id="b3"><img id="myImg3" src="image-archibald-maryannsmith.jpg" alt="Portraits of Lucius Smith's parents, Archibald and MaryAnn" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn" width="150"></button><div id="myModal3" class="modal"><button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button><img class="modal-content" id="img3" src="image-archibald-maryannsmith.jpg" alt="Portraits of Lucius Smith's parents, Archibald and MaryAnn"><div id="caption3">
+                  Portraits of Lucius Smith's parents, Archibald and MaryAnn
+                  
+               </div>
+            </div><script>
+                        
+                        // Get the modal
+                        var modal3 = document.getElementById('myModal3');
+                        
+                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                        var img3 = document.getElementById('b3');
+                        var modalImg3 = document.getElementById("img3");
+                        var captionText3 = document.getElementById("caption3");
+                        img3.onclick = function(){
+                        modal3.style.display = "block";
+                        modalImg3.src = this.img.src;
+                        captionText3.innerHTML = this.alt;
+                        }
+                        
+                        // Get the span element that closes the modal
+                           var span = document.getElementsByClassName("close")[0];
+                           
+                           // When the user clicks on span (x), close the modal
+                              span.onclick = function() {
+                              modal3.style.display = "none";
+                              }
+                     </script></div>
+         <div id="display4"><button class="modalb" id="b4"><img id="myImg4" src="image-horse-power-canemill-1857.jpg" alt="Drawing of a sorghum mill" title="Drawing of a sorghum mill" width="150"></button><div id="myModal4" class="modal"><button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button><img class="modal-content" id="img4" src="image-horse-power-canemill-1857.jpg" alt="Drawing of a sorghum mill."><div id="caption4">
+                  Drawing of a sorghum mill
+                  
+               </div><script>
+                           
+                           // Get the modal
+                           var modal4 = document.getElementById('myModal4');
+                           
+                           // Get the image and insert it inside the modal - use its "alt" text as a caption
+                           var img4 = document.getElementById('b4');
+                           var modalImg4 = document.getElementById("img4");
+                           var captionText4 = document.getElementById("caption4");
+                           img4.onclick = function(){
+                           modal4.style.display = "block";
+                           modalImg4.src = this.img.src;
+                           captionText4.innerHTML = this.alt;
+                           }
+                           
+                           // Get the span element that closes the modal
+                              var span = document.getElementsByClassName("close")[0];
+                              
+                              // When the user clicks on span (x), close the modal
+                                 span.onclick = function() {
+                                 modal4.style.display = "none";
+                                 }
+                        </script></div>
+         </div>
+         <div id="display5"><button class="modalb" id="b5"><img id="myImg5" src="image-warmeeting-18620815.jpg" alt="Notice in Newark Advocate for 15 August 1862 of a war meeting" title="Notice in Newark Advocate for 15 August 1862 of a war meeting" width="150"></button><div id="myModal5" class="modal"><button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button><img class="modal-content" id="img5" src="image-warmeeting-18620815.jpg" alt="Notice in Newark Advocate for 15 August 1862 of a war meeting"><div id="caption5">
+                  Notice in Newark Advocate for 15 August 1862 of a war meeting
+                  
+               </div>
+            </div><script>
+                              
+                              // Get the modal
+                              var modal5 = document.getElementById('myModal5');
+                              
+                              // Get the image and insert it inside the modal - use its "alt" text as a caption
+                              var img5 = document.getElementById('b5');
+                              var modalImg5 = document.getElementById("img5");
+                              var captionText5 = document.getElementById("caption5");
+                              img5.onclick = function(){
+                              modal5.style.display = "block";
+                              modalImg5.src = this.img.src;
+                              captionText5.innerHTML = this.alt;
+                              }
+                              
+                              // Get the span element that closes the modal
+                                 var span = document.getElementsByClassName("close")[0];
+                                 
+                                 // When the user clicks on span (x), close the modal
+                                    span.onclick = function() {
+                                    modal5.style.display = "none";
+                                    }
+                           </script></div><script>
+                        // Get the first modal
+                        var modal1 = document.getElementById('myModal1');
+                        
+                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                        var img1 = document.getElementById('b1');
+                        var modalImg1 = document.getElementById("img1");
+                        var captionText1 = document.getElementById("caption1");
+                        img1.onclick = function(){
+                        modal1.style.display = "block";
+                        modalImg1.src = this.img.src;
+                        captionText1.innerHTML = this.alt;
+                        }
+                        
+                        // Get the span element that closes the modal
+                           var span = document.getElementsByClassName("close")[0];
+                           
+                           // When the user clicks on span (x), close the modal
+                              span.onclick = function() {
+                              modal1.style.display = "none";
+                              }
+                     </script></div>
       <div id="viewMenu">
          <div class="container">
             <p class="font-size-label">Font Size <button id="up">+</button><button id="down">-</button></p>
