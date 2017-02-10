@@ -120,19 +120,15 @@
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
-                     <li class="link"><a class="main"  href="./lcsmith-diaries.html#introduction">Editorial Introduction</a>
+                     <li class="link"><a class="main"  href="./lcsmith-diaries.html#projectDescription">Editorial Introduction</a>
                         <ul class="sub">
+                           <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
                            <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
                            <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>
-                           <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
-                           <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
-                           <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
-                           <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
                            <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
-                           <li><a href="./lcsmith-diaries.html#view">About the Introduction</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="">Historical Introduction</a>
+                     <li class="link"><a class="main"  href="./lcsmith-diaries.html#introduction">Historical Introduction</a>
                         <ul class="sub">
                            <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
                            <li><a href="./lcsmith-diaries.html#milling">Mill Operations</a></li>
@@ -150,13 +146,16 @@
                      </li>
                      <li class="link"><a class="main"  href="./lcsmith-diaries.html#appendices">Appendices</a>
                         <ul class="sub">
-                           <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
                            <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
                            <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
+                           <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
+                           <li><a href="./LCSmithMaps.html">Maps</a></li>
+                           <li><a href="./lcsmith-diaries.html#peopleMentioned">People Mentioned</a></li>
+                           <li><a href="./lcsmith-diaries.html#placesMentioned">Places Mentioned</a></li>
+                           <li><a href="./lcsmith-diaries.html#organizationsMentioned">Organizations Mentioned</a></li>
+                           <li><a href="./lcsmith-diaries.html#worksCited">Works Cited</a></li>
                            <li><a href="./LCSmithAcknowledgements.html">Acknowledgements</a></li>
                            <li><a href="./LCSmithAboutEditors.html">About the Editors</a></li>
-                           <li><a href="./LCSmith_ZoomIndex.html">Images of the MS Pages</a></li>
-                           <li><a href="./LCSmithMaps.html">Map</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
@@ -364,6 +363,7 @@
             <!-- END THE VERTICAL IMAGE BAR -->
                
             <div id="viewMenu">
+               <p class="aboutView"><a href="./lcsmith-diaries.html#view">About this page.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
