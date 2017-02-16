@@ -1082,10 +1082,10 @@
             <!-- 
                TAKE NOTE: Explain your editorial method:
                
-               â€¢	If you employ image files, describe how they were produced and note where they are stored.
-               â€¢	Describe any editorial guidelines you followed (e.g., how you treated hyphenation, whether 
+               -	If you employ image files, describe how they were produced and note where they are stored.
+               -	Describe any editorial guidelines you followed (e.g., how you treated hyphenation, whether 
                   you corrected apparent errors, and any other decisions about how to treat recurrent features).
-               â€¢	Describe any special symbols that you use in your text to indicate additions, corrections, 
+               -	Describe any special symbols that you use in your text to indicate additions, corrections, 
                   cancellations, and so on. This important explanation provides a reader's guide to the text.
                
                   You can use more than one paragraph (tagged <p> </p>).

@@ -378,11 +378,11 @@
             <!-- Order and apply templates for the sections of the header you wish to include. -->
       
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']"/>
+            <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
             <xsl:apply-templates
                select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
-            <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
             <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
             <hr/>
@@ -461,7 +461,8 @@
    <!-- Format information about the electronic document. -->
       
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
-      <a name="projectDescription"></a><h3>Project Description</h3>
+      <hr/>
+      <a name="projectDescription"></a><h2>Project Description</h2>
       <p>
          <xsl:apply-templates/>
       </p>
