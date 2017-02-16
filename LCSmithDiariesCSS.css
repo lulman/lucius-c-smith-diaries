@@ -42,6 +42,41 @@ li {
    font-size: 1em;
 }
 
+/* SKIP TO MAIN CONTENT LINK */
+
+#skiptocontent a {
+	padding:6px;
+	position: absolute;
+	top:-40px;
+	left:0px;
+	color:white;
+	border-right:1px solid white;
+	border-bottom:1px solid white;
+	border-bottom-right-radius:8px;
+	background:transparent;
+	-webkit-transition: top 1s ease-out, background 1s linear;
+    transition: top 1s ease-out, background 1s linear;
+    z-index: 100;
+}
+
+#skiptocontent a:focus {
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:#BF1722;
+	outline:0;	
+	-webkit-transition: top .1s ease-in, background .5s linear;
+    transition: top .1s ease-in, background .5s linear;
+}
+
+#maincontent:before {
+display: block;
+content: " ";
+margin-top: -150px;
+height: 150px;
+visibility: hidden;    
+}
+
 /* BEGIN MODAL IMAGE WINDOW RULES */
 
 /* Style the Image Used to Trigger the Modal */

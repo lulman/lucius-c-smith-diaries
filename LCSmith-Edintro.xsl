@@ -116,7 +116,7 @@
          <body>
             
             <!-- BUILD THE MENUBAR -->
-            
+            <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>       
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
@@ -160,14 +160,15 @@
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
                         <ul class="sub">
-                           <li><a href="./LCSmith-Diaries.xml">TEI: Source Markup</a></li>
+                           <li><a href="./LCSmith-Diaries.xml">XML: TEI Source Markup</a></li>
                            <li><a href="./LCSmith-Common.xsl">XSL: Base Stylesheet</a></li>
                            <li><a href="./LCSmith-Diplomatic.xsl">XSL: MS Page View</a></li>
                            <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
                            <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
                            <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
-                           <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
-                           <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
+                           <li><a href="./LCSmithDiariesCSS.css">CSS: Style Sheet</a></li>
+                           <li><a href="./LCSmith-Current.odd.txt">ODD: TEI Customization</a></li>
+                           <li><a href="./LCSmith-Current.rng.txt">RNG: Schema</a></li>
                         </ul>
                      </li>
                   </ul> <!-- End ul class nav -->
@@ -372,6 +373,7 @@
               
    <xsl:element name="div">
    <xsl:attribute name="id">maintext</xsl:attribute>
+      <xsl:element name="div"><xsl:attribute name="id">maincontent</xsl:attribute></xsl:element>
       
             <!-- Order and apply templates for the sections of the header you wish to include. -->
       
@@ -399,7 +401,7 @@
             <hr/>
             <h2>About this Editorial Introduction</h2>
             <p><a name="view"/>Text on this page is derived from the
-               edition's XML source document, LCSmith-Diaries.xml.</p>
+               edition's XML source document, <a href="LCSmith-Diaries.xml">LCSmith-Diaries.xml</a>.</p>
             <hr/>
       <p>&#x2192; <a href="./lcsmith-by-entry.html">Link to the text of the journal</a>.
             </p>

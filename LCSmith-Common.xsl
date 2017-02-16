@@ -82,6 +82,7 @@
          <!-- BUILD THE BODY OF THE HTML PAGE -->
          
          <body>
+            <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>       
             
             <!-- BUILD THE MENUBAR -->
             
@@ -134,8 +135,9 @@
                            <li><a href="./LCSmith-Reading.xsl">XSL: Entry View</a></li>
                            <li><a href="./LCSmith-CombinedView.xsl">XSL: Text/Facs View</a></li>
                            <li><a href="./LCSmith-Edintro.xsl">XSL: Ed. Intro</a></li>
-                           <li><a href="./LCSmith-Current.odd">ODD: TEI Customization</a></li>
-                           <li><a href="./LCSmith-Current.rng">RNG: Schema</a></li>
+                           <li><a href="./LCSmithDiariesCSS.css">CSS: Style Sheet</a></li>
+                           <li><a href="./LCSmith-Current.odd.txt">ODD: TEI Customization</a></li>
+                           <li><a href="./LCSmith-Current.rng.txt">RNG: Schema</a></li>
                         </ul>
                      </li>
                   </ul> <!-- End ul class nav -->
@@ -344,6 +346,7 @@
             
             <xsl:element name="div">
                <xsl:attribute name="id">maintext</xsl:attribute>
+               <xsl:element name="div"><xsl:attribute name="id">maincontent</xsl:attribute></xsl:element>
                <xsl:apply-templates select="/tei:TEI/tei:text/tei:body"/>
                
             <!-- Insert, count, encode by cardinal position, and link the explanatory annotations. -->
