@@ -160,7 +160,7 @@
                      <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img1" src="image-LCSmith-daguerreotype.jpg" alt="Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society."/>
                      <div id="caption1">
-                        Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society.
+                        Portrait of Lucius Clark Smith, 1858 (Age 23).<br/>Courtesy of New Albany Historical Society.
                      </div>
                   </div> <!-- End myModal1 -->
                </div> <!-- End display1 -->
@@ -172,7 +172,7 @@
                      <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img2" src="image-archibaldsmithhouse.jpg" alt="Photograph of Smith Homestead (undated). Courtesy of New Albany Historical Society."/>
                      <div id="caption2">
-                        Photograph of Smith Homestead (undated). Courtesy of New Albany Historical Society.
+                        Photograph of Smith Homestead (undated).<br/>Courtesy of New Albany Historical Society.
                      </div>
                   </div> <!-- End myModal2 -->
                   <script>		
@@ -206,7 +206,7 @@
                      <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img3" src="image-archibald-maryannsmith.jpg" alt="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/>
                      <div id="caption3">
-                        Portraits of Lucius Smith's parents, Archibald and MaryAnn
+                        Portraits of Lucius Smith's parents, Archibald and MaryAnn<br/>Courtesy of Mark Baranoski
                      </div>
                   </div> <!-- End myModal3 -->
                   <script>
@@ -242,7 +242,7 @@
                      <button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img4" src="image-horse-power-canemill-1857.jpg" alt="Drawing of a sorghum mill."/>
                      <div id="caption4">
-                        Drawing of a sorghum mill
+                        Illustration of a vertical, three-roller horse-powered sorghum mill<br/><cite>The American Cotton Planter</cite> 1.8 (August 1857): 291.
                      </div> <!-- End myModal4 -->
                      <script>
                         
@@ -278,7 +278,7 @@
                      <button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img5" src="image-warmeeting-18620815.jpg" alt="Notice in Newark Advocate for 15 August 1862 of a war meeting"/>
                      <div id="caption5">
-                        Notice in Newark Advocate for 15 August 1862 of a war meeting
+                        Notice in <cite>Newark Advocate</cite> for 15 August 1862 of a war meeting
                      </div>
                   </div> <!-- End myModal5 -->
                   <script>

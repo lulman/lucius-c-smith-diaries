@@ -177,14 +177,31 @@
                            </figDesc>
                         </figure>
                         SPEC.RARE.MS.AMER.69  v.2. Diaries, 1859–1862</p>
+                     
+                     <p><emph rend="bold">Selection of the Source Text</emph>. The Rare Books and
+                        Manuscripts Library at The Ohio State University Libraries holds two bound
+                        manuscript volumes of Smith's diaries, one covering the year 1859, the other
+                        1861-1862, as well as a recent transcription of a third diary covering the
+                        period November 12, 1869, to August 12, 1871. The 1869–1871 diary is
+                        privately held, but the transcription is available for Kindle via Amazon.
+                        The pedagogical goals and the constraints mentioned above, as well as a
+                        small class size (and, therefore, a small editorial team) dictated that the
+                        editors focus on a selection from one of the manuscript volumes. We chose a
+                        contiguous period from the 1861–1862 volume—30 July 1862 to 31 December
+                        1862—that encompasses several key themes, including Smith's experiments with
+                        growing and milling sorghum cane, and reactions to several significant Civil
+                        War events (e.g., the proposed draft, the Defense of Cincinnati).</p>
+                     
                      <p><emph rend="bold">Collation</emph>: 182 mm x 150 mm. 94 leaves. Unlined paste-down endpaper; [1-2] blank unlined
                         leaf; [3-4] blank lined leaf; [5-25] entries from 18 Nov. 1861 through 31 Dec.
                         1861; [26] blank; [27-188] entries for 1862; unlined paste-down
                         endpaper with final entry for 31 Dec. 1862.</p>
                      <p>
-                        <emph rend="bold">Paper</emph>: Off-white paper with blue lines spaced 8 mm apart and a 2 cm unlined top margin. </p>
+                        <emph rend="bold">Paper</emph>: Off-white paper with blue lines spaced 8 mm
+                        apart and a 2 cm unlined top margin. </p>
                      <p>
-                        <emph rend="bold">Binding</emph>: 15 cm x 19 cm leather cover with decorative marbling. Page edges contain decorative marbling.</p>
+                        <emph rend="bold">Binding</emph>: 15 cm x 19 cm leather cover with
+                        decorative marbling. Page edges contain decorative marbling.</p>
                      <p>
                         Unpublished manuscript.</p>
                   </note>
@@ -994,11 +1011,11 @@
                <bibl xml:id="Easterlin" n="Easterlin">Easterlin, Richard A., George Alter, and Gretchen A. Condran. <title level="a">Farms and Farm Families in Old and New Areas: The Northern States in 1860.</title> <title level="m">Family and Population in Nineteenth-Century America.</title> Princeton:Priceton University Press, 1978. Print.</bibl>
                <bibl xml:id="OHRRGuide" n="Mansfield">Mansfield, Edward Deering. <title level="m">The Ohio Railroad Guide, Illustrated: Cincinnati to Erie via Columbus and Cleveland.</title>Columbus: Ohio State Journal Company, 1854. Print</bibl>
                <bibl xml:id="ReportCulture" n="Gould">Gould, John Stanton. <title level="m">Report of Hon. John Stanton Gould on Sorghum and Sugar Beet Culture</title>. Albany: Van Benthuysen's Steam Printing House, 1865. Print.</bibl>
-               <bibl xml:id="Convention" n="GillJ">Gill, John L., Jr. <title level="a">The State Sorghum Convetion.</title> <title level="j">The Ohio Cultivator.</title> 18.5 (1862): 158. Print.</bibl>
+               <bibl xml:id="Convention" n="GillJ">Gill, John L., Jr. <title level="a">The State Sorghum Convention.</title> <title level="j">The Ohio Cultivator.</title> 18.5 (1862): 158. Print.</bibl>
                <bibl xml:id="Comissioner" n="Report"><title level="m">Report of the Comissioner of Agriculture for the Year 1862.</title>Washington: Government Printing Office, 1863. Print.</bibl>
                <bibl xml:id="Proceedings" n="Proceedings"><title level="a">Proceedings of the Ohio Sorgo Convention.</title><title level="j">The Sorgo Journal and Farm Machinist.</title>3.1 (1865): 3. Print.</bibl>
-               <bibl xml:id="Centennial" n="Taylor1">Taylor, William Alexander. <title level="m">Centennial History of Columbus and Franklin County, Ohio, Vol. 1</title>Chicago: S. J. Clarke Publishing Company, 1909. Print.</bibl>
-               <bibl xml:id="Centennial2" n="Taylor2">Taylor, William Alexander. <title level="m">Centennial History of Columbus and Franklin County, Ohio, Vol. 2</title>Chicago: S. J. Clarke Publishing Company, 1909. Print.</bibl>
+               <bibl xml:id="Centennial" n="Taylor1">Taylor, William Alexander. <title level="m">Centennial History of Columbus and Franklin County, Ohio, Vol. 1. </title>Chicago: S. J. Clarke Publishing Company, 1909. Print.</bibl>
+               <bibl xml:id="Centennial2" n="Taylor2">Taylor, William Alexander. <title level="m">Centennial History of Columbus and Franklin County, Ohio, Vol. 2. </title>Chicago: S. J. Clarke Publishing Company, 1909. Print.</bibl>
                <bibl xml:id="RaleighRegister" n="Field"><title level="a">The Field of Operations in Kentucky.</title> <title level="j">The Weekly Raleigh Register</title> (Raleigh, NC). 17 September 1862: Issue 37; col C. Web. 15 November 2012.</bibl>
                <bibl xml:id="Phillips" n="Phillips">Phillips, Christopher. <title level="a">The Ohio River Valley: The Breadbasket of the Union.</title> <title level="j">New York Times.</title> 8 August 2012. Web. 15 November 2012.</bibl>
                <bibl xml:id="Klement" n="Klement">Klement, Frank L. <title level="a">Sound and Fury: Civil War Dissent in the Cincinnati Area.</title> <title level="j">Cincinnati Historical Society Bulletin</title> 35.2 (Summer 1977): 98-114. Print.</bibl>
@@ -1030,6 +1047,7 @@
             <bibl xml:id="ArrestandImprisonmentofOlds" n="ArrestandImprison"><title level="a">The Arrest and Imprisonment of the Notorious E.B. Olds.</title> <title level="j">The Daily Cleveland Herald</title> (Cleveland, OH) 17 December 1862. Print 26 November 2012.</bibl>
             <bibl xml:id="DrOldsVision" n="OldsEdson">Olds, Edson B. <title level="a">Dr. Olds' Vision.</title><title level="j"> The Crisis</title> (Columbus, OH). 6 August 1862. Web. 24 November 2012.</bibl>   
             <bibl xml:id="TheDraftOver" n="DraftOver"><title level="a">The Draft Over—The 11th Ward Frees Itself from Draft.</title><title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 8 October 1862. 24 November 2012.</bibl>
+            <bibl xml:id="AmericanCotton" n="AmericanCotton"><title level="j">The American Cotton Planter and Soil of the South</title> (Montgomery, AL). 1.8 (August 1857).</bibl>
             </listBibl>
          </sourceDesc>
 
@@ -1042,36 +1060,59 @@
       <encodingDesc>
 
          <projectDesc>
-            <p>This edition is the latest in a series of collaboratively produced electronic
-               editions of previously unpublished nineteenth-century American manuscripts held in
-               the Rare Books and Manuscripts Library at The Ohio State University. Previous
-               editions include "My Dear Elizabeth," five letters written by Sophia Peabody
-               Hawthorne to her sister Elizabeth Palmer Peabody between ca. 1837 and 1868 (currently
-               being revised); "Dear Wife," twenty-one letters written by riverboat captain William
-               B. Anderson to his wife Louisa while he plied the Ohio river during the height of the
-               American Civil War, 1862&#x2013;1864; "Journal of a Tour to Europe," by Samuel Sullivan Cox;
-               and "Louisa A. Doane's Journal of Two Ocean Voyages (1852-1853)." These documentary
-               editions are intended to provide wide exposure and access to manuscripts that might
-               otherwise be difficult for scholars to discover and consult, and to provide users
-               with a variety of tools for studying those texts. </p>
-            <p>Each text was edited in connection with an undergraduate or graduate course offered
-               by H. Lewis Ulman, Associate Professor of English at The Ohio State University. The
-               courses provided students with an opportunity to explore issues of textuality
-               and mediation that arise when our cultural archives spread from page to screen and
-               from library shelves to networked databases. Electronic textual editing serves as our
-               vehicle for examining what happens—and envisioning what might happen—when artifacts
-               in one medium are represented in another medium, especially with regard to the
-               interpretive work of reading. Electronic textual editions also provide a contact zone
-               that can help us reflect on what manuscript, print, and "born digital" artifacts can
-               tell us about their unique properties and their relationships to one another.</p>
-            <p>While providing a reliable textual edition is a <foreign xml:lang="lat">sine qua
-                  non</foreign>, the Smith edition also explores ways of telling four stories
-               inextricably woven into our work: the lives and historical milieu evoked by the
-               texts, the history of the physical journal, the
-               editorial process that gave rise to this particular interpretation of the text, and
-               the mediation of our electronic delivery system. </p>
+            
+            <p>This edition belongs to a series of collaboratively produced electronic editions of
+               previously unpublished nineteenth-century American manuscripts held in the Rare Books
+               and Manuscripts Library (RBMS) at The Ohio State University Libraries. Other editions
+               include "My Dear Elizabeth," five letters written by Sophia Peabody Hawthorne to her
+               sister Elizabeth Palmer Peabody between ca. 1837 and 1868; "Dear Wife," twenty-one
+               letters written by riverboat captain William B. Anderson to his wife Louisa while he
+               plied the Ohio river during the height of the American Civil War, 1862&#x2013;1864;
+               "Journal of a Tour to Europe," by Samuel Sullivan Cox; and Louisa A. Doane's "Journal
+               of Two Ocean Voyages (1852-1853)."</p>
+            
+            <p>Each text was initially edited in connection with an undergraduate or graduate course
+               on electronic textual editing offered by H. Lewis Ulman, Associate Professor of
+               English at The Ohio State University. The courses provided students with an
+               opportunity to explore issues of textuality and mediation that arise when our
+               cultural archives spread from page to screen and from library shelves to networked
+               databases. Electronic textual editing served as each class's context for examining
+               what happens—and envisioning what might happen—when artifacts in one medium are
+               represented in another medium, especially with regard to the interpretive work of
+               reading. Electronic textual editions also provided a contact zone that helped
+               students reflect on what manuscript, print, and "born digital" artifacts can tell us
+               about their unique properties and their relationships to one another.</p>
+            
+            <p>While the students' work focused on providing reliable textual editions, they also
+               explored four threads inextricably woven into the work of electronic textual editing:
+               the lives and historical milieu evoked by the texts; the history, characteristics,
+               and preservation of physical and digital texts; the editorial processes and decisions
+               that shape particular interpretations and presentations texts; and the mediation of
+               electronic delivery systems.</p>
+            
+            <p>These conceptual focuses, along with the time constraints of academic terms and the
+               need to train students who had, typically, no prior experience in textual editing or
+               the various technologies employed in electronic textual editing, strongly influenced
+               the selection of texts in this series. Working with curators in the RBMS, Professor
+               Ulman identified previously unpublished manuscript materials that were of potentially
+               broad interest and that reflected a curatorial focus of the RBMS collection—for
+               example, letters and personal diaries that connect private lives with larger
+               historical contexts. Focusing on unique manuscript materials not, in all but one
+               case, associated with other copies or later published versions also eliminated the
+               need to compare multiple copies or states of the same work, perhaps held in other
+               archives, an impractical task in the course of an academic term. Other practical
+               matters also informed the choice of materials, including the possibility of scanning
+               the source documents before the class so that students could work with both the
+               original documents and high-resolutions facsimiles as they transcribed and encoded
+               the source texts.</p>
+            
+            <p>Thus, the editions in this series are documentary editions—interpretations and
+               representations of single documents—designed to provide wider exposure and access to
+               manuscript materials that might otherwise be overlooked, and to provide users with a
+               variety of tools for studying those texts.</p>
+            
          </projectDesc>
-
+         
          <!--
             In addition to prose description, the Editorial Practices Declaration may contain 
             specialized elements concerned with correction, normalization, quotation, hyphenation, 
@@ -1154,20 +1195,31 @@
                &lt;div&gt;element and before the &lt;dateline&gt;).
             </p>
             <p>
-               <emph rend="bold">Level of Transcription/Encoding</emph>. This markup scheme supports
-               a modest range of presentations, from semi-modernized/corrected to semi-diplomatic.
-               The basic transcription follows the manuscript verbatim. Various manuscript features
-               (e.g., cancellations, interlinear or marginal additions, tears in pages) are encoded,
-               as are regularized versions of proper names and dates and standard versions of
-               nonstandard spellings and expansions of abbreviations. </p>
+               <emph rend="bold">Level of Transcription/Encoding</emph>. Whenever possible, the
+               basic transcription follows the manuscript verbatim. Conjectural readings of
+               illegible text are encoded as unclear. Various manuscript features (e.g.,
+               cancellations, the placement of interlinear or marginal additions, tears in pages)
+               are encoded, as are regularized versions of proper names and dates as well as
+               standard versions of Smith's frequent nonstandard spellings. This markup scheme
+               supports a modest range of presentations, including views that focus on daily
+               entries, manuscript pages, and side-by-side comparison of the transcription and
+               facsimiles of manuscript pages (see "Views of the Diary" in the main menubar above).
+               Further, a button allows toggling between a view that preserves Smith's spelling and
+               one that standardizes spelling. For more information about the encoding, see the
+               "Markup Guidelines" under "Appendices" in the menu bar above.
+            </p>
             <p>
                <!-- NOTE: Update to include informationa about TEI ODD files. -->
-               <emph rend="bold">Customization of the TEI P5 Schema</emph>. Customization consisted primarily of restricting
-               encoding to certain modules and elements as well as enforcing some attribute values. See the ODD file for 
-               complete details.
+               <emph rend="bold">Customization of the TEI P5 Schema</emph>. Customization consisted
+               primarily of restricting encoding to certain modules and elements as well as
+               enforcing some attribute values. For complete details, see the ODD file listed under the "Source Files" menu above.
+               For technical reasons related to how Web browsers and the institutional repository handle
+               the TEI customization file (with an .odd extension) and the schema file (with an .rng extension),
+               their extensions have been changed to .txt so that they will display in the browser,
+               from which they can be downloaded using the browser's "Save" command. The .txt extension
+               can be removed after downloading.
             </p>
-            
-         </refsDecl>
+          </refsDecl>
 
          <classDecl>
             <taxonomy xml:id="LCSH">
@@ -1279,7 +1331,7 @@
                <lb/>Helped in the 
                <lb/>Hay and oats all day the oats are 
                <lb/>of But <choice><sic>litle</sic><corr>little</corr></choice> account they are rusted 
-               <lb/>Bad and with the Help of the bugs 
+               <lb/>Bad and <choice><sic>withe</sic><corr>with</corr></choice> the Help of the bugs 
                <lb/>Have nearly Destroyed It we left part
                <lb/>of It in the field
                <lb/>as not being worth cutting.
@@ -1309,10 +1361,9 @@
                   orthography.
                -->
                <lb/>oats in the Barn. afternoon Went up to
-               <lb/><persName>Robertses</persName> with 
+               <lb/><persName>Robertses</persName> <choice><corr><sic>withe</sic>with</corr></choice> 
                     <persName>John</persName> as He is going to
-               <lb/>stay<gap rend="overwrite" unit="chars"
-                  extent="2"/> and Help Him we had all calcu<seg type="softhyphen">
+               <lb/>sta<gap rend="overwrite" unit="chars" extent="2"/>y and Help Him we had all calcu<seg type="softhyphen">
                <lb/></seg>lated on going up and Helping Him a
                <!-- 
                   Note that Smith breaks a word across the two lines above but does not indicate
