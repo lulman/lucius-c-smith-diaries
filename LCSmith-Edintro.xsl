@@ -120,14 +120,6 @@
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
-                     <li class="link"><a class="main"  href="./lcsmith-diaries.html#projectDescription">Editorial Introduction</a>
-                        <ul class="sub">
-                           <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
-                           <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
-                           <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>
-                           <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
-                        </ul>
-                     </li>
                      <li class="link"><a class="main"  href="./lcsmith-diaries.html#introduction">Historical Introduction</a>
                         <ul class="sub">
                            <li><a href="./lcsmith-diaries.html#family">Family Dynamics</a></li>
@@ -135,6 +127,14 @@
                            <li><a href="./lcsmith-diaries.html#sorghum">Sorghum Farming</a></li>
                            <li><a href="./lcsmith-diaries.html#civilWar">Civil War and Civic Life</a></li>
                            <li><a href="./lcsmith-diaries.html#borders">Borderlands/Hinterlands</a></li>
+                        </ul>
+                     </li>
+                     <li class="link"><a class="main"  href="./lcsmith-diaries.html#projectDescription">Editorial Introduction</a>
+                        <ul class="sub">
+                           <li><a href="./lcsmith-diaries.html#projectDescription">Project Description</a></li>
+                           <li><a href="./lcsmith-diaries.html#source">The Source Document</a></li>
+                           <li><a href="./lcsmith-diaries.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./lcsmith-diaries.html#revHistory">Revision History</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Views of the Diary</a>
@@ -427,7 +427,7 @@
    <xsl:template
       match="tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
       <hr/>
-      <h2 id="source">About the Source Documents</h2>
+      <h2 id="source">About the Source Document</h2>
       <p><strong>Title</strong>: "<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
          <br/><strong>Extent</strong>: <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
       </p>
