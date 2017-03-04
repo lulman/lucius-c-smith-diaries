@@ -40,7 +40,7 @@
       }     
       .close {
       position: absolute;
-      top: 90px;
+      top: 250px;
       right: 135px;
       color: #f1f1f1;
       font-size: 36px;
@@ -368,6 +368,10 @@
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
+                  <p>
+                     <strong>Edited by</strong><br/>Emily J. Arendt<br/>W. Michael Broughton<br/>Amber Camus<br/>Torsa Ghosal<br/>Matthew Poland<br/>H. Lewis Ulman
+                     
+                  </p>
                </div>
             </div>
               
