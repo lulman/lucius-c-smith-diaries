@@ -571,9 +571,13 @@
 
    <!-- Nonstandard or erroneous text for which you have encoded a correct or regularized alternative. -->
    <xsl:template match="tei:choice/tei:orig">
-      <xsl:apply-templates/>
+      <span class="sic"><xsl:apply-templates/>[sic]</span>
    </xsl:template>
-   <xsl:template match="tei:choice/tei:reg"/>
+   
+   <xsl:template match="tei:choice/tei:reg">
+      <span class="corr corrtoggle"><xsl:apply-templates/></span>
+   </xsl:template>
+   
    <xsl:template match="tei:distinct[@type='babyTalk']">
       <xsl:apply-templates/> [sic] 
    </xsl:template>

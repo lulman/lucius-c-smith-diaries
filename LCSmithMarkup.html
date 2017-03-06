@@ -635,13 +635,13 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br />&lt;/bibl&gt;</code>
       <p class="listing"><strong>Element Name: </strong>&lt;add&gt;
       </p>
       <p class="listing"><strong>Encoding Rule: </strong>Assuming the addition is in Smith's hand, include a @place attribute
-        indicating whether the addition is above the line (&#8221;above&#8221;)
-        or below the line (&#8221;below&#8221;).
+        indicating whether the addition is above the line (&#8221;above&#8221;),
+        below the line (&#8221;below&#8221;), or inline (inl&#x7c;i&#x7c;ne).
                   If the writer includes a caret or other mark to indicate the
                   addition, indicate the mark as the value of a &#8220;rend&#8221; attribute.      </p>
    <p class="listing"><strong>Sample Source Text:</strong></p>
-      <p class="listing">dock crowded our friends were there&mdash;<span style="line-height: 5px;"><br />
-         &nbsp;&nbsp;&nbsp;The crowd cheered as we left&mdash;</span> <br />
+      <p>dock crowded our friends were there&mdash;<br/>
+      <span style="font-size:12px;">&nbsp;&nbsp;&nbsp;The crowd cheered as we left&mdash;</span><br/>
       Six times our guns fired as we</p>
       <p class="listing"><strong>Sample Encoding: </strong>      </p>
       <code>&lt;lb/&gt;dock crowded our friends were there&mdash;<br />          &lt;add place=&quot;below&quot;&gt;The crowd cheered as we left&mdash;&lt;/add&gt;<br />&lt;lb/&gt;Six times our guns fired as we</code>

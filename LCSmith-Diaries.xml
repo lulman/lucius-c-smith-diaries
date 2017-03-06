@@ -1172,13 +1172,17 @@
                <emph rend="bold">Markup of Physical Structure and Page Layout</emph>. The manuscript
                   <emph rend="bold">pages</emph>, encoded by the empty page break or &lt;pb/&gt;
                element, are the primary physical structures represented in the markup. Each
-               &lt;pb&gt; element includes a &quot;facs&quot; attribute identifying the high-resolution scan of that image in the Knowledge Bank. <emph
-                  rend="bold">Line breaks</emph> (i.e., lineation determined or influenced by the
-               physical constraints of the page rather than compositional choices by the author) are
-               encoded with the empty &lt;lb/&gt; element. No attributes are included in the
-               &lt;lb&gt; element. Because Smith wrote on lined paper, when he skips a line printed
-               on the paper for any reason, we encode a &lt;lb/&gt; that, in the view arranged by
-               manuscript pages and lines, will appear as an empty numbered line. </p>
+               &lt;pb&gt; element includes a &quot;facs&quot; attribute identifying the
+               high-resolution scan of that image in the Knowledge Bank. <emph rend="bold">Line
+                  breaks</emph> (i.e., lineation determined or influenced by the physical
+               constraints of the page rather than compositional choices by the author) are encoded
+               with the empty &lt;lb/&gt; element. No attributes are included in the &lt;lb&gt;
+               element. Smith does not use hyphens to indicate words broken across lines, and we
+               follow that usage in the "MS Page" view of the diary. In the "Entry" view, which does
+               not reflect line breaks, words broken across lines are rendered unbroken. Because
+               Smith wrote on lined paper, when he skips a line printed on the paper for any reason,
+               we encode a &lt;lb/&gt; that, in the view arranged by manuscript pages and lines,
+               will appear as an empty numbered line.</p>
             <p>
                <emph rend="bold">Markup of Textual Structure</emph>. The <emph rend="bold">diary
                   entry</emph>, encoded by a &lt;div&gt; element with the attribute-value pair
@@ -1208,14 +1212,15 @@
                illegible text are encoded as unclear. Various manuscript features (e.g.,
                cancellations, the placement of interlinear or marginal additions, tears in pages)
                are encoded, as are regularized versions of proper names and dates as well as
-               standard versions of Smith's frequent nonstandard spellings. This markup scheme
-               supports a modest range of presentations, including views that focus on daily
-               entries, manuscript pages, and side-by-side comparison of the transcription and
+               standard versions of Smith's frequent nonstandard spellings (designation of
+               "standard" and "nonstandard" nineteenth-century spellings follows the chronological
+               "Forms" listings in the <title level="m">Oxford English Dictionary</title>). This
+               markup scheme supports a modest range of presentations, including views that focus on
+               daily entries, manuscript pages, and side-by-side comparison of the transcription and
                facsimiles of manuscript pages (see "Views of the Diary" in the main menubar above).
                Further, a button allows toggling between a view that preserves Smith's spelling and
                one that standardizes spelling. For more information about the encoding, see the
-               "Markup Guidelines" under "Appendices" in the menu bar above.
-            </p>
+               "Markup Guidelines" under "Appendices" in the menu bar above. </p>
             <p>
                <!-- NOTE: Update to include informationa about TEI ODD files. -->
                <emph rend="bold">Customization of the TEI P5 Schema</emph>. Customization consisted
@@ -1453,7 +1458,7 @@
             <lb/>party at <persName>Roll Eavens</persName> there was a great
             <lb/><del rend="erased">cr l</del>crowd there. But a poor party as
             <lb/>old <persName>Anna</persName> would not let them play. They
-            <lb/>paraded around in the lane <choice><orig><distinct type="archaic_orthography" time="17-17">untill</distinct></orig><reg source="OED">until</reg></choice>
+            <lb/>paraded around in the lane untill
              <lb/>late and dispersed the Girls Having a
             <lb/>lot of spoiled dresses
          </p>
@@ -1548,7 +1553,7 @@
                <lb/>Large turnout over a Hundred and we
                <lb/>Had a right good party as to the place
                <lb/>It was a perfect love of a place for a 
-               <lb/>party. It lasted <choice><orig><distinct type="archaic_orthography" time="17-17">untill</distinct></orig><reg source="OED">until</reg></choice> midnight. I was
+               <lb/>party. It lasted untill midnight. I was
                <lb/>tired near out by standing <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice>
                <lb/>all day at the Celebration and then at
                <lb/> the party.
@@ -1617,7 +1622,7 @@
                <lb/>bore 3<del rend="overstrike">6</del>1 &#xbc; work <del rend="overstrike">I done and it back</del> Leather
                <lb/>for it 25 Besides my work and
                <pb facs="LCSmith-620823b"/>
-               <lb/><persName>Johns Moles</persName> Bill amouted to five
+               <lb/><persName>Johns Moles</persName> Bill amounted to five
                <lb/>Dollars. Paid Him in cash two
                <lb/>Dollars last three dollars He is to
                <lb/>take in molasses or molassess making
@@ -1628,7 +1633,7 @@
                <lb/>job of work completed my work of this
                <lb/>year and last two. put a Box and 
                <lb/>underground spouting to my well.
-               <lb/>the pump <unclear cert="medium">lather</unclear>. monday night went
+               <lb/>the pump lathe. monday night went
                <lb/>to a party to <persName>Isaacs Smith</persName> Tues to <seg type="nohyphen"><unclear>give
                <lb/>mias</unclear></seg> and <choice><sic>Wednsday</sic><corr>Wednesday</corr></choice> night to a war
                <lb/>meeting at <placeName>Albany</placeName>. I subscribed $3.00 to
@@ -1689,7 +1694,7 @@
                <lb/>get a pair of Boots made.  afternoon
                <lb/>worked at my Building <persName ref="SmithIN">Newton</persName> hawled
                <lb/>Wood half day finished Hawling I now
-               <lb/>Have over 40 fourty cords of good
+               <lb/>Have over 40 <choice><corr>forty</corr><sic>fo<del rend="overstrike">ur</del>ty</sic></choice> cords of good
                <lb/>Wood Enough I think to do me.
                <lb/><rs type="familial" ref="SmithArch">Father</rs> is putting up the Cellar Door
                <lb/>He has had one made a <choice><sic>loung</sic><corr>long</corr></choice> time.
@@ -1709,7 +1714,7 @@
                <lb/>them the same as old Iron. Painted
                <lb/>my pump and the Box to It and
          <pb facs="LCSmith-620827"/>
-               <lb/>Hawled some gravel around the
+               <lb/>Hawled some gravel <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> the
                <lb/>Well It is now rigged nice.  the young
                <lb/>folks <del rend="overstrike">are agoing to</del> Had another
                <lb/>party at night the cane House
@@ -1846,7 +1851,7 @@
                <lb/>for the first time got into Ohio <choice><sic>a</sic><corr>at</corr></choice> <choice><sic>Galipoliease</sic><corr>Gallipolis</corr></choice>
             </p>
             <p>
-               <lb/>Every thing seams against us
+               <lb/>Every thing <choice><sic>seams</sic><corr>seems</corr></choice> against us
                <lb/>But I still Hope for Better times yet
                <lb/>Drafting is put off untill the 16 <choice><abbr>inst</abbr><expan>instant</expan></choice>
             </p>   
@@ -1975,9 +1980,9 @@
             <lb/><choice><orig><distinct type="archaic_orthography" time="13-17">Boyes</distinct></orig><reg source="OED">Boys</reg></choice> got the corn all cut up and went
             <lb/>up to <persName>aunt Elizas</persName> Friday. <choice><sic>verry</sic><corr>very</corr></choice> warm
             <lb/>and no rain. we now have plenty of Peaches
-            <lb/>and <unclear cert="low">diging</unclear> them </p> 
+            <lb/>and drying them </p> 
             <pb facs="LCSmith-620921"/>
-            <lb/><p><persName><choice><orig><abbr>Mcllan</abbr></orig><reg>McClellan</reg></choice></persName> Has succeed in driving
+            <lb/><p><persName><choice><orig><abbr>Mcl<add place="inline">e</add>lan</abbr></orig><reg>McClellan</reg></choice></persName> Has succeed in driving
             <lb/>out the Rebels out of <placeName><choice><sic>meriland</sic><corr>Maryland</corr></choice></placeName><ptr type="noteAnchor" target="Maryland"/>
             <note resp="ed" xml:id="Maryland">Smith is here referring to the Maryland Campaign, wherein contemporary sources describe Confederates crossing the 
                Potomac River, invading Maryland, and taking over the city of Frederick on September 7, 1862 <bibl><ref target="Invasion">"Invasion"</ref></bibl>. This led to the Battle of 
@@ -1998,7 +2003,7 @@
          <div xml:id="LCS18620921" type="Entry">
             <dateline><lb/><date when="1862-09-21">Sunday sept 21st 1862</date></dateline>
             <p><lb/>Staid <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice>
-            <lb/>Home all day <choice><orig><distinct type="archaic_orthography" time="17-17">untill</distinct></orig><reg source="OED">until</reg></choice> <choice><sic>eavning</sic><corr>evening</corr></choice> when a
+            <lb/>Home all day untill <choice><sic>eavning</sic><corr>evening</corr></choice> when a
             <lb/>parcel of us took a Ride Horse
             <lb/><hi rend="underlined">Back</hi></p>
          </div>
@@ -2007,7 +2012,7 @@
             <lb/>saturday
             <lb/>sept 27th 1862</date></dateline><p> this week <rs type="familial" ref="SmithArch">Father</rs>
             <lb/><persName ref="#GoodrichG">George</persName> and me worked all the week
-            <lb/>from day light <choice><orig><distinct type="archaic_orthography" time="17-17">untill</distinct></orig><reg source="OED">until</reg></choice> dark at the
+            <lb/>from day light untill dark at the
             <lb/>Cane House and got It nearly ready to
             <lb/>Run finished the pans painted them
             <lb/>put them on finished the furnaces
@@ -2033,7 +2038,7 @@
             <lb/>thirty loads of cane came in this week
             <lb/>we Had quite a feast Wedns and Thursday
             <lb/><choice><sic>witch</sic><corr>which</corr></choice> made Them bring in cane <persName><unclear cert="medium">Mr Lainy</unclear></persName> will
-            <lb/>not be ready <choice><orig><distinct type="archaic_orthography" time="17-17">untill</distinct></orig><reg source="OED">until</reg></choice> near a week yet
+            <lb/>not be ready untill near a week yet
             <pb facs="LCSmith-621001"/>
             <lb/>I expected from the fact that we have
             <lb/>to Hitch the Horse so close to the power
@@ -2083,7 +2088,7 @@
             <lb/><orgName>John L. Gill and son</orgName> for 88 dollars a <choice><sic>verticle</sic><corr>vertical</corr></choice>
             <lb/>mill of 14 inch <choice><sic>loung</sic><corr>long</corr></choice> Rolls Large Roll 12 in<seg type="softhyphen">
             <lb/></seg>ches in Diameter It <choice><sic>seams</sic><corr>seems</corr></choice> like a <choice><sic>verry</sic><corr>very</corr></choice>
-            <lb/>stout stanch mill I Had to pay 8 Dollars more
+            <lb/>stout <choice><sic>stanch</sic><corr>starch</corr></choice> mill I Had to pay 8 Dollars more
             <lb/>than I would Had to pay before the tax law went
             <lb/>into Effect It is not fare to make the
             <lb/>customer pay all the Tax by no means
@@ -2144,7 +2149,7 @@
                      <lb/><persName> Newton</persName> in my place as It is <choice><sic>two</sic><corr>too</corr></choice> Hard
                      <lb/> for me to finish and oversee all the <choice><sic>Buisness</sic><corr>Business</corr></choice>
                   <lb/>and put another Hand in His place the Cane
-                  <lb/>Has just Rolled in all the week <choice><orig><distinct type="archaic_orthography" time="17-17">untill</distinct></orig><reg source="OED">until</reg></choice> all
+                  <lb/>Has just Rolled in all the week untill all
                  <lb/>my places to put it are filled up.</p>
                 </div>
          <div xml:id="LCS18621012b" type="Entry">
@@ -2362,7 +2367,7 @@
                <lb/>Today did not clean up as useal
             </p>
             <p>
-               <lb/>Lai<del rend="overstrike">e</del>d arround Butifull Day
+               <lb/>Lai<del rend="overstrike">e</del>d <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> Butifull Day
                <lb/>clear warm and pleasant this
                <lb/>week our spring prety much give out
                <lb/>as we Have to water all our Horses
@@ -2470,7 +2475,7 @@
                <lb/>taken <choice><sic>extry</sic><corr>extra</corr></choice> care of Her Because <persName ref="#GrovenberyG">Garret</persName>
                <lb/>thought a great deal of Her. she was in
                <lb/>first rate order <choice><sic>ni</sic><corr>in</corr></choice> fact fat. But
-               <lb/>so it is. fixed <choice><sic>arround</sic><corr>around</corr></choice> at my cane
+               <lb/>so it is. fixed <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> at my cane
                <lb/>House went and spoke for me a Gun
             </p>
             <p>
@@ -2679,7 +2684,7 @@
             </p>
          <pb facs="LCSmith-621207c"/>
             <p>
-               <lb/><date when="1862-12-12">Friday</date> staid <unclear cert="high">arround</unclear> the House all Day
+               <lb/><date when="1862-12-12">Friday</date> staid <unclear cert="high"><choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice></unclear> the House all Day
                <lb/>nearly sick. Father &amp; Mother went up to Robertses
                <lb/>Boyes Husked corn. Eaving went to see <persName ref="#WilsonG">Mr
                   <lb/>Wilson</persName> about getting Him to go with me tomor
