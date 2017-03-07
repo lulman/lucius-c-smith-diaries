@@ -2120,7 +2120,7 @@
          <pb facs="LCSmith-621005"/> 
             <div xml:id="LCS18621005a" type="Entry">
                <dateline><lb/> <date when="1862-10-05">Sunday <choice><abbr>Oct</abbr><expan>October</expan></choice> 5th 1862</date></dateline>
-               <p> <lb/>Staid around Home all
+               <p> <lb/>Staid <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> Home all
                   <lb/>day only to go down to See <persName>Sagers</persName> about
               <lb/>making me Some Barrels. Warm and pleasant</p>
                <p><lb/>still no Rain. Last week  we
@@ -2199,7 +2199,7 @@
             </div>
             <div xml:id="LCS18621019b" type="Entry">
             <dateline><lb/><date when="1862-10-19"> Sunday 19.</date></dateline>
-            <p> <lb/> Staid all around
+            <p> <lb/> Staid all <choice><sic>arrnd</sic><corr>around</corr></choice>
                <lb/> Cane House all <choice><sic>Eavning</sic><corr>Evening</corr></choice> quite cold
                <lb/> Expect a freeze. 
             </p>
@@ -2364,7 +2364,7 @@
                      <expan>November</expan>
                   </choice> 16 1862</date></dateline>
             <p>
-               <lb/>Today did not clean up as useal
+               <lb/>Today did not clean up as <choice><sic>useal</sic><corr>usual</corr></choice>
             </p>
             <p>
                <lb/>Lai<del rend="overstrike">e</del>d <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> Butifull Day
@@ -2426,7 +2426,7 @@
                <lb/>By loos<supplied reason="omitted" resp="ed">e</supplied>ning the stick. sat night <choice><sic>sone</sic><corr>some</corr></choice>
                <!-- HLU, it looks like the XSL is inserting a space along with the "supplied" bits... -->
                <lb/>15 or 20 of us met at the Cane House and
-               <lb/>chose up for a Squirel Hunt myself and
+               <lb/>chose up for a <choice><sic>Squirel</sic><corr>squirrel</corr></choice> Hunt myself and
                <lb/><persName>Reese Eavens</persName> Chose up the side failing
                <lb/>to produce as many scalps as the othe<supplied reason="omitted" resp="ed">r</supplied> are to
                <lb/>treat to cigars 
@@ -2474,7 +2474,7 @@
                <lb/>I am very sorry for the old mare as I have 
                <lb/>taken <choice><sic>extry</sic><corr>extra</corr></choice> care of Her Because <persName ref="#GrovenberyG">Garret</persName>
                <lb/>thought a great deal of Her. she was in
-               <lb/>first rate order <choice><sic>ni</sic><corr>in</corr></choice> fact fat. But
+               <lb/>first rate order in fact fat. But
                <lb/>so it is. fixed <choice><orig><distinct type="archaic_orthography" time="16-16">arround</distinct></orig><reg source="OED">around</reg></choice> at my cane
                <lb/>House went and spoke for me a Gun
             </p>
@@ -2517,7 +2517,7 @@
                <lb/>Done but <choice><sic>Litle</sic><corr>little</corr></choice> <choice><sic>setled</sic><corr>settled</corr></choice> some accounts went
                <lb/>to Jersey after a pair of Boots and <choice><sic>Ect</sic><corr>etc.</corr></choice>
                <lb/>cold &amp; <choice><sic>Blustry</sic><corr>blustery</corr></choice> all week most.
-               <lb/>Made my Returns the U.S. asessor on my
+               <lb/>Made my Returns the U.S. <choice><sic>asessor</sic><corr>assessor</corr></choice> on my
                <lb/>molasses <choice><sic>Buisness</sic><corr>business</corr></choice> sum total of all
                <lb/>Manufactured was Wagon
                <lb/>Loads 358 &#189;  No of Gallons 4402 &#190;
@@ -2639,8 +2639,8 @@
                </note>
                   to
                <lb/><placeName>Delaware</placeName> <persName ref="#GoodrichG">George</persName> to <add place="above">a</add> <persName>Mr Watterman</persName> abo<seg type="soft-hyphen"> 
-               <lb/></seg>ut working for Him at the fan mill Buis<seg type="softhyphen">
-               <lb/></seg>ness I went to get a Job of collecting of Him
+               <lb/></seg>ut working for Him at the f<supplied reason="omitted">l</supplied>our mill <choice><sic>Buis<seg type="softhyphen">
+               <lb/></seg>ness</sic><corr>Busi<seg type="softhyphen"><lb/></seg>ness</corr></choice> I went to get a Job of collecting of Him
                <lb/>to Do But He Had got a Hand. Evening
                <lb/>went to see some old Friends of when I use<supplied reason="omitted" resp="ed">d</supplied>
                <lb/>to go to school <hi rend="underlined">there</hi>
@@ -2664,7 +2664,7 @@
                <lb/>some 88 Hundred <choice><abbr>lbs</abbr><expan>pounds</expan></choice> the Large roll being
                <lb/>3 <choice><abbr>ft</abbr><expan>feet</expan></choice> in Lenth and 2 <choice><abbr>ft</abbr><expan>feet</expan></choice> in Diameter with
                <lb/>five Small rolls under. But there was
-               <lb/>several Deficiencies about It witch would
+               <lb/>several Deficiencies about It <choice><sic>witch</sic><corr>which</corr></choice> would
                <lb/>Have to <supplied reason="omitted" resp="ed">be</supplied> altered before I would want It
                <lb/>came down in the afternoon to <placeName>Columbus</placeName>.
                <lb/>cars full of Soldiers Yesterday we Road up
@@ -2712,7 +2712,7 @@
                <lb/>The Week untill to Day It rained most
                <lb/>all Day. loads Dry and Dusty nice as
                <lb/>Summer first of the week real cold
-               <lb/>and warm Gradualy untill it rained. <date when="1862-12-13"><hi rend="underlined"><choice><abbr>Sat</abbr><expan>Saturday</expan></choice></hi></date>
+               <lb/>and warm <choice><sic>Gradualy</sic><corr>gradually</corr></choice> untill it rained. <date when="1862-12-13"><hi rend="underlined"><choice><abbr>Sat</abbr><expan>Saturday</expan></choice></hi></date>
             </p>
          </div>         
          <div xml:id="LCS18621220a" type="Entry">
