@@ -1264,7 +1264,8 @@
 
          <!-- Identify and describe any hands (i.e., individuals' handwriting) that appear in your document. -->
          <handNotes>
-            <handNote xml:id="LCSHand" medium="brown-ink">Lucius Clark Smith's hand.</handNote>
+            <handNote xml:id="LCShand">Lucius Clark Smith's hand, written primarily with brown ink,
+               with some interlinear additions written in pencil.</handNote>
          </handNotes>
 
          <textClass>
@@ -1313,7 +1314,7 @@
          <!-- HLU section begins here -->
          <pb facs="LCSmith-620730"/>
          <div xml:id="LCS18620730a" type="Entry">
-            <dateline><lb/><date when="1862-07-30"><choice>
+            <dateline><handShift medium="ink"/><lb/><date when="1862-07-30"><choice>
                      <sic>Wednsday</sic>
                      <corr>Wednesday</corr>
                   </choice> July 30th <hi rend="underlined">1862</hi></date>
@@ -2781,10 +2782,10 @@
                <lb/><placeName>albany</placeName> after the paper We are now taking the
                <lb/><title level="j">Daily</title> again our <name
                   type="event"><choice><sic>Fredricksburg</sic><corr>Fredericksburg</corr></choice> Defeat</name> Does
-               <lb/>not turn out so Disasterous for us as was
+               <lb/>not turn out so <choice><sic>Disasterous</sic><corr>disastrous</corr></choice> for us as was
                <lb/>at first thought. There Has been trouble
                <lb/>in <name type="organization">the cabinet</name> Tendering of Resignations
-               <lb/>and <hi rend="underlined">Etc</hi>
+               <lb/>and <choice><sic><hi rend="underlined">Ecet</hi></sic><corr>etc.</corr></choice>
             </p>
             <pb facs="LCSmith-621227b"/>
             <p>
@@ -2825,15 +2826,14 @@
                <lb/>for me and I must quit. Boyes sawed wood
                <lb/>some withe a sawing <choice><sic>machean</sic><corr>machine</corr></choice> they
                   Have <choice><sic>riged</sic><corr>rigged</corr></choice>
-               <lb/>to the Hourse power I Had to my cane <hi rend="underlined">mill</hi>               
+               <lb/>to the Horse power I Had to my cane <hi rend="underlined">mill</hi>               
             </p>
          </div>
          <div xml:id="LCS18621228a" type="Entry">
             <!-- HLU: Check whether the addition in the dateline is in Smith's hand. -->
             <dateline><lb/><date when="1862-12-28">Sunday 28
-               <subst><del rend="strikethrough"
-                  hand="#LCSHand"><choice><abbr>Sept</abbr><expan>September</expan></choice></del><add place="above" hand="#LCSHand">December</add></subst>
-               1862</date></dateline> <p>Staid Home all day
+               <subst><del rend="strikethrough"><choice><abbr>Sept</abbr><expan>September</expan></choice></del><add place="above"><handShift medium="pencil"/>December</add></subst>
+               <handShift medium="ink"/>1862</date></dateline> <p>Staid Home all day
                <lb/>wrote a Letter <persName ref="#GoodrichG">George Goodrich</persName> <placeName>Delaware Ohio</placeName>
                <lb/>Went to meeting to <placeName>Albany</placeName> at night.
             </p>
