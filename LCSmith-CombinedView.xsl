@@ -86,10 +86,20 @@
         }
         .close {
         position: absolute;
-        top: 95px;
+        top: 150px;
         right: 190px;
         color: #f1f1f1;
         font-size: 36px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+        .description {
+        position: absolute;
+        top: 125px;
+        right: 147px;
+        color: #f1f1f1;
+        font-size: 16px;
         font-weight: bold;
         transition: 0.3s;
         z-index: 2;

@@ -40,10 +40,20 @@
       }     
       .close {
       position: absolute;
-      top: 250px;
+      top: 275px;
       right: 135px;
       color: #f1f1f1;
       font-size: 36px;
+      font-weight: bold;
+      transition: 0.3s;
+      z-index: 2;
+      }
+      .description {
+      position: absolute;
+      top: 250px;
+      right: 90px;
+      color: #f1f1f1;
+      font-size: 16px;
       font-weight: bold;
       transition: 0.3s;
       z-index: 2;
@@ -188,6 +198,7 @@
                <div id="display1"><!-- Begin display1 -->
                   <button class="modalb" id="b1"><img id="myImg1" src="image-LCSmith-daguerreotype.jpg" alt="Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society." title="Portrait of Lucius Clark Smith, 1858 (Age 23)" width="150"/></button>
                      <div id="myModal1" class="modal">
+                        <a href="image-warmeeting-longdesc.html" class="description">[Description]</a><br/>
                         <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
                         <img class="modal-content" id="img1" src="image-LCSmith-daguerreotype.jpg" alt="Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society."/>
                         <div id="caption1">
@@ -200,6 +211,7 @@
                <div id="display2">
                   <button class="modalb" id="b2"><img id="myImg2" src="image-archibaldsmithhouse.jpg" alt="Photograph of Smith Homestead (undated). Courtesy of New Albany Historical Society." title="Photograph of Smith Homestead" width="150"/></button>
                   <div id="myModal2" class="modal">
+                     <a href="image-archibaldsmithhouse-longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img2" src="image-archibaldsmithhouse.jpg" alt="Photograph of Smith Homestead (undated). Courtesy of New Albany Historical Society."/>
                      <div id="caption2">
@@ -234,6 +246,7 @@
                <div id="display3">
                   <button class="modalb" id="b3"><img id="myImg3" src="image-archibald-maryannsmith.jpg" alt="Portraits of Lucius Smith's parents, Archibald and MaryAnn" title="Portraits of Lucius Smith's parents, Archibald and MaryAnn" width="150"/></button>
                      <div id="myModal3" class="modal">
+                        <a href="image-archibald-maryannsmith-longdesc.html" class="description">[Description]</a><br/>
                         <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
                         <img class="modal-content" id="img3" src="image-archibald-maryannsmith.jpg" alt="Portraits of Lucius Smith's parents, Archibald and MaryAnn"/>
                         <div id="caption3">
@@ -270,6 +283,7 @@
                <div id="display4">
                   <button class="modalb" id="b4"><img id="myImg4" src="image-horse-power-canemill-1857.jpg" alt="Drawing of a sorghum mill" title="Drawing of a sorghum mill" width="150"/></button>
                      <div id="myModal4" class="modal">
+                        <a href="image-horse-power-longdesc.html" class="description">[Description]</a><br/>
                         <button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button>
                         <img class="modal-content" id="img4" src="image-horse-power-canemill-1857.jpg" alt="Drawing of a sorghum mill."/>
                         <div id="caption4">
@@ -306,6 +320,7 @@
                      <div id="display5">
                         <button class="modalb" id="b5"><img id="myImg5" src="image-warmeeting-18620815.jpg" alt="Notice in Newark Advocate for 15 August 1862 of a war meeting" title="Notice in Newark Advocate for 15 August 1862 of a war meeting" width="150"/></button>
                            <div id="myModal5" class="modal">
+                              <a href="image-warmeeting-longdesc.html" class="description">[Description]</a><br/>
                               <button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button>
                               <img class="modal-content" id="img5" src="image-warmeeting-18620815.jpg" alt="Notice in Newark Advocate for 15 August 1862 of a war meeting"/>
                               <div id="caption5">
