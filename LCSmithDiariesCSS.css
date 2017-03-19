@@ -162,7 +162,18 @@ visibility: hidden;
     cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
+        .description {
+        position: absolute;
+        top: 150px;
+        right: 95px;
+        color: #f1f1f1;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+
+ * /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
