@@ -183,14 +183,17 @@
                         manuscript volumes of Smith's diaries, one covering the year 1859, the other
                         1861-1862, as well as a recent transcription of a third diary covering the
                         period November 12, 1869, to August 12, 1871. The 1869–1871 diary is
-                        privately held, but the transcription is available for Kindle via Amazon.
-                        The pedagogical goals and the constraints mentioned above, as well as a
-                        small class size (and, therefore, a small editorial team) dictated that the
-                        editors focus on a selection from one of the manuscript volumes. We chose a
-                        contiguous period from the 1861–1862 volume—30 July 1862 to 31 December
-                        1862—that encompasses several key themes, including Smith's experiments with
-                        growing and milling sorghum cane, and reactions to several significant Civil
-                        War events (e.g., the proposed draft, the Defense of Cincinnati).</p>
+                        privately held, but the transcription is available for Kindle via Amazon
+                        (Smith and Saveson, <title level="m">The 1869-71 Diary of Lucius Clark
+                           Smith: In an appendix, some selections from Lucius' 1861-62
+                        Diary</title>). The pedagogical goals and the constraints mentioned above,
+                        as well as a small class size (and, therefore, a small editorial team)
+                        dictated that the editors focus on a selection from one of the manuscript
+                        volumes. We chose a contiguous period from the 1861–1862 volume—30 July 1862
+                        to 31 December 1862—that encompasses several key themes, including Smith's
+                        experiments with growing and milling sorghum cane, and reactions to several
+                        significant Civil War events (e.g., the proposed draft, the Defense of
+                        Cincinnati).</p>
                      
                      <p><emph rend="bold">Collation</emph>: 182 mm x 150 mm. 94 leaves. Unlined paste-down endpaper; [1-2] blank unlined
                         leaf; [3-4] blank lined leaf; [5-25] entries from 18 Nov. 1861 through 31 Dec.
@@ -1048,6 +1051,7 @@
             <bibl xml:id="DrOldsVision" n="OldsEdson">Olds, Edson B. <title level="a">Dr. Olds' Vision.</title><title level="j"> The Crisis</title> (Columbus, OH). 6 August 1862. Web. 24 November 2012.</bibl>   
             <bibl xml:id="TheDraftOver" n="DraftOver"><title level="a">The Draft Over—The 11th Ward Frees Itself from Draft.</title><title level="j"> The Daily Cleveland Herald</title> (Cleveland, OH). 8 October 1862. 24 November 2012.</bibl>
             <bibl xml:id="AmericanCotton" n="AmericanCotton"><title level="j">The American Cotton Planter and Soil of the South</title> (Montgomery, AL). 1.8 (August 1857).</bibl>
+            <bibl xml:id="Smithdiary" n="Smithlucius">Smith, Lucius C. <title level="m">The 1869-71 Diary of Lucius Clark Smith: In an appendix, some selections from Lucius' 1861-62 Diary</title>. Edited by John Saveson. New Albany, OH: New Albany Plain Township, Ohio Historical Society, 2014.</bibl>
             </listBibl>
          </sourceDesc>
 
@@ -1291,11 +1295,12 @@
             changes made during the development of the electronic text" (TEI P4X, ch. 5).
             Add additional changes at the top of the list.
          -->
-         <change when="2017-02-10" who="HLU">Redesign site and improve accessibility in response to reviewers for NINES. Proof entire site.</change>
-         <change when="2015-12-01" who="HLU">Redesign site to meet requirements of the Ohio State University Libraries' Knowledge Bank; proof entire site.</change>
-         <change when="2012-12-20" who="HLU">Continuing revision of layout/interface, no changes to text of transcription.</change>
+         <change when="2017-03-27" who="HLU">Redesigned site, improved accessibility, and proofed transcription in response to reviewers for NINES. Resubmitted to NINES for review.</change>
+         <change when="2016-02-15" who="HLU">Prepared site for submission to NINES for peer review.</change>
+         <change when="2015-12-01" who="HLU">Redesigned site to meet requirements of the Ohio State University Libraries' Knowledge Bank; proofed entire site.</change>
+         <change when="2012-12-20" who="HLU">Continued revision of layout/interface, no changes to text of transcription.</change>
          <change when="2012-12-06" who="HLU">Numerous changes to layout/interface, no changes to text of transcription.</change>
-         <change when="2012-12-03" who="Editors">Released a public working draft of the edition.</change>
+         <change when="2012-12-03" who="Editors">Editorial team released a public working draft of the edition.</change>
          <change when="2012-08-27" who="HLU">Created first drafts of TEI customization files, Relax NG schemas, and XSL stylesheets. </change>
 
       </revisionDesc>

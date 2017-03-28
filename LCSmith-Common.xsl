@@ -113,7 +113,7 @@
                            <li><a href="./lcsmith-combined.html">Facsimile/Text</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="./lcsmith-diaries.html#appendices">Appendices</a>
+                     <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
                            <li><a href="./LCSmithMarkup.html">Markup Guidelines</a></li>
                            <li><a href="./LCSmithHands.html">Guide to Smith's Hand</a></li>
@@ -155,7 +155,7 @@
                <div id="display1"><!-- Begin display1 -->
                   <button class="modalb" id="b1"><img id="myImg1" src="image-LCSmith-daguerreotype.jpg" alt="Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society." title="Portrait of Lucius Clark Smith, 1858 (Age 23)" width="150"/></button>
                   <div id="myModal1" class="modal">
-                     <a href="image-warmeeting-longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image-LCSmith-daguerreotype-longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img1" src="image-LCSmith-daguerreotype.jpg" alt="Portrait of Lucius Clark Smith, 1858 (Age 23). Courtesy of New Albany Historical Society."/>
                      <div id="caption1">
