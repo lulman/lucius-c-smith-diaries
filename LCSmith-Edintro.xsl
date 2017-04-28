@@ -481,7 +481,7 @@
       
    <xsl:template match="tei:TEI/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
       <hr/>
-      <a name="projectDescription"></a><h2>Project Description</h2>
+      <h2 id="projectDescription">Project Description</h2>
       <p>
          <xsl:apply-templates/>
       </p>
