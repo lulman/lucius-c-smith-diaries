@@ -86,8 +86,8 @@
         }
         .close {
         position: absolute;
-        top: 150px;
-        right: 190px;
+        top: 90px;
+        right: 260px;
         color: #f1f1f1;
         font-size: 36px;
         font-weight: bold;
@@ -96,8 +96,8 @@
         }
         .description {
         position: absolute;
-        top: 125px;
-        right: 147px;
+        top: 90px;
+        right: 690px;
         color: #f1f1f1;
         font-size: 16px;
         font-weight: bold;
